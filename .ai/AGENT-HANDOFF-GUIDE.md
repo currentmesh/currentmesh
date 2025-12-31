@@ -235,14 +235,36 @@ psql "postgresql://neondb_owner:npg_BAJL6D0WyUTQ@ep-spring-snow-af038yg8-pooler.
 
 ### 7. Cursor Rules
 
-#### Verify Cursor Rules
+#### Setup Cursor Rules
+
+**Important**: Cursor rules are in the repository at `.cursorrules` in the project root.
+
 ```bash
-# Check if .cursorrules exists in project root
+# Verify cursor rules exist
 ls -la /var/www/currentmesh/.cursorrules
 
-# If missing, it should be in GitHub
-# If not in GitHub, copy from old server or recreate
+# If missing, pull from GitHub (should be there)
+cd /var/www/currentmesh
+git pull origin dev
+
+# Cursor will automatically detect .cursorrules in project root
+# No additional configuration needed - just ensure file exists
 ```
+
+**What's in `.cursorrules`:**
+- ✅ Core autonomous agent doctrine
+- ✅ Agile workflow rules (PRD, ARCH, Epics, Stories)
+- ✅ Code quality standards
+- ✅ Git workflow standards
+- ✅ Automated error reporting rules
+- ✅ Database verification rules
+- ✅ Environment management
+- ✅ CurrentMesh-specific rules
+
+**Verification:**
+- Cursor will automatically load `.cursorrules` from project root
+- Check Cursor settings to confirm rules are active
+- Rules include automated Sentry error checking at session start
 
 ---
 
