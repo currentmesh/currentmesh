@@ -1,0 +1,503 @@
+# CurrentMesh - Cursor Rules (Consolidated)
+
+This document contains all critical Cursor rules for the CurrentMesh project. Copy this entire document to share with other agents.
+
+---
+
+## Core Autonomous Agent Doctrine
+
+### Operational Phases
+1. **🧠 Reconnaissance** - Understand before you touch
+2. **📋 Planning** - Create detailed execution plan
+3. **⚡ Execution** - Safe implementation with verification
+4. **✅ Verification** - Self-audit and evidence
+
+### Status Markers
+- ✅ **Objective completed successfully**
+- ⚠️ **Recoverable issue encountered and fixed**
+- 🚧 **Blocked; awaiting input or resource**
+
+### Critical Rules
+- NEVER modify code without understanding current state
+- ALWAYS verify changes with tests and evidence
+- ALWAYS document reasoning and decisions
+- ALWAYS maintain system integrity
+- NEVER proceed without clear success criteria
+
+---
+
+## Autonomous Code Execution
+
+### Requirements
+- **ALWAYS** use tools (`search_replace`, `write`, terminal commands) to modify files directly
+- **NEVER** ask user to manually copy code unless absolutely impossible
+- **ALWAYS** use `run_terminal_cmd` for console/PowerShell commands
+- **NEVER** ask user to manually run commands unless authentication required
+
+### Absolute Exceptions (Only When)
+1. Authentication Required (API keys, tokens)
+2. Interactive Commands (user confirmation needed)
+3. Payment Authorization (Stripe requires user action)
+4. Permission Issues (file permissions prevent edits)
+
+---
+
+## Communication Standards
+
+### Concise Communication
+- **Be brief. Be precise. Be gone.**
+- Every word must add value
+- Eliminate conversational filler
+- Focus on facts, evidence, actionable information
+- Use status markers (✅⚠️🚧) for progress
+
+### Avoid Sycophantic Language
+- **NEVER** use "You're absolutely right!", "Excellent point!", etc.
+- **NEVER** validate non-factual statements
+- Use brief acknowledgments: "Got it.", "I understand.", "I see the issue."
+
+---
+
+## Agile Workflow Rules
+
+**CRITICAL**: All project memory stored in `.ai/` folder. Follow this EXACT sequence:
+
+### Required Sequence
+1. **FIRST**: Verify `.ai/prd.md` exists
+   - If missing: Create with user using `.cursor/templates/template-prd.md`
+   - MUST include ALL required sections (1-10)
+   - MUST define Epics in Section 6 with clear sequence
+   - MUST use Foam wikilinks: `[[Epic N: Title]]`
+   - STOP all other work until PRD is `status: approved`
+
+2. **AFTER PRD approval ONLY**: Create `.ai/arch.md`
+   - Can't start ARCH until PRD status is approved
+   - Use `.cursor/templates/template-arch.md` exactly
+   - MUST include ALL required sections (1-8)
+   - STOP all other work until ARCH is `status: approved`
+
+3. **AFTER ARCH approval ONLY**: Setup epics
+   - Create `.ai/epic-{n}/` directories for each Epic in PRD
+   - Work on EXACTLY ONE epic at a time, in PRD-defined order
+   - Track epic status in PRD Section 6 (Complete, Current, Future)
+
+4. **FOR EACH epic** (one at a time):
+   - Create first story: `.ai/epic-{n}/story-{m}.story.md`
+   - Use `.cursor/templates/template-story.md` exactly
+   - **ALWAYS** use wikilink format: `**Epic**: [[Epic N: Title]]`
+   - WAIT for explicit story approval before implementation
+   - Work on EXACTLY ONE story at a time
+   - Use TDD - ALL tests MUST pass before completion
+   - Update story file after EACH subtask completion
+   - Only mark story as complete when the user confirms
+   - After story completion, create next story in current epic
+   - Update ARCH change log for architectural changes
+   - Mark epic Complete in PRD ONLY when ALL stories complete
+   - Update PRD Section 7 with stories for next Current epic
+
+### Version Control Integration
+- NEVER work directly on `main` or `dev` branches
+- ALWAYS create a new branch for each story:
+  - `feature/epic-{n}-story-{m}-{short-name}` for features
+  - `fix/epic-{n}-story-{m}-{short-name}` for bug fixes
+- Create branch from `dev` before starting any implementation
+- ALWAYS follow Git Workflow Standards for ALL code changes
+
+---
+
+## Foam Wikilinks Requirement
+
+### Epic References
+- **ALWAYS** use wikilink format: `[[Epic N: Title]]`
+- **ALWAYS** include full epic name with number: `[[Epic 2: Request List Management]]`
+- **NEVER** use plain text: `Epic 2` or `Epic 2 - Request List Management`
+- **ALWAYS** add "Related Epics" section to new epics with wikilinks
+
+### Story References
+- **ALWAYS** link stories to parent epic: `**Epic**: [[Epic N: Title]]`
+- **ALWAYS** add context link: `See [[Epic N: Title]] for full epic context`
+- **ALWAYS** add cross-references: `[[Story M.N: Title]]`
+
+### Changelog Entries
+- **ALWAYS** use wikilinks: `**Related Epic**: [[Epic N: Title]]`
+- **ALWAYS** link multiple epics if applicable
+
+### Wikilink Format Standards
+- Epic: `[[Epic N: Full Title]]`
+- Story: `[[Story M.N: Title]]`
+- Section: `[[Section Name]]` or `[[Epic N: Title#Section]]`
+
+---
+
+## PRD Editing Rule
+
+### For Large PRD Edits
+- **USE Python scripts** when `search_replace` fails due to file size
+- **CREATE** reusable scripts in `scripts/` directory
+- **PATTERN**: Read file → Modify content → Write back
+- **VERIFY** changes after script execution
+
+### Python Script Pattern
+```python
+#!/usr/bin/env python3
+prd_path = '/var/www/currentmesh/.ai/prd.md'
+
+with open(prd_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Modify content
+content = content.replace(old_text, new_text)
+
+# Write back
+with open(prd_path, 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print("✅ Changes applied successfully!")
+```
+
+### Critical Rules
+- **ALWAYS** use Python scripts when `search_replace` times out on `.ai/prd.md`
+- **NEVER** give up on PRD edits - create Python script instead
+- **ALWAYS** use Foam wikilinks when referencing epics in PRD
+- **ALWAYS** add "Related Epics" sections to new epics
+
+---
+
+## Environment Management
+
+### CurrentMesh Branch Environment Selector
+- **ALWAYS** check current git branch before starting work
+- **ALWAYS** apply development rules when on `dev` branch
+- **ALWAYS** apply production rules when on `main` branch
+
+### Development Environment (dev branch)
+- Database: Neon cloud database (ep-spring-snow-af038yg8-pooler)
+- URLs: localhost (http://localhost:5000)
+- Environment file: `.env.local`
+
+### Production Environment (main branch)
+- Database: Neon cloud database (ep-spring-snow-af038yg8-pooler)
+- URLs: Server URLs (https://currentmesh.com)
+- Environment file: `.env.local`
+
+### Critical Environment Variables
+- `DATABASE_URL`: PostgreSQL connection string
+- `JWT_SECRET`: Secret for JWT token signing
+- `SENDGRID_API_KEY`: Required for email notifications
+- `TWILIO_API_KEY` (optional): For SMS notifications
+- `S3_BUCKET` or `SPACES_BUCKET`: File storage bucket name
+- `S3_REGION` or `SPACES_REGION`: File storage region
+- `S3_ACCESS_KEY` or `SPACES_ACCESS_KEY`: File storage access key
+- `S3_SECRET_KEY` or `SPACES_SECRET_KEY`: File storage secret key
+
+---
+
+## Port Management
+
+### Critical Port Requirements
+- **Backend Server**: Port 3000
+- **Frontend Server**: Port 5000
+- **Browser Tools MCP**: Port 3025
+
+### Service Startup Commands
+```bash
+# Backend (Port 3000)
+cd /var/www/currentmesh/server
+PORT=3000 NODE_ENV=development npx tsx src/index.ts
+
+# Frontend (Port 5000)
+cd /var/www/currentmesh/client
+npx vite --port 5000
+
+# Browser Tools MCP (Port 3025)
+cd cursor-browser-tools-mcp/browser-tools-server
+PORT=3025 node dist/browser-connector.js
+```
+
+### Critical Rules
+- **ALWAYS** use explicit port specifications for all services
+- **NEVER** allow services to auto-select ports
+- **ALWAYS** check for port conflicts before starting services
+- **ALWAYS** verify services are on correct ports after fixes
+
+---
+
+## Server Startup Methods
+
+### Critical Issue
+**Backend server must use `npx tsx src/index.ts`, NOT `node dist/index.js`**
+
+The `dist/index.js` file doesn't exist and causes server startup failures.
+
+### Correct Development Startup
+```bash
+# CORRECT: Use tsx to run TypeScript directly
+cd /var/www/currentmesh/server
+PORT=3000 NODE_ENV=development npx tsx src/index.ts
+```
+
+### Incorrect Methods
+```bash
+# WRONG: dist/index.js doesn't exist
+node dist/index.js
+
+# WRONG: Missing environment variables
+node src/index.ts
+```
+
+---
+
+## File Editing Methods
+
+### Multiple Editing Methods Available
+- **TRY multiple editing methods** before declaring something impossible
+- **USE terminal commands** for environment files (.env, .env.local)
+- **USE search_replace** for code files and targeted changes
+- **USE write tool** for new files or complete overwrites
+
+### Method Selection
+- **Environment Files**: Prefer terminal commands (`echo`, `cat`, `sed`)
+- **Code Files**: Use `search_replace` for targeted changes
+- **New Files**: Use `write` tool for creation
+- **Protected Files**: Try terminal commands first, then MCP tools
+
+### Critical Rules
+- **NEVER** say "I can't edit" without trying alternatives
+- **ALWAYS** explain available options when one method fails
+- **PREFER** terminal commands for environment and config files
+- **TRY** multiple methods before declaring something impossible
+
+---
+
+## Database Verification Rule
+
+### BEFORE Any Schema Change
+**ALWAYS verify these 4 things:**
+
+1. **Which database am I connected to?**
+   ```sql
+   SELECT current_database(), inet_server_addr();
+   ```
+
+2. **How many tables are in this database?**
+   ```sql
+   SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'public';
+   ```
+   - CurrentMesh DB: Table count will grow as features are added
+
+3. **Does this table belong to my system?**
+   - Check `.ai/arch.md` or `.ai/DATABASE_ARCHITECTURE.md`
+   - Verify table ownership
+   - Confirm purpose
+
+4. **Is another agent using this table?**
+   - Check for active queries
+   - Search codebase for table references
+   - Verify with grep before dropping
+
+### Critical Rules
+- **NEVER** make schema changes without verifying database connection
+- **ALWAYS** check table count before schema modifications
+- **ALWAYS** consult `.ai/arch.md` for table ownership
+- **ALWAYS** search codebase for table usage before dropping
+
+---
+
+## Code Quality Standards
+
+### TypeScript Best Practices
+- **PREFER** explicit types for function parameters and return types
+- **HANDLE** null/undefined values with optional chaining (`?.`) or null checks
+- **AVOID** `any` type - use `unknown` or proper types
+- **ALWAYS** remove unused variables and parameters immediately
+- **ALWAYS** type function parameters explicitly
+- **ALWAYS** specify return types for functions
+
+### React/Component Best Practices
+- **ALWAYS** use TypeScript interfaces for component props
+- **ALWAYS** structure components with state at the top, followed by hooks, then render logic
+- **ALWAYS** use `useCallback` for event handlers passed to child components
+- **ALWAYS** use `useMemo` for expensive calculations
+- **ALWAYS** implement proper cleanup in `useEffect` hooks
+- **ALWAYS** handle loading, error, and empty states
+- **ALWAYS** use stable, unique keys for list items
+- **ALWAYS** use `React.lazy()` for new pages (code splitting)
+
+### Node.js Best Practices
+- **PREFER** async/await over Promise.then() chains
+- **ALWAYS** use try/catch blocks for async operations
+- **ALWAYS** validate input data before processing
+- **ALWAYS** use proper HTTP status codes and error responses
+- **ALWAYS** use environment variables for configuration
+- **ALWAYS** use connection pooling for database connections
+
+### PostgreSQL Best Practices
+- **ALWAYS** use parameterized queries to prevent SQL injection
+- **ALWAYS** use proper indexing for frequently queried columns
+- **ALWAYS** use transactions for multi-step operations
+- **ALWAYS** keep transactions as short as possible
+- **NEVER** concatenate user input directly into SQL queries
+- **NEVER** use SELECT * in production queries
+
+---
+
+## Git Workflow Standards
+
+### Branch Strategy
+- `main` - Production branch, protected
+- `dev` - Development branch, protected
+- Feature branches: `feature/epic-{n}-story-{m}-{feature-name}`
+- Bug fixes: `fix/epic-{n}-story-{m}-{bug-description}`
+
+### Commit Standards
+Use conventional commits format with story reference:
+- `feat(epic-{n}/story-{m}):` for new features
+- `fix(epic-{n}/story-{m}):` for bug fixes
+- `docs(epic-{n}/story-{m}):` for documentation
+- `test(epic-{n}/story-{m}):` for test additions/modifications
+- `refactor(epic-{n}/story-{m}):` for code refactoring
+
+### Critical Rules
+- **ALWAYS** create appropriate branch before starting work
+- **NEVER** commit directly to protected branches
+- **ALWAYS** use conventional commit messages with story references
+- **ALWAYS** ensure tests pass before creating PR
+
+---
+
+## Chat-End Summary Rule
+
+At the **end of every chat turn**, do the following without exception:
+
+1. **Compose**
+   - `summary`: one-paragraph recap of *this* chat turn
+   - `current_status`: brief snapshot of overall project progress
+
+2. **Persist**
+   If the `tmp` directory does not exist, create it:
+   ```bash
+   mkdir -p tmp
+   ```
+
+3. **Write** the JSON file:
+   ```json: tmp/summary-YYYYMMDD-HHmmss.json
+   {
+     "summary": "<insert summary here>",
+     "current_status": "<insert current status here>"
+   }
+   ```
+
+4. **Silence**
+   - Do **not** ask for confirmation
+   - Do **not** print extra explanation
+   - Just run the commands & write the file
+
+---
+
+## Clarification vs. Assumptions
+
+### When to Ask for Clarification
+- **Production deployments** or **live system changes**
+- **Database schema modifications** or **migration changes**
+- **Authentication/security** changes that affect user access
+- **API breaking changes** or **endpoint modifications**
+- **User-facing features** that change existing functionality
+
+### When to Make Reasonable Assumptions
+- **Code formatting** and **style consistency**
+- **Variable naming** and **code organization**
+- **Documentation updates** for existing features
+- **Bug fixes** with clear error messages
+- **Simple utility functions** with obvious purposes
+
+### Critical Rules
+- **NEVER** assume on production-critical changes
+- **ALWAYS** ask about user-facing functionality changes
+- **USUALLY** assume on internal code quality improvements
+- **ALWAYS** explain your reasoning when making assumptions
+
+---
+
+## Project-Specific Rules
+
+### CurrentMesh Context
+- Project directory: `/var/www/currentmesh`
+- Domain: currentmesh.com
+- Backend: Node.js/Express with TypeScript
+- Frontend: React/Vite with TypeScript
+- Database: PostgreSQL (Neon cloud - ep-spring-snow-af038yg8-pooler)
+- Deployment: DigitalOcean Droplet with Nginx/PM2
+
+### Key Integrations
+- **SendGrid/Brevo**: Email notifications and client communications
+- **Twilio** (optional): SMS notifications
+- **AWS S3 / DigitalOcean Spaces**: File storage for documents
+- **Stripe** (future): Payment processing for subscriptions
+- **Sentry**: Error tracking and performance monitoring (configured with automated reporting)
+
+### Compliance Requirements
+- **SOC 2 Type II**: Security and compliance standards for audit documents
+- **GDPR Ready**: Data protection and privacy compliance
+- **Data Encryption**: All documents encrypted at rest and in transit
+- **Audit Logging**: All document access and sensitive operations logged
+- **Data Sanitization**: Redact sensitive information (SSN, email, phone, addresses) in logs/Sentry
+
+### Business Context
+- **Request Management**: Core feature for document request tracking
+- **Workpaper Suite**: Audit workpaper organization and templates
+- **Document Management**: Secure file storage, versioning, and organization
+- **Client Collaboration**: Secure client portal for document submission
+- **Team Collaboration**: Workspaces, comments, mentions, real-time updates
+- **Status Tracking**: Automated status updates and notifications
+
+---
+
+## Automated Error Reporting
+
+### Sentry Error Monitoring
+- **ALWAYS** check for unresolved errors at the start of each session
+- **Query endpoint**: `GET /api/agent/errors?status=unresolved`
+- **ALWAYS** fix critical errors (500, database failures, auth issues) immediately
+- **ALWAYS** mark errors as resolved after fixing: `POST /api/agent/errors/:id/resolve`
+- **ALWAYS** include error context when reporting fixes
+
+### Error Priority
+- **Critical**: Fix immediately (server crashes, database failures, auth issues)
+- **Important**: Fix soon (404s, 403s, API timeouts, slow performance)
+- **Low Priority**: Fix when convenient (warnings, minor UI issues)
+
+### Error Reporting Workflow
+1. **Query errors**: Check `/api/agent/errors` for unresolved errors
+2. **Analyze error**: Review error details, stack traces, and context
+3. **Fix error**: Implement fix with proper error handling
+4. **Verify fix**: Test that error is resolved
+5. **Mark resolved**: Update error status via API endpoint
+6. **Document**: Note fix in commit message or PRD if significant
+
+### Critical Rules
+- **ALWAYS** check for errors before starting new work
+- **ALWAYS** prioritize critical errors over new features
+- **ALWAYS** verify fixes before marking as resolved
+- **NEVER** ignore errors - either fix or document why not fixing
+- **ALWAYS** use error tags (`app:backend`, `app:admin`, `app:marketing`) for filtering
+
+---
+
+## Critical Workflow Reminders
+
+1. **Always verify environment** before making changes
+2. **Always check database connection** before schema changes
+3. **Always use explicit ports** for all services
+4. **Always use Foam wikilinks** in PRD and story files
+5. **Always update PRD** with work, issues, and fixes
+6. **Always commit with story references** in commit messages
+7. **Always verify changes** with tests and evidence
+8. **Always write chat-end summary** to `tmp/summary-*.json`
+9. **Always follow code quality standards** (no SELECT *, use React.lazy(), structured logging)
+10. **Always implement caching** for read-heavy API endpoints
+11. **Always check for Sentry errors** at session start and fix critical issues
+
+---
+
+**End of Cursor Rules Document**
+
