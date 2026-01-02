@@ -2,9 +2,9 @@
 ## CurrentMesh - Request Management & Workpaper Platform
 
 **Status**: `draft`  
-**Version**: 1.1  
+**Version**: 1.2  
 **Created**: 2025-12-31  
-**Last Updated**: 2025-12-31  
+**Last Updated**: 2026-01-02  
 **Owner**: Mario Alasu  
 **Domain**: currentmesh.com
 
@@ -1009,12 +1009,38 @@ These tasks should be completed incrementally as the project grows:
 │   └── epic-{n}/                 # Epic directories (future)
 │       └── story-{m}.story.md    # Story files (future)
 │
-├── client/                        # Admin Dashboard (Vite + React + shadcn/ui)
+├── app/                          # Main Application (Vite + React + shadcn/ui)
 │   ├── src/                      # → Deployed to app.currentmesh.com
 │   │   ├── pages/                # Page components
 │   │   ├── components/           # Reusable components
 │   │   ├── hooks/                # Custom React hooks
 │   │   ├── contexts/             # React contexts
+│   │   ├── lib/                  # Utilities & API client
+│   │   └── App.tsx               # Main app component
+│   ├── public/                   # Static assets
+│   ├── dist/                     # Vite build output
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── client/                       # Client Collaboration Portal (Next.js)
+│   ├── app/                      # → Deployed to client.currentmesh.com
+│   │   ├── (auth)/               # Authentication routes
+│   │   │   ├── login/            # Magic link login
+│   │   │   └── verify/           # Token verification
+│   │   └── (portal)/             # Portal routes (protected)
+│   │       └── dashboard/        # Client dashboard
+│   ├── components/               # React components
+│   ├── lib/                      # API client & utilities
+│   ├── types/                    # TypeScript types
+│   ├── .next/                    # Next.js build output
+│   ├── package.json
+│   └── next.config.ts
+│
+├── admin/                        # Super Admin Dashboard (Vite + React + shadcn/ui)
+│   ├── src/                      # → Deployed to admin.currentmesh.com
+│   │   ├── pages/                # Page components
+│   │   ├── components/           # Reusable components
+│   │   ├── hooks/                # Custom React hooks
 │   │   ├── lib/                  # Utilities & API client
 │   │   └── App.tsx               # Main app component
 │   ├── public/                   # Static assets
@@ -1030,7 +1056,7 @@ These tasks should be completed incrementally as the project grows:
 │   └── next.config.js
 │
 ├── server/                       # Express Backend API
-│   ├── src/                      # → API endpoints (api.currentmesh.com or /api)
+│   ├── src/                      # → API endpoints (api.currentmesh.com)
 │   │   ├── routes/               # API route handlers
 │   │   ├── services/             # Business logic & external services
 │   │   ├── middleware/          # Express middleware
@@ -1050,8 +1076,10 @@ These tasks should be completed incrementally as the project grows:
 #### Domain Structure
 ```
 currentmesh.com          → Marketing site (Next.js + Magic UI)
-app.currentmesh.com      → Admin dashboard (Vite + React + shadcn/ui)
-api.currentmesh.com      → Backend API (optional, or use /api path)
+app.currentmesh.com      → Main application (Vite + React + shadcn/ui) - Audit teams
+client.currentmesh.com   → Client Collaboration Portal (Next.js) - Clients
+admin.currentmesh.com   → Super admin dashboard (Vite + React + shadcn/ui) - Platform management
+api.currentmesh.com      → Backend API (Express) - Shared API
 ```
 
 ### 12.2 Development Setup
@@ -1066,37 +1094,84 @@ api.currentmesh.com      → Backend API (optional, or use /api path)
 ```bash
 cd /var/www/currentmesh
 cd server && npm install
+cd ../app && npm install
 cd ../client && npm install
+cd ../marketing && npm install
 ```
 
 #### Environment Variables
 Create `.env.local` files with:
 - `DATABASE_URL`: Neon PostgreSQL connection string
 - `JWT_SECRET`: Secret for JWT token signing
-- `PORT`: Backend server port (default: 3000)
+- `PORT`: Service port (see Port Assignments below)
 - `NODE_ENV`: Environment (development/production)
 - `S3_BUCKET` or `SPACES_BUCKET`: File storage bucket name
 - `S3_REGION` or `SPACES_REGION`: File storage region
 - `SENDGRID_API_KEY`: Email service API key
 - `TWILIO_API_KEY` (optional): SMS service API key
 
+#### Port Assignments
+**Critical**: All services use explicit ports to prevent conflicts. See `PORT-MANAGEMENT.md` for complete details.
+
+| Port | Service | Process Name | Critical |
+|------|---------|--------------|----------|
+| 3000 | Backend API | `currentmesh-server` | ✅ Yes |
+| 3001 | Marketing Site | `currentmesh-marketing` | No |
+| 5000 | Main App | `currentmesh-app` | No |
+| 5001 | Client Portal | `currentmesh-client` | No |
+| 5002 | Admin Dashboard | `currentmesh-admin` | No |
+
+**Port Management Scripts**:
+- `./scripts/check-ports.sh` - Check for port conflicts
+- `./scripts/kill-conflicts.sh` - Resolve port conflicts
+- `./scripts/start-services.sh` - Start all services safely
+- `./scripts/health-check.sh` - Verify all services are healthy
+
 ### 12.3 Development Workflow
 
-#### Start Development Servers
+#### Start All Services (Recommended)
+```bash
+# Start all services with port validation
+./scripts/start-services.sh
+```
+
+This script:
+1. ✅ Checks for port conflicts
+2. ✅ Validates PM2 installation
+3. ✅ Stops existing services
+4. ✅ Starts all services from `ecosystem.config.js`
+5. ✅ Saves PM2 configuration
+
+#### Start Development Servers (Manual)
 ```bash
 # Terminal 1 - Backend
 cd /var/www/currentmesh/server
 PORT=3000 NODE_ENV=development npx tsx src/index.ts
 
-# Terminal 2 - Frontend
-cd /var/www/currentmesh/client
+# Terminal 2 - Main App
+cd /var/www/currentmesh/app
 npx vite --port 5000
+
+# Terminal 3 - Client Portal (optional)
+cd /var/www/currentmesh/client
+npm run dev
 ```
+
+**Note**: Manual startup is not recommended. Use `./scripts/start-services.sh` instead.
 
 #### Build for Production
 ```bash
-# Frontend
+# Main App
+cd /var/www/currentmesh/app
+npm run build
+
+# Client Portal
 cd /var/www/currentmesh/client
+npm run build
+
+# Marketing Site
+cd /var/www/currentmesh/marketing
+npm run build
 npm run build
 
 # Backend (TypeScript compilation)
@@ -1961,8 +2036,8 @@ export default function ComponentName({
 
 ### 19.1 Current Status
 **PRD Status**: `draft`  
-**Last Updated**: 2025-12-31  
-**Version**: 1.0
+**Last Updated**: 2026-01-02  
+**Version**: 1.2
 
 ### 19.2 Approval Status
 - [ ] **Product Owner Review**: Pending
@@ -1982,6 +2057,7 @@ export default function ComponentName({
 |------|-----------|---------|
 | 2025-12-31 | Initial PRD Created | Project planning and epic definition |
 | 2025-12-31 | Infrastructure Setup Complete | Full development environment ready |
+| 2026-01-02 | Production Infrastructure Stabilization | All sites operational with HTTPS, stability improvements |
 
 #### 📋 Detailed Change History
 
@@ -2053,6 +2129,103 @@ export default function ComponentName({
 - See [[Sentry Integration]] for error tracking details
 - See [[Automated Error Reporting]] for agent error handling
 - See [[Development Environment]] for setup instructions
+
+**2026-01-02 - Production Infrastructure Stabilization & HTTPS Configuration**
+
+**Issues Resolved:**
+- ✅ **Cloudflare Error 521**: Fixed persistent "Web server is down" errors by configuring HTTPS on origin servers
+- ✅ **Route Not Found Errors**: Added root route (`/`) to API server resolving `{"error":"Not Found","message":"Route GET / not found"}`
+- ✅ **CORS Policy Errors**: Fixed CORS blocking for admin and client sites by updating `CORS_ORIGIN` environment variable
+- ✅ **Vite Host Check Errors**: Resolved "Blocked request. This host is not allowed" by configuring Nginx Host header forwarding
+- ✅ **Sign-in Route Errors**: Fixed `{"error":"Not Found","message":"Route GET /sign-in not found"}` by adding HTTPS server blocks
+- ✅ **502 Bad Gateway Errors**: Resolved by ensuring all services are running and HTTPS properly configured
+
+**HTTPS Configuration:**
+- ✅ Added HTTPS server blocks for all domains:
+  - `api.currentmesh.com` - Backend API (port 3000)
+  - `currentmesh.com` - Marketing site (port 3001)
+  - `app.currentmesh.com` - Main application (port 5000)
+  - `admin.currentmesh.com` - Admin dashboard (port 5002)
+  - `client.currentmesh.com` - Client portal (port 5001)
+- ✅ Let's Encrypt SSL certificates obtained for all domains
+- ✅ HTTP to HTTPS redirects configured for all domains
+- ✅ SSL/TLS configuration optimized (TLS 1.2/1.3, secure ciphers)
+
+**Nginx Configuration Updates:**
+- ✅ Fixed IPv6/IPv4 resolution issues by using `127.0.0.1` instead of `localhost`
+- ✅ Added Cloudflare real IP configuration for all domains
+- ✅ Configured proper proxy headers for all services
+- ✅ Added timeout settings for Cloudflare compatibility
+- ✅ Configured Host header forwarding for Vite dev servers
+
+**Backend API Improvements:**
+- ✅ Added root route (`/`) returning API information
+- ✅ Enhanced health check endpoint with database connectivity test
+- ✅ Added readiness (`/ready`) and liveness (`/live`) probes
+- ✅ Updated CORS configuration to include all frontend domains:
+  - `https://admin.currentmesh.com`
+  - `https://app.currentmesh.com`
+  - `https://client.currentmesh.com`
+  - `https://currentmesh.com`
+- ✅ Fixed middleware logger import error (`require is not defined`)
+- ✅ Added request timeout middleware (30 seconds)
+- ✅ Implemented structured request logging with unique request IDs
+
+**Frontend Configuration:**
+- ✅ Updated Vite config for app (`app/vite.config.ts`) with `allowedHosts: true` for development
+- ✅ Configured Nginx to forward Host header as `localhost:5000` for Vite compatibility
+- ✅ Verified all frontend dev servers running on correct ports
+
+**Cloudflare Configuration:**
+- ✅ Applied all free Cloudflare features:
+  - SSL/TLS: Full mode with TLS 1.3, Always Use HTTPS
+  - Performance: Auto Minify, Brotli, HTTP/2, HTTP/3, 0-RTT, Early Hints
+  - Security: Medium security level, Browser Integrity Check, Privacy Pass
+  - Caching: Aggressive caching with 4-hour TTL
+- ✅ Configured Cloudflare DNS records for all subdomains
+- ✅ Forced Cloudflare reconnection to clear stale connections
+
+**Port Management:**
+- ✅ Verified and documented port assignments:
+  - Port 3000: Backend API (`currentmesh-server`)
+  - Port 3001: Marketing site (`currentmesh-marketing`)
+  - Port 5000: Main application (`currentmesh-app`)
+  - Port 5001: Client portal (`currentmesh-client`)
+  - Port 5002: Admin dashboard (`currentmesh-admin`)
+- ✅ Resolved port conflicts between services
+- ✅ Updated PM2 ecosystem configuration
+
+**Stability Improvements:**
+- ✅ Enhanced health checks with database connectivity verification
+- ✅ Added startup validation scripts
+- ✅ Implemented graceful shutdown handlers
+- ✅ Added database connection retry logic
+- ✅ Improved error handling and logging
+
+**Files Modified:**
+- `server/src/routes/index.ts` - Added root route, enhanced health checks
+- `server/src/middleware/index.ts` - Fixed logger import, added request timeout, structured logging
+- `server/src/config/env.ts` - Updated CORS_ORIGIN to include all frontend domains
+- `app/vite.config.ts` - Configured allowedHosts for development
+- `/etc/nginx/sites-available/api.currentmesh.com` - Added HTTPS server block
+- `/etc/nginx/sites-available/currentmesh.com` - Added HTTPS server block
+- `/etc/nginx/sites-available/app.currentmesh.com` - Added HTTPS server block, configured Host header
+- `/etc/nginx/sites-available/admin.currentmesh.com` - Added HTTPS server block
+- `/etc/nginx/sites-available/client.currentmesh.com` - Added HTTPS server block
+- `.ai/prd.md` - Updated project structure to reflect app/admin/client separation
+
+**Current Status:**
+- ✅ All sites operational via HTTPS
+- ✅ All services running and accessible
+- ✅ CORS properly configured for all frontend domains
+- ✅ SSL certificates valid for all domains
+- ✅ Cloudflare configured with all free features
+- ✅ Production-ready infrastructure
+
+**Related Work:**
+- See [[Deployment Architecture]] for Nginx and PM2 configuration
+- See [[Troubleshooting Guide]] for common issues and solutions
+- See [[Port Management]] for service port assignments
 
 **2025-12-31 - Initial PRD Creation**
 - Created comprehensive PRD for CurrentMesh based on Suralink analysis
