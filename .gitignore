@@ -40,3 +40,7 @@ yarn-error.log*
 next-env.d.ts
 .env-config/.env
 .env-config/*.env
+
+# Logs
+logs/
+*.log
