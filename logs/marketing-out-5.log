@@ -1,0 +1,90 @@
+2026-01-01T18:15:43: 
+2026-01-01T18:15:43: > www@0.1.1 dev
+2026-01-01T18:15:43: > next dev
+2026-01-01T18:15:43: 
+2026-01-01T18:15:45: [MDX] updated map file in 30.500370000000203ms
+2026-01-01T18:15:45: [MDX] started dev server
+2026-01-01T18:15:46:    ▲ Next.js 15.5.9
+2026-01-01T18:15:46:    - Local:        http://localhost:3001
+2026-01-01T18:15:46:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:15:46:    - Environments: .env.local
+2026-01-01T18:15:46:    - Experiments (use with caution):
+2026-01-01T18:15:46:      ✓ inlineCss
+2026-01-01T18:15:46:      · clientTraceMetadata
+2026-01-01T18:15:46: 
+2026-01-01T18:15:46:  ✓ Starting...
+2026-01-01T18:15:51: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:15:54:  ✓ Ready in 9.1s
+2026-01-01T18:16:03:  ○ Compiling / ...
+2026-01-01T18:16:25:  ✓ Compiled / in 22.6s (3586 modules)
+2026-01-01T18:16:33:  GET / 500 in 10979ms
+2026-01-01T18:16:33:  ○ Compiling /_error ...
+2026-01-01T18:16:47:  ✓ Compiled /_error in 14.5s (4356 modules)
+2026-01-01T18:16:52:  GET / 500 in 4765ms
+2026-01-01T18:16:56:  ○ Compiling /_not-found ...
+2026-01-01T18:17:02:  ✓ Compiled /_not-found in 7.2s (4360 modules)
+2026-01-01T18:19:43: [?25h
+2026-01-01T18:19:43: [MDX] closing dev server
+2026-01-01T18:19:44: 
+2026-01-01T18:19:44: > www@0.1.1 dev
+2026-01-01T18:19:44: > next dev
+2026-01-01T18:19:44: 
+2026-01-01T18:19:48: [MDX] updated map file in 25.284875000000284ms
+2026-01-01T18:19:48: [MDX] started dev server
+2026-01-01T18:19:49:    ▲ Next.js 15.5.9
+2026-01-01T18:19:49:    - Local:        http://localhost:3001
+2026-01-01T18:19:49:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:19:49:    - Environments: .env.local
+2026-01-01T18:19:49:    - Experiments (use with caution):
+2026-01-01T18:19:49:      ✓ inlineCss
+2026-01-01T18:19:49:      · clientTraceMetadata
+2026-01-01T18:19:49: 
+2026-01-01T18:19:49:  ✓ Starting...
+2026-01-01T18:19:51: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:19:54:  ✓ Ready in 6.6s
+2026-01-01T18:20:08:  ○ Compiling / ...
+2026-01-01T18:20:14: [?25h
+2026-01-01T18:20:14: 
+2026-01-01T18:20:14: [MDX] closing dev server
+2026-01-01T18:20:15: 
+2026-01-01T18:20:15: > www@0.1.1 dev
+2026-01-01T18:20:15: > next dev
+2026-01-01T18:20:15: 
+2026-01-01T18:20:16: [MDX] updated map file in 28.988916000000017ms
+2026-01-01T18:20:17: [MDX] started dev server
+2026-01-01T18:20:17:    ▲ Next.js 15.5.9
+2026-01-01T18:20:17:    - Local:        http://localhost:3001
+2026-01-01T18:20:17:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:20:17:    - Environments: .env.local
+2026-01-01T18:20:17:    - Experiments (use with caution):
+2026-01-01T18:20:17:      ✓ inlineCss
+2026-01-01T18:20:17:      · clientTraceMetadata
+2026-01-01T18:20:17: 
+2026-01-01T18:20:17:  ✓ Starting...
+2026-01-01T18:20:19: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:20:20:  ✓ Ready in 3.5s
+2026-01-01T18:20:53:  ○ Compiling / ...
+2026-01-01T18:21:03: [?25h
+2026-01-01T18:21:03: [MDX] closing dev server
+2026-01-01T18:21:03: 
+2026-01-01T18:21:03: > www@0.1.1 dev
+2026-01-01T18:21:03: > next dev
+2026-01-01T18:21:03: 
+2026-01-01T18:21:05: [MDX] updated map file in 27.426542000000154ms
+2026-01-01T18:21:05: [MDX] started dev server
+2026-01-01T18:21:06:    ▲ Next.js 15.5.9
+2026-01-01T18:21:06:    - Local:        http://localhost:3001
+2026-01-01T18:21:06:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:21:06:    - Environments: .env.local
+2026-01-01T18:21:06:    - Experiments (use with caution):
+2026-01-01T18:21:06:      ✓ inlineCss
+2026-01-01T18:21:06:      · clientTraceMetadata
+2026-01-01T18:21:06: 
+2026-01-01T18:21:06:  ✓ Starting...
+2026-01-01T18:21:08: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:21:09:  ✓ Ready in 3.6s
+2026-01-01T18:21:26:  ○ Compiling / ...
+2026-01-01T18:23:17:  ✓ Compiled /_not-found in 111.7s (3606 modules)
+2026-01-01T18:26:20: [?25h
+2026-01-01T18:26:20: 
+2026-01-01T18:26:20: [MDX] closing dev server

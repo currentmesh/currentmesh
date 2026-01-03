@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed buttonVariants server/client component error by extracting buttonVariants to a separate lib file without 'use client'. This allows server components like hero.tsx to use buttonVariants. Updated button.tsx and hero.tsx to import from the new location. ActiveMembersCount is correctly set up as a server component. Cleared Next.js cache and restarted service.",
+  "current_status": "buttonVariants extracted to lib/button-variants.ts (server-safe). Hero component can now use buttonVariants without errors. ActiveMembersCount is a proper server component. Marketing site restarting with fixes."
+}

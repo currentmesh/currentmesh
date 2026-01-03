@@ -1,0 +1,645 @@
+2025-12-31T19:56:02: 
+2025-12-31T19:56:02: > www@0.1.1 dev
+2025-12-31T19:56:02: > next dev
+2025-12-31T19:56:02: 
+2025-12-31T19:56:04: [MDX] updated map file in 42.01356099999998ms
+2025-12-31T19:56:04: [MDX] started dev server
+2025-12-31T19:56:05:    ▲ Next.js 15.5.9
+2025-12-31T19:56:05:    - Local:        http://localhost:3000
+2025-12-31T19:56:05:    - Network:      http://134.209.57.20:3000
+2025-12-31T19:56:05:    - Environments: .env.local
+2025-12-31T19:56:05:    - Experiments (use with caution):
+2025-12-31T19:56:05:      ✓ inlineCss
+2025-12-31T19:56:05:      · clientTraceMetadata
+2025-12-31T19:56:05: 
+2025-12-31T19:56:05:  ✓ Starting...
+2025-12-31T19:56:07: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T19:56:08:  ✓ Ready in 4.5s
+2025-12-31T19:56:27:  ○ Compiling / ...
+2025-12-31T19:58:50: [?25h
+2025-12-31T19:58:50: 
+2025-12-31T19:58:50: [MDX] closing dev server
+2025-12-31T19:58:51: 
+2025-12-31T19:58:51: > www@0.1.1 dev
+2025-12-31T19:58:51: > next dev
+2025-12-31T19:58:51: 
+2025-12-31T19:58:52: [MDX] updated map file in 21.118863000000147ms
+2025-12-31T19:58:53: [MDX] started dev server
+2025-12-31T19:58:53:    ▲ Next.js 15.5.9
+2025-12-31T19:58:53:    - Local:        http://localhost:3000
+2025-12-31T19:58:53:    - Network:      http://134.209.57.20:3000
+2025-12-31T19:58:53:    - Environments: .env.local
+2025-12-31T19:58:53:    - Experiments (use with caution):
+2025-12-31T19:58:53:      ✓ inlineCss
+2025-12-31T19:58:53:      · clientTraceMetadata
+2025-12-31T19:58:53: 
+2025-12-31T19:58:53:  ✓ Starting...
+2025-12-31T19:58:55: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T19:58:57:  ✓ Ready in 4.3s
+2025-12-31T19:59:11:  ○ Compiling / ...
+2025-12-31T20:03:13: [?25h
+2025-12-31T20:03:13: 
+2025-12-31T20:03:13: [MDX] closing dev server
+2025-12-31T20:03:13: 
+2025-12-31T20:03:13: > www@0.1.1 dev
+2025-12-31T20:03:13: > next dev
+2025-12-31T20:03:13: 
+2025-12-31T20:03:15: [MDX] updated map file in 24.70001000000002ms
+2025-12-31T20:03:16: [MDX] started dev server
+2025-12-31T20:03:16:    ▲ Next.js 15.5.9
+2025-12-31T20:03:16:    - Local:        http://localhost:3000
+2025-12-31T20:03:16:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:03:16:    - Environments: .env.local
+2025-12-31T20:03:16:    - Experiments (use with caution):
+2025-12-31T20:03:16:      ✓ inlineCss
+2025-12-31T20:03:16:      · clientTraceMetadata
+2025-12-31T20:03:16: 
+2025-12-31T20:03:16:  ✓ Starting...
+2025-12-31T20:03:18: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:03:19:  ✓ Ready in 4.2s
+2025-12-31T20:03:20:  ○ Compiling / ...
+2025-12-31T20:07:08: [?25h
+2025-12-31T20:07:08: 
+2025-12-31T20:07:08: [MDX] closing dev server
+2025-12-31T20:07:09: 
+2025-12-31T20:07:09: > www@0.1.1 dev
+2025-12-31T20:07:09: > next dev
+2025-12-31T20:07:09: 
+2025-12-31T20:07:11: [MDX] updated map file in 39.570960000000014ms
+2025-12-31T20:07:11: [MDX] started dev server
+2025-12-31T20:07:11:    ▲ Next.js 15.5.9
+2025-12-31T20:07:11:    - Local:        http://localhost:3000
+2025-12-31T20:07:11:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:07:11:    - Environments: .env.local
+2025-12-31T20:07:11:    - Experiments (use with caution):
+2025-12-31T20:07:11:      ✓ inlineCss
+2025-12-31T20:07:11:      · clientTraceMetadata
+2025-12-31T20:07:11: 
+2025-12-31T20:07:11:  ✓ Starting...
+2025-12-31T20:07:13: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:07:15:  ✓ Ready in 4.4s
+2025-12-31T20:08:48:  ○ Compiling / ...
+2025-12-31T20:11:04: [?25h
+2025-12-31T20:11:04: 
+2025-12-31T20:11:04: [MDX] closing dev server
+2025-12-31T20:11:04: 
+2025-12-31T20:11:04: > www@0.1.1 dev
+2025-12-31T20:11:04: > next dev
+2025-12-31T20:11:04: 
+2025-12-31T20:11:06: [MDX] updated map file in 36.35095000000001ms
+2025-12-31T20:11:06: [MDX] started dev server
+2025-12-31T20:11:07:    ▲ Next.js 15.5.9
+2025-12-31T20:11:07:    - Local:        http://localhost:3000
+2025-12-31T20:11:07:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:11:07:    - Environments: .env.local
+2025-12-31T20:11:07:    - Experiments (use with caution):
+2025-12-31T20:11:07:      ✓ inlineCss
+2025-12-31T20:11:07:      · clientTraceMetadata
+2025-12-31T20:11:07: 
+2025-12-31T20:11:07:  ✓ Starting...
+2025-12-31T20:11:09: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:11:11:  ✓ Ready in 4.9s
+2025-12-31T20:11:34:  ○ Compiling / ...
+2025-12-31T20:15:38: [?25h
+2025-12-31T20:15:38: 
+2025-12-31T20:15:38: [MDX] closing dev server
+2025-12-31T20:15:39: 
+2025-12-31T20:15:39: > www@0.1.1 dev
+2025-12-31T20:15:39: > next dev
+2025-12-31T20:15:39: 
+2025-12-31T20:15:41: [MDX] updated map file in 24.462845000000016ms
+2025-12-31T20:15:41: [MDX] started dev server
+2025-12-31T20:15:41:    ▲ Next.js 15.5.9
+2025-12-31T20:15:41:    - Local:        http://localhost:3000
+2025-12-31T20:15:41:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:15:41:    - Environments: .env.local
+2025-12-31T20:15:41:    - Experiments (use with caution):
+2025-12-31T20:15:41:      ✓ inlineCss
+2025-12-31T20:15:41:      · clientTraceMetadata
+2025-12-31T20:15:41: 
+2025-12-31T20:15:41:  ✓ Starting...
+2025-12-31T20:15:43: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:15:45:  ✓ Ready in 4.3s
+2025-12-31T20:16:03:  ○ Compiling / ...
+2025-12-31T20:17:33: [?25h
+2025-12-31T20:17:33: 
+2025-12-31T20:17:33: [MDX] closing dev server
+2025-12-31T20:17:33: 
+2025-12-31T20:17:33: > www@0.1.1 dev
+2025-12-31T20:17:33: > next dev
+2025-12-31T20:17:33: 
+2025-12-31T20:17:35: [MDX] updated map file in 30.79672699999992ms
+2025-12-31T20:17:35: [MDX] started dev server
+2025-12-31T20:17:36:    ▲ Next.js 15.5.9
+2025-12-31T20:17:36:    - Local:        http://localhost:3000
+2025-12-31T20:17:36:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:17:36:    - Environments: .env.local
+2025-12-31T20:17:36:    - Experiments (use with caution):
+2025-12-31T20:17:36:      ✓ inlineCss
+2025-12-31T20:17:36:      · clientTraceMetadata
+2025-12-31T20:17:36: 
+2025-12-31T20:17:36:  ✓ Starting...
+2025-12-31T20:17:38: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:17:39:  ✓ Ready in 4.3s
+2025-12-31T20:17:49:  ○ Compiling / ...
+2025-12-31T20:21:23: [?25h
+2025-12-31T20:21:23: 
+2025-12-31T20:21:23: [MDX] closing dev server
+2025-12-31T20:23:18: 
+2025-12-31T20:23:18: > www@0.1.1 dev
+2025-12-31T20:23:18: > next dev
+2025-12-31T20:23:18: 
+2025-12-31T20:23:20: [MDX] updated map file in 23.10232700000006ms
+2025-12-31T20:23:20: [MDX] started dev server
+2025-12-31T20:23:20:    ▲ Next.js 15.5.9
+2025-12-31T20:23:20:    - Local:        http://localhost:3000
+2025-12-31T20:23:20:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:23:20:    - Environments: .env.local
+2025-12-31T20:23:20:    - Experiments (use with caution):
+2025-12-31T20:23:20:      ✓ inlineCss
+2025-12-31T20:23:20:      · clientTraceMetadata
+2025-12-31T20:23:20: 
+2025-12-31T20:23:20:  ✓ Starting...
+2025-12-31T20:23:22: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:23:24:  ✓ Ready in 4s
+2025-12-31T20:23:51:  ○ Compiling / ...
+2025-12-31T20:25:16:  ✓ Compiled / in 85.3s (3820 modules)
+2025-12-31T20:29:31: [?25h
+2025-12-31T20:29:31: 
+2025-12-31T20:29:31: [MDX] closing dev server
+2025-12-31T20:29:32: 
+2025-12-31T20:29:32: > www@0.1.1 dev
+2025-12-31T20:29:32: > next dev
+2025-12-31T20:29:32: 
+2025-12-31T20:29:33: [MDX] updated map file in 26.507969000000003ms
+2025-12-31T20:29:33: [MDX] started dev server
+2025-12-31T20:29:34:    ▲ Next.js 15.5.9
+2025-12-31T20:29:34:    - Local:        http://localhost:3000
+2025-12-31T20:29:34:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:29:34:    - Environments: .env.local
+2025-12-31T20:29:34:    - Experiments (use with caution):
+2025-12-31T20:29:34:      ✓ inlineCss
+2025-12-31T20:29:34:      · clientTraceMetadata
+2025-12-31T20:29:34: 
+2025-12-31T20:29:34:  ✓ Starting...
+2025-12-31T20:29:36: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:29:37:  ✓ Ready in 4.2s
+2025-12-31T20:32:40:  ○ Compiling / ...
+2025-12-31T20:34:07:  ✓ Compiled / in 87.6s (3820 modules)
+2025-12-31T20:38:39: 
+2025-12-31T20:38:39: > www@0.1.1 dev
+2025-12-31T20:38:39: > next dev
+2025-12-31T20:38:39: 
+2025-12-31T20:38:43: [?25h
+2025-12-31T20:38:45: 
+2025-12-31T20:38:45: > www@0.1.1 dev
+2025-12-31T20:38:45: > next dev
+2025-12-31T20:38:45: 
+2025-12-31T20:38:48: [?25h
+2025-12-31T20:38:50: 
+2025-12-31T20:38:50: > www@0.1.1 dev
+2025-12-31T20:38:50: > next dev
+2025-12-31T20:38:50: 
+2025-12-31T20:38:52: [MDX] updated map file in 20.799033999999892ms
+2025-12-31T20:38:52: [MDX] started dev server
+2025-12-31T20:38:52: [?25h
+2025-12-31T20:38:52: [MDX] closing dev server
+2025-12-31T20:38:54: 
+2025-12-31T20:38:54: > www@0.1.1 dev
+2025-12-31T20:38:54: > next dev
+2025-12-31T20:38:54: 
+2025-12-31T20:38:55: [?25h
+2025-12-31T20:38:58: 
+2025-12-31T20:38:58: > www@0.1.1 dev
+2025-12-31T20:38:58: > next dev
+2025-12-31T20:38:58: 
+2025-12-31T20:39:00: [MDX] updated map file in 28.139462999999978ms
+2025-12-31T20:39:01: [MDX] started dev server
+2025-12-31T20:39:01: [?25h
+2025-12-31T20:39:01: [MDX] closing dev server
+2025-12-31T20:39:03: 
+2025-12-31T20:39:03: > www@0.1.1 dev
+2025-12-31T20:39:03: > next dev
+2025-12-31T20:39:03: 
+2025-12-31T20:39:06: [?25h
+2025-12-31T20:39:06: 
+2025-12-31T20:39:08: 
+2025-12-31T20:39:08: > www@0.1.1 dev
+2025-12-31T20:39:08: > next dev
+2025-12-31T20:39:08: 
+2025-12-31T20:39:10: [MDX] updated map file in 28.09948899999995ms
+2025-12-31T20:39:10: [MDX] started dev server
+2025-12-31T20:39:10: [?25h
+2025-12-31T20:39:10: [MDX] closing dev server
+2025-12-31T20:39:12: 
+2025-12-31T20:39:12: > www@0.1.1 dev
+2025-12-31T20:39:12: > next dev
+2025-12-31T20:39:12: 
+2025-12-31T20:39:14: [?25h
+2025-12-31T20:39:14: 
+2025-12-31T20:39:16: 
+2025-12-31T20:39:16: > www@0.1.1 dev
+2025-12-31T20:39:16: > next dev
+2025-12-31T20:39:16: 
+2025-12-31T20:39:19: [MDX] updated map file in 37.84637699999985ms
+2025-12-31T20:39:19: [?25h
+2025-12-31T20:39:19: [MDX] closing dev server
+2025-12-31T20:39:22: 
+2025-12-31T20:39:22: > www@0.1.1 dev
+2025-12-31T20:39:22: > next dev
+2025-12-31T20:39:22: 
+2025-12-31T20:39:24: [?25h
+2025-12-31T20:39:24: 
+2025-12-31T20:39:27: 
+2025-12-31T20:39:27: > www@0.1.1 dev
+2025-12-31T20:39:27: > next dev
+2025-12-31T20:39:27: 
+2025-12-31T20:39:29: [?25h
+2025-12-31T20:39:32: 
+2025-12-31T20:39:32: > www@0.1.1 dev
+2025-12-31T20:39:32: > next dev
+2025-12-31T20:39:32: 
+2025-12-31T20:39:33: [MDX] updated map file in 36.30203400000005ms
+2025-12-31T20:39:33: [MDX] started dev server
+2025-12-31T20:39:33: [?25h
+2025-12-31T20:39:33: [MDX] closing dev server
+2025-12-31T20:39:36: 
+2025-12-31T20:39:36: > www@0.1.1 dev
+2025-12-31T20:39:36: > next dev
+2025-12-31T20:39:36: 
+2025-12-31T20:39:38: [MDX] updated map file in 55.91675199999963ms
+2025-12-31T20:39:38: [?25h
+2025-12-31T20:39:38: 
+2025-12-31T20:39:38: [MDX] closing dev server
+2025-12-31T20:39:40: 
+2025-12-31T20:39:40: > www@0.1.1 dev
+2025-12-31T20:39:40: > next dev
+2025-12-31T20:39:40: 
+2025-12-31T20:39:43: [?25h
+2025-12-31T20:39:46: 
+2025-12-31T20:39:46: > www@0.1.1 dev
+2025-12-31T20:39:46: > next dev
+2025-12-31T20:39:46: 
+2025-12-31T20:39:48: [?25h
+2025-12-31T20:39:51: 
+2025-12-31T20:39:51: > www@0.1.1 dev
+2025-12-31T20:39:51: > next dev
+2025-12-31T20:39:51: 
+2025-12-31T20:39:53: [?25h
+2025-12-31T20:39:56: 
+2025-12-31T20:39:56: > www@0.1.1 dev
+2025-12-31T20:39:56: > next dev
+2025-12-31T20:39:56: 
+2025-12-31T20:39:59: [?25h
+2025-12-31T20:40:01: 
+2025-12-31T20:40:01: > www@0.1.1 dev
+2025-12-31T20:40:01: > next dev
+2025-12-31T20:40:01: 
+2025-12-31T20:40:03: [MDX] updated map file in 20.33751700000016ms
+2025-12-31T20:40:03: [MDX] started dev server
+2025-12-31T20:40:03: [?25h
+2025-12-31T20:40:03: [MDX] closing dev server
+2025-12-31T20:40:05: 
+2025-12-31T20:40:05: > www@0.1.1 dev
+2025-12-31T20:40:05: > next dev
+2025-12-31T20:40:05: 
+2025-12-31T20:40:07: [?25h
+2025-12-31T20:40:09: 
+2025-12-31T20:40:09: > www@0.1.1 dev
+2025-12-31T20:40:09: > next dev
+2025-12-31T20:40:09: 
+2025-12-31T20:40:11: [MDX] updated map file in 25.725295999999844ms
+2025-12-31T20:40:11: [?25h
+2025-12-31T20:40:13: 
+2025-12-31T20:40:13: > www@0.1.1 dev
+2025-12-31T20:40:13: > next dev
+2025-12-31T20:40:13: 
+2025-12-31T20:40:15: [?25h
+2025-12-31T20:40:15: 
+2025-12-31T20:40:18: 
+2025-12-31T20:40:18: > www@0.1.1 dev
+2025-12-31T20:40:18: > next dev
+2025-12-31T20:40:18: 
+2025-12-31T20:40:21: [?25h
+2025-12-31T20:40:23: 
+2025-12-31T20:40:23: > www@0.1.1 dev
+2025-12-31T20:40:23: > next dev
+2025-12-31T20:40:23: 
+2025-12-31T20:40:26: [?25h
+2025-12-31T20:40:26: 
+2025-12-31T20:40:29: 
+2025-12-31T20:40:29: > www@0.1.1 dev
+2025-12-31T20:40:29: > next dev
+2025-12-31T20:40:29: 
+2025-12-31T20:40:32: [?25h
+2025-12-31T20:40:34: 
+2025-12-31T20:40:34: > www@0.1.1 dev
+2025-12-31T20:40:34: > next dev
+2025-12-31T20:40:34: 
+2025-12-31T20:40:38: [MDX] updated map file in 43.13619800000015ms
+2025-12-31T20:40:38: [?25h
+2025-12-31T20:40:38: [MDX] closing dev server
+2025-12-31T20:40:41: 
+2025-12-31T20:40:41: > www@0.1.1 dev
+2025-12-31T20:40:41: > next dev
+2025-12-31T20:40:41: 
+2025-12-31T20:40:44: [?25h
+2025-12-31T20:40:44: 
+2025-12-31T20:40:46: 
+2025-12-31T20:40:46: > www@0.1.1 dev
+2025-12-31T20:40:46: > next dev
+2025-12-31T20:40:46: 
+2025-12-31T20:40:49: [?25h
+2025-12-31T20:40:51: 
+2025-12-31T20:40:51: > www@0.1.1 dev
+2025-12-31T20:40:51: > next dev
+2025-12-31T20:40:51: 
+2025-12-31T20:40:53: [?25h
+2025-12-31T20:40:56: 
+2025-12-31T20:40:56: > www@0.1.1 dev
+2025-12-31T20:40:56: > next dev
+2025-12-31T20:40:56: 
+2025-12-31T20:40:58: [?25h
+2025-12-31T20:41:00: 
+2025-12-31T20:41:00: > www@0.1.1 dev
+2025-12-31T20:41:00: > next dev
+2025-12-31T20:41:00: 
+2025-12-31T20:41:02: [MDX] updated map file in 34.530234000000064ms
+2025-12-31T20:41:02: [?25h
+2025-12-31T20:41:02: [MDX] closing dev server
+2025-12-31T20:41:05: 
+2025-12-31T20:41:05: > www@0.1.1 dev
+2025-12-31T20:41:05: > next dev
+2025-12-31T20:41:05: 
+2025-12-31T20:41:07: [?25h
+2025-12-31T20:41:09: 
+2025-12-31T20:41:09: > www@0.1.1 dev
+2025-12-31T20:41:09: > next dev
+2025-12-31T20:41:09: 
+2025-12-31T20:41:11: [MDX] updated map file in 29.44976399999996ms
+2025-12-31T20:41:11: [?25h
+2025-12-31T20:41:11: 
+2025-12-31T20:41:11: [MDX] closing dev server
+2025-12-31T20:41:13: 
+2025-12-31T20:41:13: > www@0.1.1 dev
+2025-12-31T20:41:13: > next dev
+2025-12-31T20:41:13: 
+2025-12-31T20:41:15: [?25h
+2025-12-31T20:41:17: 
+2025-12-31T20:41:17: > www@0.1.1 dev
+2025-12-31T20:41:17: > next dev
+2025-12-31T20:41:17: 
+2025-12-31T20:41:19: [?25h
+2025-12-31T20:41:21: 
+2025-12-31T20:41:21: > www@0.1.1 dev
+2025-12-31T20:41:21: > next dev
+2025-12-31T20:41:21: 
+2025-12-31T20:41:23: [?25h
+2025-12-31T20:41:25: 
+2025-12-31T20:41:25: > www@0.1.1 dev
+2025-12-31T20:41:25: > next dev
+2025-12-31T20:41:25: 
+2025-12-31T20:41:26: [?25h
+2025-12-31T20:41:29: 
+2025-12-31T20:41:29: > www@0.1.1 dev
+2025-12-31T20:41:29: > next dev
+2025-12-31T20:41:29: 
+2025-12-31T20:41:30: [?25h
+2025-12-31T20:41:30: 
+2025-12-31T20:41:33: 
+2025-12-31T20:41:33: > www@0.1.1 dev
+2025-12-31T20:41:33: > next dev
+2025-12-31T20:41:33: 
+2025-12-31T20:41:35: [?25h
+2025-12-31T20:41:37: 
+2025-12-31T20:41:37: > www@0.1.1 dev
+2025-12-31T20:41:37: > next dev
+2025-12-31T20:41:37: 
+2025-12-31T20:41:39: [MDX] updated map file in 39.261887000000115ms
+2025-12-31T20:41:39: [?25h
+2025-12-31T20:41:39: [MDX] closing dev server
+2025-12-31T20:41:41: 
+2025-12-31T20:41:41: > www@0.1.1 dev
+2025-12-31T20:41:41: > next dev
+2025-12-31T20:41:41: 
+2025-12-31T20:41:43: [?25h
+2025-12-31T20:41:43: 
+2025-12-31T20:41:45: 
+2025-12-31T20:41:45: > www@0.1.1 dev
+2025-12-31T20:41:45: > next dev
+2025-12-31T20:41:45: 
+2025-12-31T20:41:46: [?25h
+2025-12-31T20:41:49: 
+2025-12-31T20:41:49: > www@0.1.1 dev
+2025-12-31T20:41:49: > next dev
+2025-12-31T20:41:49: 
+2025-12-31T20:41:50: [?25h
+2025-12-31T20:41:53: 
+2025-12-31T20:41:53: > www@0.1.1 dev
+2025-12-31T20:41:53: > next dev
+2025-12-31T20:41:53: 
+2025-12-31T20:41:54: [?25h
+2025-12-31T20:41:54: 
+2025-12-31T20:41:56: 
+2025-12-31T20:41:56: > www@0.1.1 dev
+2025-12-31T20:41:56: > next dev
+2025-12-31T20:41:56: 
+2025-12-31T20:41:58: [MDX] updated map file in 49.071991000000025ms
+2025-12-31T20:41:58: [?25h
+2025-12-31T20:41:58: 
+2025-12-31T20:41:58: [MDX] closing dev server
+2025-12-31T20:42:01: 
+2025-12-31T20:42:01: > www@0.1.1 dev
+2025-12-31T20:42:01: > next dev
+2025-12-31T20:42:01: 
+2025-12-31T20:42:03: [MDX] updated map file in 22.258949999999913ms
+2025-12-31T20:42:03: [MDX] started dev server
+2025-12-31T20:42:03: [?25h
+2025-12-31T20:42:03: [MDX] closing dev server
+2025-12-31T20:42:06: 
+2025-12-31T20:42:06: > www@0.1.1 dev
+2025-12-31T20:42:06: > next dev
+2025-12-31T20:42:06: 
+2025-12-31T20:42:08: [?25h
+2025-12-31T20:42:11: 
+2025-12-31T20:42:11: > www@0.1.1 dev
+2025-12-31T20:42:11: > next dev
+2025-12-31T20:42:11: 
+2025-12-31T20:42:14: [?25h
+2025-12-31T20:42:16: 
+2025-12-31T20:42:16: > www@0.1.1 dev
+2025-12-31T20:42:16: > next dev
+2025-12-31T20:42:16: 
+2025-12-31T20:42:18: [MDX] updated map file in 45.899373000000196ms
+2025-12-31T20:42:18: [MDX] started dev server
+2025-12-31T20:42:19: [?25h
+2025-12-31T20:42:19: [MDX] closing dev server
+2025-12-31T20:42:21: 
+2025-12-31T20:42:21: > www@0.1.1 dev
+2025-12-31T20:42:21: > next dev
+2025-12-31T20:42:21: 
+2025-12-31T20:42:24: [?25h
+2025-12-31T20:42:26: 
+2025-12-31T20:42:26: > www@0.1.1 dev
+2025-12-31T20:42:26: > next dev
+2025-12-31T20:42:26: 
+2025-12-31T20:42:29: [MDX] updated map file in 57.25357499999973ms
+2025-12-31T20:42:29: [MDX] started dev server
+2025-12-31T20:42:29: [?25h
+2025-12-31T20:42:29: [MDX] closing dev server
+2025-12-31T20:42:32: 
+2025-12-31T20:42:32: > www@0.1.1 dev
+2025-12-31T20:42:32: > next dev
+2025-12-31T20:42:32: 
+2025-12-31T20:42:34: [MDX] updated map file in 37.44636799999989ms
+2025-12-31T20:42:34: [MDX] started dev server
+2025-12-31T20:42:34: [?25h
+2025-12-31T20:42:34: [MDX] closing dev server
+2025-12-31T20:42:37: 
+2025-12-31T20:42:37: > www@0.1.1 dev
+2025-12-31T20:42:37: > next dev
+2025-12-31T20:42:37: 
+2025-12-31T20:42:39: [?25h
+2025-12-31T20:42:42: 
+2025-12-31T20:42:42: > www@0.1.1 dev
+2025-12-31T20:42:42: > next dev
+2025-12-31T20:42:42: 
+2025-12-31T20:42:44: [?25h
+2025-12-31T20:42:47: 
+2025-12-31T20:42:47: > www@0.1.1 dev
+2025-12-31T20:42:47: > next dev
+2025-12-31T20:42:47: 
+2025-12-31T20:42:49: [?25h
+2025-12-31T20:42:52: 
+2025-12-31T20:42:52: > www@0.1.1 dev
+2025-12-31T20:42:52: > next dev
+2025-12-31T20:42:52: 
+2025-12-31T20:42:54: [MDX] updated map file in 41.70254700000032ms
+2025-12-31T20:42:54: [?25h
+2025-12-31T20:42:54: 
+2025-12-31T20:42:54: [MDX] closing dev server
+2025-12-31T20:42:56: 
+2025-12-31T20:42:56: > www@0.1.1 dev
+2025-12-31T20:42:56: > next dev
+2025-12-31T20:42:56: 
+2025-12-31T20:42:58: [?25h
+2025-12-31T20:42:58: 
+2025-12-31T20:43:01: 
+2025-12-31T20:43:01: > www@0.1.1 dev
+2025-12-31T20:43:01: > next dev
+2025-12-31T20:43:01: 
+2025-12-31T20:43:04: [?25h
+2025-12-31T20:43:06: 
+2025-12-31T20:43:06: > www@0.1.1 dev
+2025-12-31T20:43:06: > next dev
+2025-12-31T20:43:06: 
+2025-12-31T20:43:09: [MDX] updated map file in 75.42874699999993ms
+2025-12-31T20:43:09: [?25h
+2025-12-31T20:43:09: [MDX] closing dev server
+2025-12-31T20:43:12: 
+2025-12-31T20:43:12: > www@0.1.1 dev
+2025-12-31T20:43:12: > next dev
+2025-12-31T20:43:12: 
+2025-12-31T20:43:14: [?25h
+2025-12-31T20:43:17: 
+2025-12-31T20:43:17: > www@0.1.1 dev
+2025-12-31T20:43:17: > next dev
+2025-12-31T20:43:17: 
+2025-12-31T20:43:20: [?25h
+2025-12-31T20:43:23: 
+2025-12-31T20:43:23: > www@0.1.1 dev
+2025-12-31T20:43:23: > next dev
+2025-12-31T20:43:23: 
+2025-12-31T20:43:28: [?25h
+2025-12-31T20:43:31: 
+2025-12-31T20:43:31: > www@0.1.1 dev
+2025-12-31T20:43:31: > next dev
+2025-12-31T20:43:31: 
+2025-12-31T20:43:32: [MDX] updated map file in 26.450918ms
+2025-12-31T20:43:32: [MDX] started dev server
+2025-12-31T20:43:33:    ▲ Next.js 15.5.9
+2025-12-31T20:43:33:    - Local:        http://localhost:3000
+2025-12-31T20:43:33:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:43:33:    - Environments: .env.local
+2025-12-31T20:43:33:    - Experiments (use with caution):
+2025-12-31T20:43:33:      ✓ inlineCss
+2025-12-31T20:43:33:      · clientTraceMetadata
+2025-12-31T20:43:33: 
+2025-12-31T20:43:33:  ✓ Starting...
+2025-12-31T20:43:36: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:43:38:  ✓ Ready in 5.7s
+2025-12-31T20:43:59:  ○ Compiling / ...
+2025-12-31T20:49:19: 
+2025-12-31T20:49:19: > www@0.1.1 dev
+2025-12-31T20:49:19: > next dev
+2025-12-31T20:49:19: 
+2025-12-31T20:49:21: [MDX] updated map file in 23.871957000000066ms
+2025-12-31T20:49:21: [MDX] started dev server
+2025-12-31T20:49:21:    ▲ Next.js 15.5.9
+2025-12-31T20:49:21:    - Local:        http://localhost:3000
+2025-12-31T20:49:21:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:49:21:    - Environments: .env.local
+2025-12-31T20:49:21:    - Experiments (use with caution):
+2025-12-31T20:49:21:      ✓ inlineCss
+2025-12-31T20:49:21:      · clientTraceMetadata
+2025-12-31T20:49:21: 
+2025-12-31T20:49:21:  ✓ Starting...
+2025-12-31T20:49:23: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:49:25:  ✓ Ready in 4.9s
+2025-12-31T20:49:37:  ○ Compiling / ...
+2025-12-31T20:51:56: 
+2025-12-31T20:51:56: > www@0.1.1 dev
+2025-12-31T20:51:56: > next dev
+2025-12-31T20:51:56: 
+2025-12-31T20:51:58: [MDX] updated map file in 53.364896000000044ms
+2025-12-31T20:51:58: [MDX] started dev server
+2025-12-31T20:51:59:    ▲ Next.js 15.5.9
+2025-12-31T20:51:59:    - Local:        http://localhost:3000
+2025-12-31T20:51:59:    - Network:      http://134.209.57.20:3000
+2025-12-31T20:51:59:    - Environments: .env.local
+2025-12-31T20:51:59:    - Experiments (use with caution):
+2025-12-31T20:51:59:      ✓ inlineCss
+2025-12-31T20:51:59:      · clientTraceMetadata
+2025-12-31T20:51:59: 
+2025-12-31T20:51:59:  ✓ Starting...
+2025-12-31T20:52:03: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T20:52:06:  ✓ Ready in 8.2s
+2025-12-31T20:52:10:  ○ Compiling / ...
+2025-12-31T20:53:34:  ✓ Compiled / in 84.1s (3316 modules)
+2025-12-31T20:53:39:  ○ Compiling /_error ...
+2025-12-31T21:33:58: 
+2025-12-31T21:33:58: > www@0.1.1 dev
+2025-12-31T21:33:58: > next dev
+2025-12-31T21:33:58: 
+2025-12-31T21:34:00: [MDX] updated map file in 20.03864499999986ms
+2025-12-31T21:34:00: [MDX] started dev server
+2025-12-31T21:34:01:    ▲ Next.js 15.5.9
+2025-12-31T21:34:01:    - Local:        http://localhost:3000
+2025-12-31T21:34:01:    - Network:      http://134.209.57.20:3000
+2025-12-31T21:34:01:    - Environments: .env.local
+2025-12-31T21:34:01:    - Experiments (use with caution):
+2025-12-31T21:34:01:      ✓ inlineCss
+2025-12-31T21:34:01:      · clientTraceMetadata
+2025-12-31T21:34:01: 
+2025-12-31T21:34:01:  ✓ Starting...
+2025-12-31T21:34:03: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T21:34:06:  ✓ Ready in 5.8s
+2025-12-31T21:34:18:  ○ Compiling / ...
+2025-12-31T21:34:42:  ✓ Compiled / in 24.7s (3586 modules)
+2025-12-31T21:34:52:  GET / 200 in 34296ms
+2025-12-31T21:34:53:    ▲ Next.js 15.5.9
+2025-12-31T21:34:53:    - Local:        http://localhost:3000
+2025-12-31T21:34:53:    - Network:      http://134.209.57.20:3000
+2025-12-31T21:34:53:    - Environments: .env.local
+2025-12-31T21:34:53:    - Experiments (use with caution):
+2025-12-31T21:34:53:      ✓ inlineCss
+2025-12-31T21:34:53:      · clientTraceMetadata
+2025-12-31T21:34:53: 
+2025-12-31T21:34:53:  ✓ Starting...
+2025-12-31T21:34:56: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2025-12-31T21:34:58:  ✓ Ready in 6.1s
+2025-12-31T21:35:00:  ○ Compiling / ...
+2025-12-31T21:35:35:  ✓ Compiled / in 35.7s (3586 modules)
+2025-12-31T21:35:36:  ✓ Compiled in 1355ms (2232 modules)
+2025-12-31T21:37:05: [?25h
+2025-12-31T21:37:05: [MDX] closing dev server

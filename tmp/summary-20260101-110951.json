@@ -1,0 +1,4 @@
+{
+  "summary": "Successfully migrated /client from Next.js to Vite + React + TanStack Router. Converted all client portal features (auth, dashboard, requests) to match /app and /admin template structure. Created client-specific routes, stores, API utilities, and features. Client portal now uses same template as other subdomains with client-focused features and permissions.",
+  "current_status": "All three subdomains now use Vite + React + TanStack Router with same shadcn/ui template: /app (port 5000), /admin (port 5002), /client (port 5001). Client portal migrated with magic link auth, dashboard, and request management. All services running successfully."
+}

@@ -1,0 +1,4 @@
+{
+  "summary": "Added automated error reporting rule to cursor rules. The rule requires the agent to check for unresolved Sentry errors at the start of each session, prioritize critical errors, fix them, and mark them as resolved. Added comprehensive error reporting workflow section with priority levels and critical rules.",
+  "current_status": "Automated error reporting system is fully set up: Sentry webhook receiver, agent query endpoints, database table, and cursor rules. Agent will now automatically check for and fix errors. User needs to configure Sentry webhook to complete the setup."
+}

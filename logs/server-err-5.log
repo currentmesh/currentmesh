@@ -1,0 +1,15 @@
+2026-01-03T02:53:58: ValidationError: The Express 'trust proxy' setting is true, which allows anyone to trivially bypass IP-based rate limiting. See https://express-rate-limit.github.io/ERR_ERL_PERMISSIVE_TRUST_PROXY/ for more information.
+2026-01-03T02:53:58:     at Object.trustProxy (file:///var/www/currentmesh/server/node_modules/express-rate-limit/dist/index.mjs:319:13)
+2026-01-03T02:53:58:     at wrappedValidations.<computed> [as trustProxy] (file:///var/www/currentmesh/server/node_modules/express-rate-limit/dist/index.mjs:651:22)
+2026-01-03T02:53:58:     at Object.keyGenerator (file:///var/www/currentmesh/server/node_modules/express-rate-limit/dist/index.mjs:753:20)
+2026-01-03T02:53:58:     at file:///var/www/currentmesh/server/node_modules/express-rate-limit/dist/index.mjs:815:32
+2026-01-03T02:53:58:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-03T02:53:58:     at async file:///var/www/currentmesh/server/node_modules/express-rate-limit/dist/index.mjs:796:5 {
+2026-01-03T02:53:58:   code: 'ERR_ERL_PERMISSIVE_TRUST_PROXY',
+2026-01-03T02:53:58:   help: 'https://express-rate-limit.github.io/ERR_ERL_PERMISSIVE_TRUST_PROXY/'
+2026-01-03T02:53:58: }
+2026-01-03T03:40:42: [WARN] 2026-01-03T03:40:42.521Z - Sentry webhook received without issue data {
+2026-01-03T03:40:42:   action: 'created',
+2026-01-03T03:40:42:   eventType: undefined,
+2026-01-03T03:40:42:   bodyKeys: [ 'action', 'installation', 'data', 'actor' ]
+2026-01-03T03:40:42: }

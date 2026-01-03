@@ -1,0 +1,292 @@
+2026-01-01T02:14:33:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:14:35: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:14:35: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:14:35: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:14:35: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:14:37:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:14:37: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:15:30:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:15:32: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:15:32: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:15:32: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:15:32: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:15:34:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:15:34: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:16:39:  ⨯ [TypeError: controller[kState].transformAlgorithm is not a function] {
+2026-01-01T02:16:39:   digest: '2876339905'
+2026-01-01T02:16:39: }
+2026-01-01T02:16:39:  ⨯ [TypeError: controller[kState].transformAlgorithm is not a function] {
+2026-01-01T02:16:39:   digest: '2876339905'
+2026-01-01T02:16:39: }
+2026-01-01T02:16:39:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T02:16:42:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:16:44: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:16:44: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:16:44: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:16:44: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:16:47:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:16:47: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:19:17:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:19:19: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:19:19: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:19:19: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:19:19: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:19:20:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:19:20: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:19:54:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T02:19:58:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:19:59: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:19:59: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:19:59: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:19:59: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:20:01:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:20:01: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:21:05:  ⨯ [TypeError: controller[kState].transformAlgorithm is not a function] {
+2026-01-01T02:21:05:   digest: '2876339905'
+2026-01-01T02:21:05: }
+2026-01-01T02:21:05:  ⨯ [TypeError: controller[kState].transformAlgorithm is not a function] {
+2026-01-01T02:21:05:   digest: '2876339905'
+2026-01-01T02:21:05: }
+2026-01-01T02:21:05:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T02:21:09:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:21:12: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:21:12: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:21:12: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:21:12: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:21:15:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:21:15: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:22:48:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T02:22:52:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:22:54: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:22:54: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:22:54: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:22:54: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:22:56:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:22:56: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:24:50:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:24:51: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:24:51: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:24:51: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:24:51: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:24:53:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:24:53: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:25:32:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T02:25:36:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T02:25:37: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T02:25:37: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T02:25:37: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T02:25:37: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T02:25:39:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T02:25:39: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19: <--- Last few GCs --->
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19: [76556:0x1a6e21b0]    46149 ms: Mark-Compact (reduce) 1394.1 (1417.3) -> 1394.1 (1417.3) MB, 586.09 / 0.00 ms  (average mu = 0.178, current mu = 0.005) allocation failure; scavenge might not succeed
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19: <--- JS stacktrace --->
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19: FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+2026-01-01T02:26:19: ----- Native stack trace -----
+2026-01-01T02:26:19: 
+2026-01-01T02:26:19:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  2: 0xee6120 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  3: 0xee6407 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  4: 0x10f8055  [next-server (v15.5.9)]
+2026-01-01T02:26:19:  5: 0x110fed8 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  6: 0x10e5ff1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  7: 0x10e7185 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  8: 0x10c38a6 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T02:26:19:  9: 0x10b54d4 v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawWithImmortalMap(int, v8::internal::AllocationType, v8::internal::Map, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 10: 0x10b87e7 v8::internal::FactoryBase<v8::internal::Factory>::NewRawTwoByteString(int, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 11: 0x10ced1b v8::internal::Factory::NewStringFromUtf8(v8::base::Vector<char const> const&, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 12: 0xef89b2 v8::String::NewFromUtf8(v8::Isolate*, char const*, v8::NewStringType, int) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 13: 0xddd531  [next-server (v15.5.9)]
+2026-01-01T02:26:19: 14: 0xc806e0  [next-server (v15.5.9)]
+2026-01-01T02:26:19: 15: 0xf4e54f v8::internal::FunctionCallbackArguments::Call(v8::internal::CallHandlerInfo) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 16: 0xf4edbd  [next-server (v15.5.9)]
+2026-01-01T02:26:19: 17: 0xf4f285 v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [next-server (v15.5.9)]
+2026-01-01T02:26:19: 18: 0x1959df6  [next-server (v15.5.9)]
+2026-01-01T09:52:20:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T09:52:25: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T09:52:25: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T09:52:25: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T09:52:25: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T09:52:29:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T09:52:29: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T09:53:23:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T09:53:23:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:10:67)
+2026-01-01T09:53:23:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T09:53:23:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T09:53:23:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T09:53:23:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T09:53:23:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1)
+2026-01-01T09:53:24:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T09:53:24:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:10:67)
+2026-01-01T09:53:24:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T09:53:24:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T09:53:24:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T09:53:24:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T09:53:24:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1) {
+2026-01-01T09:53:24:   page: '/'
+2026-01-01T09:53:24: }
+2026-01-01T09:53:45:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T09:53:50:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T09:53:51: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T09:53:51: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T09:53:51: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T09:53:51: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T09:53:53:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T09:53:53: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T09:56:40:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:10:67)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1)
+2026-01-01T09:56:40:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:10:67)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T09:56:40:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T09:56:40:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1) {
+2026-01-01T09:56:40:   page: '/'
+2026-01-01T09:56:40: }
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59: <--- Last few GCs --->
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59: [246551:0x225371b0]   192716 ms: Mark-Compact (reduce) 1314.9 (1359.9) -> 1294.1 (1326.7) MB, 396.42 / 0.02 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 400 ms) (average mu = 0.273, current mu = 0.2[246551:0x225371b0]   192889 ms: Scavenge (reduce) 1316.3 (1348.9) -> 1316.3 (1348.9) MB, 2.63 / 0.00 ms  (average mu = 0.273, current mu = 0.259) external memory pressure; 
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59: <--- JS stacktrace --->
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+2026-01-01T09:56:59: ----- Native stack trace -----
+2026-01-01T09:56:59: 
+2026-01-01T09:56:59:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  2: 0xee6120 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  3: 0xee6407 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  4: 0x10f8055  [next-server (v15.5.9)]
+2026-01-01T09:56:59:  5: 0x10f85e4 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  6: 0x110f4d4 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  7: 0x110fcec v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  8: 0x10e5ff1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T09:56:59:  9: 0x10e7185 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 10: 0x10c38a6 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 11: 0x10b54d4 v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawWithImmortalMap(int, v8::internal::AllocationType, v8::internal::Map, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 12: 0x10b87e7 v8::internal::FactoryBase<v8::internal::Factory>::NewRawTwoByteString(int, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 13: 0x1408dd5 v8::internal::String::SlowFlatten(v8::internal::Isolate*, v8::internal::Handle<v8::internal::ConsString>, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 14: 0xef51bd v8::String::Utf8Length(v8::Isolate*) const [next-server (v15.5.9)]
+2026-01-01T09:56:59: 15: 0xc7b182  [next-server (v15.5.9)]
+2026-01-01T09:56:59: 16: 0xf4e54f v8::internal::FunctionCallbackArguments::Call(v8::internal::CallHandlerInfo) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 17: 0xf4edbd  [next-server (v15.5.9)]
+2026-01-01T09:56:59: 18: 0xf4f285 v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [next-server (v15.5.9)]
+2026-01-01T09:56:59: 19: 0x1959df6  [next-server (v15.5.9)]
+2026-01-01T18:12:55:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T18:12:57: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T18:12:57: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T18:12:57: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T18:12:57: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T18:12:59:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T18:12:59: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T18:13:37:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:13:37:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:13:37:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:13:37:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:13:37:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:13:37:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:13:37:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:13:37:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:13:37:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1)
+2026-01-01T18:13:38:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:13:38:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:13:38:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:13:38:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:13:38:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:13:38:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:13:38:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:13:38:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:13:38:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1) {
+2026-01-01T18:13:38:   page: '/'
+2026-01-01T18:13:38: }
+2026-01-01T18:14:00:  ⚠ Server is approaching the used memory threshold, restarting...
+2026-01-01T18:14:03:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T18:14:05: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T18:14:05: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T18:14:05: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T18:14:05: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T18:14:07:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T18:14:07: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T18:14:43:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:14:43:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:14:43:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:14:43:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:14:43:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:14:43:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:14:43:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:14:43:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:14:43:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1)
+2026-01-01T18:14:44:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:14:44:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:14:44:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:14:44:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:14:44:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:14:44:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:14:44:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:14:44:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:14:44:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1) {
+2026-01-01T18:14:44:   page: '/'
+2026-01-01T18:14:44: }
+2026-01-01T18:14:48:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1)
+2026-01-01T18:14:48:  ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/ui/button.tsx:10:78)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/ui/button.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:308:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/discord-link.tsx:14:79)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/discord-link.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:99:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./components/site-header.tsx:10:82)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./components/site-header.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:275:1)
+2026-01-01T18:14:48:     at eval (webpack-internal:///(rsc)/./app/(marketing)/layout.tsx:14:81)
+2026-01-01T18:14:48:     at <unknown> (rsc)/./app/(marketing)/layout.tsx (/var/www/currentmesh/marketing/.next/server/app/(marketing)/page.js:33:1) {
+2026-01-01T18:14:48:   page: '/'
+2026-01-01T18:14:48: }
+2026-01-01T18:15:04: 
+2026-01-01T18:15:04: <--- Last few GCs --->
+2026-01-01T18:15:04: 
+2026-01-01T18:15:04: [303345:0x422441b0]    61832 ms: Mark-Compact (reduce) 1317.1 (1355.7) -> 1296.0 (1342.0) MB, 612.99 / 0.03 ms  (+ 30.0 ms in 1 steps since start of marking, biggest step 30.0 ms, walltime since start of marking 661 ms) (average mu = 0.255, current mu = 0[303345:0x422441b0]    62589 ms: Mark-Compact (reduce) 1317.1 (1363.1) -> 1296.0 (1326.6) MB, 505.25 / 0.03 ms  (+ 20.0 ms in 1 steps since start of marking, biggest step 20.0 ms, walltime since start of marking 558 ms) (average mu = 0.280, current mu = 0
+2026-01-01T18:15:04: 
+2026-01-01T18:15:04: <--- JS stacktrace --->
+2026-01-01T18:15:04: 
+2026-01-01T18:15:04: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+2026-01-01T18:15:04: ----- Native stack trace -----
+2026-01-01T18:15:04: 
+2026-01-01T18:15:04:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  2: 0xee6120 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  3: 0xee6407 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [next-server 
+2026-01-01T18:15:04: (v15.5.9)]
+2026-01-01T18:15:04:  4: 0x10f8055  [next-server (v15.5.9)]
+2026-01-01T18:15:04:  5: 0x10f85e4 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  6: 0x110f4d4 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  7: 0x110fcec v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  8: 0x10e5ff1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T18:15:04:  9: 0x10e7185 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 10: 0x10c38a6 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 11: 0x10b54d4 v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawWithImmortalMap(int, v8::internal::AllocationType, v8
+2026-01-01T18:15:04: ::internal::Map, v8::internal::AllocationAlignment) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 12: 0x10b87e7 v8::internal::FactoryBase<v8::internal::Factory>::NewRawTwoByteString(int, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 13: 0x1408dd5 v8::internal::String::SlowFlatten(v8::internal::Isolate*, v8::internal::Handle<v8::internal::ConsString>, v8::internal::AllocationType) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 14: 0xef51bd v8::String::Utf8Length(v8::Isolate*) const [next-server (v15.5.9)]
+2026-01-01T18:15:04: 15: 0xc7b182  [next-server (v15.5.9)]
+2026-01-01T18:15:04: 16: 0xf4e54f v8::internal::FunctionCallbackArguments::Call(v8::internal::CallHandlerInfo) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 17: 0xf4edbd  [next-server (v15.5.9)]
+2026-01-01T18:15:04: 18: 0xf4f285 v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [next-server (v15.5.9)]
+2026-01-01T18:15:04: 19: 0x1959df6  [next-server (v15.5.9)]

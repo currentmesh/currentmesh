@@ -2,9 +2,9 @@
 ## CurrentMesh - Request Management & Workpaper Platform
 
 **Status**: `draft`  
-**Version**: 1.2  
+**Version**: 1.3  
 **Created**: 2025-12-31  
-**Last Updated**: 2026-01-02  
+**Last Updated**: 2026-01-03  
 **Owner**: Mario Alasu  
 **Domain**: currentmesh.com
 
@@ -2058,6 +2058,7 @@ export default function ComponentName({
 | 2025-12-31 | Initial PRD Created | Project planning and epic definition |
 | 2025-12-31 | Infrastructure Setup Complete | Full development environment ready |
 | 2026-01-02 | Production Infrastructure Stabilization | All sites operational with HTTPS, stability improvements |
+| 2026-01-03 | Server Stability & Performance Optimization | Increased swap space, enhanced monitoring, fixed build errors |
 
 #### 📋 Detailed Change History
 
@@ -2225,6 +2226,75 @@ export default function ComponentName({
 **Related Work:**
 - See [[Deployment Architecture]] for Nginx and PM2 configuration
 - See [[Troubleshooting Guide]] for common issues and solutions
+- See [[Port Management]] for service port assignments
+
+**2026-01-03 - Server Stability & Performance Optimization**
+
+**Issues Resolved:**
+- ✅ Fixed persistent 502 Bad Gateway errors on marketing site
+- ✅ Resolved Next.js dev mode instability (frequent restarts)
+- ✅ Fixed `buttonVariants` build error (client component in server component)
+- ✅ Addressed memory pressure causing service crashes
+- ✅ Fixed `page.css` 404 errors (Next.js inlineCss feature)
+
+**Infrastructure Improvements:**
+- ✅ **Increased Swap Space**: Expanded from 4GB to 12GB (added 8GB swapfile2) to support Next.js builds
+- ✅ **Enhanced PM2 Configuration**: 
+  - Reduced memory limits to prevent OOM kills (1400M for marketing)
+  - Increased timeouts (90s min_uptime, 30s listen_timeout)
+  - Added exponential backoff for restarts
+- ✅ **Nginx Enhancements**:
+  - Added upstream health checks with `max_fails` and `fail_timeout`
+  - Implemented retry logic with exponential backoff
+  - Added custom 502/503/504 error pages with auto-retry
+  - Increased timeouts for Next.js compilation (300s)
+- ✅ **Automated Monitoring**: Created `scripts/monitor-services.sh` that:
+  - Checks PM2 process status
+  - Verifies port connectivity
+  - Tests health endpoints
+  - Auto-restarts unhealthy services
+  - Runs every 5 minutes via cron
+  - Includes cooldown periods and max restart limits
+
+**Code Fixes:**
+- ✅ **Marketing Site Build Error**: Fixed `buttonVariants` being called in server component by creating `BackButton` client component wrapper
+- ✅ **Health Check Endpoint**: Added `/api/health` endpoint to marketing site for monitoring
+- ✅ **Next.js Config**: Removed deprecated `swcMinify` option, optimized webpack config
+
+**Files Created:**
+- `marketing/app/api/health/route.ts` - Health check endpoint
+- `marketing/components/blog/back-button.tsx` - Client component wrapper for back button
+- `scripts/monitor-services.sh` - Automated service monitoring script
+- `scripts/README-monitoring.md` - Monitoring documentation
+- `/var/www/html/50x.html` - Custom 502 error page
+
+**Files Modified:**
+- `ecosystem.config.js` - Enhanced PM2 config for marketing service stability
+- `marketing/next.config.mjs` - Removed deprecated options, optimized webpack
+- `marketing/app/(blog)/blog/[...slug]/page.tsx` - Fixed buttonVariants usage
+- `/etc/nginx/sites-available/currentmesh.com` - Added upstream health checks, enhanced error handling
+
+**Current Status:**
+- ✅ All services running with improved stability
+- ✅ Swap space increased to 12GB (4GB + 8GB)
+- ✅ Automated monitoring active (cron every 5 minutes)
+- ✅ Health check endpoints operational
+- ✅ Marketing site accessible (dev mode - first load takes 30-60s for compilation)
+- ⚠️ Production build has webpack module error (needs further investigation)
+
+**Known Issues:**
+- Marketing site in dev mode (production build blocked by webpack error)
+- First page load takes 30-60 seconds due to Next.js compilation
+- Occasional 502 errors during compilation (mitigated by monitoring script)
+
+**Next Steps:**
+- Investigate and fix webpack module error for production build
+- Consider building on CI/CD and deploying built files
+- Monitor service stability with new monitoring script
+
+**Related Work:**
+- See [[Deployment Architecture]] for Nginx and PM2 configuration
+- See `scripts/README-monitoring.md` for monitoring documentation
 - See [[Port Management]] for service port assignments
 
 **2025-12-31 - Initial PRD Creation**

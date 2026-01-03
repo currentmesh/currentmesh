@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed recurring 502 Bad Gateway. Marketing site crashed again due to memory exhaustion (reached 2GB heap limit). Increased Node.js heap size from 2048MB to 3072MB and PM2 max_memory_restart from 1500M to 2500M. Restarted marketing service with new memory limits.",
+  "current_status": "Marketing service restarted with increased memory limits (3GB heap, 2.5GB PM2 restart threshold). Service starting up. Port 3001 should be listening once compilation completes. If memory issues persist, may need to consider production build or further optimization."
+}

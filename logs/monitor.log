@@ -1,0 +1,2872 @@
+[2026-01-02 03:20:01] 🔍 Starting service health check...
+[2026-01-02 03:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 03:20:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:20:06] ✅ currentmesh-server is healthy
+[2026-01-02 03:20:07] ✅ currentmesh-app is healthy
+[2026-01-02 03:20:09] ✅ currentmesh-admin is healthy
+[2026-01-02 03:20:09] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 03:20:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:20:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:20:16] 🏁 Health check complete
+[2026-01-02 03:25:01] 🔍 Starting service health check...
+[2026-01-02 03:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 03:25:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:25:06] ✅ currentmesh-server is healthy
+[2026-01-02 03:25:06] ✅ currentmesh-app is healthy
+[2026-01-02 03:25:07] ✅ currentmesh-admin is healthy
+[2026-01-02 03:25:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 03:25:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:25:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:25:13] 🏁 Health check complete
+[2026-01-02 03:30:01] 🔍 Starting service health check...
+[2026-01-02 03:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 03:30:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 03:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 03:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:30:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:30:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:35:01] 🔍 Starting service health check...
+[2026-01-02 03:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 03:35:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:35:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:35:06] ✅ currentmesh-app is healthy
+[2026-01-02 03:35:07] ✅ currentmesh-admin is healthy
+[2026-01-02 03:35:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:35:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:35:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:35:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:40:01] 🔍 Starting service health check...
+[2026-01-02 03:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 03:40:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:40:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:40:05] ✅ currentmesh-app is healthy
+[2026-01-02 03:40:05] ✅ currentmesh-admin is healthy
+[2026-01-02 03:40:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:40:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:40:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:40:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:45:01] 🔍 Starting service health check...
+[2026-01-02 03:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 03:45:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:45:06] 🔍 Starting service health check...
+[2026-01-02 03:45:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:45:06] ✅ currentmesh-client is healthy
+[2026-01-02 03:45:07] ✅ currentmesh-app is healthy
+[2026-01-02 03:45:07] ✅ currentmesh-admin is healthy
+[2026-01-02 03:45:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:45:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:45:07] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:45:08] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:45:09] ✅ currentmesh-app is healthy
+[2026-01-02 03:45:09] ✅ currentmesh-admin is healthy
+[2026-01-02 03:45:09] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:45:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:45:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:45:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:45:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:45:15] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:50:01] 🔍 Starting service health check...
+[2026-01-02 03:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 03:50:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:50:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:50:05] ✅ currentmesh-app is healthy
+[2026-01-02 03:50:06] ✅ currentmesh-admin is healthy
+[2026-01-02 03:50:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:50:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:50:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:50:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 03:55:01] 🔍 Starting service health check...
+[2026-01-02 03:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 03:55:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 03:55:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 03:55:05] ✅ currentmesh-app is healthy
+[2026-01-02 03:55:06] ✅ currentmesh-admin is healthy
+[2026-01-02 03:55:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 03:55:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 03:55:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 03:55:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:00:02] 🔍 Starting service health check...
+[2026-01-02 04:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:00:05] 🔍 Starting service health check...
+[2026-01-02 04:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 04:00:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:00:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:00:07] ✅ currentmesh-app is healthy
+[2026-01-02 04:00:07] ✅ currentmesh-admin is healthy
+[2026-01-02 04:00:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:00:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:00:08] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:00:08] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:00:08] ✅ currentmesh-app is healthy
+[2026-01-02 04:00:09] ✅ currentmesh-admin is healthy
+[2026-01-02 04:00:09] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:00:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:00:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:00:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:00:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:00:15] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:05:01] 🔍 Starting service health check...
+[2026-01-02 04:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:05:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:05:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:05:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:05:06] ✅ currentmesh-admin is healthy
+[2026-01-02 04:05:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:05:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:05:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:05:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:10:01] 🔍 Starting service health check...
+[2026-01-02 04:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 04:10:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:10:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:10:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:10:06] ✅ currentmesh-admin is healthy
+[2026-01-02 04:10:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:10:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:10:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:10:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:15:01] 🔍 Starting service health check...
+[2026-01-02 04:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 04:15:04] 🔍 Starting service health check...
+[2026-01-02 04:15:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:15:05] ✅ currentmesh-client is healthy
+[2026-01-02 04:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:15:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:15:06] ✅ currentmesh-admin is healthy
+[2026-01-02 04:15:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:15:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:15:07] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:15:07] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:15:08] ✅ currentmesh-app is healthy
+[2026-01-02 04:15:08] ✅ currentmesh-admin is healthy
+[2026-01-02 04:15:08] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:15:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:15:12] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:15:12] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:15:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:15:15] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:20:01] 🔍 Starting service health check...
+[2026-01-02 04:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:20:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:20:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:20:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:20:07] ✅ currentmesh-admin is healthy
+[2026-01-02 04:20:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:20:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:20:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:20:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:25:01] 🔍 Starting service health check...
+[2026-01-02 04:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 04:25:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:25:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:25:05] ✅ currentmesh-app is healthy
+[2026-01-02 04:25:05] ✅ currentmesh-admin is healthy
+[2026-01-02 04:25:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:25:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:25:11] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:25:11] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:30:01] 🔍 Starting service health check...
+[2026-01-02 04:30:01] ✅ currentmesh-client is healthy
+[2026-01-02 04:30:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:30:05] 🔍 Starting service health check...
+[2026-01-02 04:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:30:06] ✅ currentmesh-client is healthy
+[2026-01-02 04:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:30:07] ✅ currentmesh-admin is healthy
+[2026-01-02 04:30:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:30:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:30:07] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:30:08] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:30:08] ✅ currentmesh-app is healthy
+[2026-01-02 04:30:09] ✅ currentmesh-admin is healthy
+[2026-01-02 04:30:09] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:30:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:30:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:30:14] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:30:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:30:16] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:35:01] 🔍 Starting service health check...
+[2026-01-02 04:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 04:35:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:35:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:35:05] ✅ currentmesh-app is healthy
+[2026-01-02 04:35:06] ✅ currentmesh-admin is healthy
+[2026-01-02 04:35:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:35:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:35:11] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:35:11] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:40:02] 🔍 Starting service health check...
+[2026-01-02 04:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:40:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:40:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:40:06] ✅ currentmesh-app is healthy
+[2026-01-02 04:40:07] ✅ currentmesh-admin is healthy
+[2026-01-02 04:40:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:40:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:40:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 04:40:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 04:45:01] 🔍 Starting service health check...
+[2026-01-02 04:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:45:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 04:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 04:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 04:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:50:01] 🔍 Starting service health check...
+[2026-01-02 04:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 04:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 04:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 04:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 04:55:01] 🔍 Starting service health check...
+[2026-01-02 04:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 04:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 04:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 04:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 04:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 04:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 04:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:00:01] 🔍 Starting service health check...
+[2026-01-02 05:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 05:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 05:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:00:04] 🔍 Starting service health check...
+[2026-01-02 05:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 05:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 05:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 05:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:05:01] 🔍 Starting service health check...
+[2026-01-02 05:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:10:01] 🔍 Starting service health check...
+[2026-01-02 05:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:15:01] 🔍 Starting service health check...
+[2026-01-02 05:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 05:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 05:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:15:04] 🔍 Starting service health check...
+[2026-01-02 05:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 05:15:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 05:15:06] ✅ currentmesh-admin is healthy
+[2026-01-02 05:15:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:15:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:20:01] 🔍 Starting service health check...
+[2026-01-02 05:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:25:01] 🔍 Starting service health check...
+[2026-01-02 05:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 05:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:30:01] 🔍 Starting service health check...
+[2026-01-02 05:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 05:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 05:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:30:05] 🔍 Starting service health check...
+[2026-01-02 05:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 05:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 05:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 05:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:35:01] 🔍 Starting service health check...
+[2026-01-02 05:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 05:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:35:03] ✅ currentmesh-app is healthy
+[2026-01-02 05:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:40:01] 🔍 Starting service health check...
+[2026-01-02 05:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 05:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:45:01] 🔍 Starting service health check...
+[2026-01-02 05:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 05:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:45:04] 🔍 Starting service health check...
+[2026-01-02 05:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 05:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 05:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 05:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:50:01] 🔍 Starting service health check...
+[2026-01-02 05:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 05:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 05:55:01] 🔍 Starting service health check...
+[2026-01-02 05:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 05:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 05:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 05:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 05:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 05:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 05:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:00:01] 🔍 Starting service health check...
+[2026-01-02 06:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:00:04] 🔍 Starting service health check...
+[2026-01-02 06:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 06:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:00:06] ✅ currentmesh-app is healthy
+[2026-01-02 06:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 06:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:05:02] 🔍 Starting service health check...
+[2026-01-02 06:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:10:01] 🔍 Starting service health check...
+[2026-01-02 06:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:15:01] 🔍 Starting service health check...
+[2026-01-02 06:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:15:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:15:04] 🔍 Starting service health check...
+[2026-01-02 06:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 06:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 06:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 06:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:20:01] 🔍 Starting service health check...
+[2026-01-02 06:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 06:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:25:01] 🔍 Starting service health check...
+[2026-01-02 06:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:30:01] 🔍 Starting service health check...
+[2026-01-02 06:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:30:04] 🔍 Starting service health check...
+[2026-01-02 06:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 06:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 06:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 06:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:35:01] 🔍 Starting service health check...
+[2026-01-02 06:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 06:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:35:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 06:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 06:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:40:01] 🔍 Starting service health check...
+[2026-01-02 06:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 06:40:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:40:02] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 06:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 06:40:02] ✅ currentmesh-admin is healthy
+[2026-01-02 06:40:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 06:40:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:45:01] 🔍 Starting service health check...
+[2026-01-02 06:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 06:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:45:03] ✅ currentmesh-server is healthy
+[2026-01-02 06:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:45:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 06:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:45:04] 🔍 Starting service health check...
+[2026-01-02 06:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 06:45:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:45:05] ✅ currentmesh-server is healthy
+[2026-01-02 06:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 06:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 06:45:05] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 06:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:50:01] 🔍 Starting service health check...
+[2026-01-02 06:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 06:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:50:02] ✅ currentmesh-server is healthy
+[2026-01-02 06:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:50:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 06:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 06:55:01] 🔍 Starting service health check...
+[2026-01-02 06:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 06:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 06:55:02] ✅ currentmesh-server is healthy
+[2026-01-02 06:55:03] ✅ currentmesh-app is healthy
+[2026-01-02 06:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 06:55:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 06:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:00:01] 🔍 Starting service health check...
+[2026-01-02 07:00:01] ✅ currentmesh-client is healthy
+[2026-01-02 07:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:00:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 07:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:00:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:00:04] 🔍 Starting service health check...
+[2026-01-02 07:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 07:00:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:00:05] ✅ currentmesh-server is healthy
+[2026-01-02 07:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 07:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 07:00:05] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:05:01] 🔍 Starting service health check...
+[2026-01-02 07:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:05:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:05:03] ✅ currentmesh-app is healthy
+[2026-01-02 07:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:05:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:10:01] 🔍 Starting service health check...
+[2026-01-02 07:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:10:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 07:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:10:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:15:01] 🔍 Starting service health check...
+[2026-01-02 07:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 07:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:15:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 07:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:15:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:15:04] 🔍 Starting service health check...
+[2026-01-02 07:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 07:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:15:05] ✅ currentmesh-server is healthy
+[2026-01-02 07:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 07:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 07:15:05] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:20:01] 🔍 Starting service health check...
+[2026-01-02 07:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:20:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 07:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:20:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:25:01] 🔍 Starting service health check...
+[2026-01-02 07:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:25:02] ✅ currentmesh-server is healthy
+[2026-01-02 07:25:03] ✅ currentmesh-app is healthy
+[2026-01-02 07:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 07:25:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:30:01] 🔍 Starting service health check...
+[2026-01-02 07:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:30:03] ✅ currentmesh-server is healthy
+[2026-01-02 07:30:04] ✅ currentmesh-app is healthy
+[2026-01-02 07:30:04] ✅ currentmesh-admin is healthy
+[2026-01-02 07:30:04] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:30:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:30:04] 🔍 Starting service health check...
+[2026-01-02 07:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 07:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 07:30:05] ✅ currentmesh-server is healthy
+[2026-01-02 07:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 07:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 07:30:06] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:35:01] 🔍 Starting service health check...
+[2026-01-02 07:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:35:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:35:07] ✅ currentmesh-server is healthy
+[2026-01-02 07:35:08] ✅ currentmesh-app is healthy
+[2026-01-02 07:35:09] ✅ currentmesh-admin is healthy
+[2026-01-02 07:35:09] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:35:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:35:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:35:16] 🏁 Health check complete
+[2026-01-02 07:40:01] 🔍 Starting service health check...
+[2026-01-02 07:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:40:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:40:06] ✅ currentmesh-server is healthy
+[2026-01-02 07:40:06] ✅ currentmesh-app is healthy
+[2026-01-02 07:40:07] ✅ currentmesh-admin is healthy
+[2026-01-02 07:40:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:40:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:40:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:40:13] 🏁 Health check complete
+[2026-01-02 07:45:01] 🔍 Starting service health check...
+[2026-01-02 07:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:45:05] 🔍 Starting service health check...
+[2026-01-02 07:45:05] ✅ currentmesh-client is healthy
+[2026-01-02 07:45:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:45:07] ✅ currentmesh-server is healthy
+[2026-01-02 07:45:07] ✅ currentmesh-app is healthy
+[2026-01-02 07:45:08] ✅ currentmesh-admin is healthy
+[2026-01-02 07:45:08] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:45:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:45:10] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:45:10] ✅ currentmesh-server is healthy
+[2026-01-02 07:45:11] ✅ currentmesh-app is healthy
+[2026-01-02 07:45:11] ✅ currentmesh-admin is healthy
+[2026-01-02 07:45:11] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:45:11] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:45:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:45:16] 🏁 Health check complete
+[2026-01-02 07:45:17] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:45:17] 🏁 Health check complete
+[2026-01-02 07:50:01] 🔍 Starting service health check...
+[2026-01-02 07:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:50:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:50:06] ✅ currentmesh-server is healthy
+[2026-01-02 07:50:07] ✅ currentmesh-app is healthy
+[2026-01-02 07:50:07] ✅ currentmesh-admin is healthy
+[2026-01-02 07:50:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:50:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:50:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:50:14] 🏁 Health check complete
+[2026-01-02 07:55:01] 🔍 Starting service health check...
+[2026-01-02 07:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 07:55:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 07:55:07] ✅ currentmesh-server is healthy
+[2026-01-02 07:55:07] ✅ currentmesh-app is healthy
+[2026-01-02 07:55:08] ✅ currentmesh-admin is healthy
+[2026-01-02 07:55:08] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 07:55:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 07:55:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 07:55:16] 🏁 Health check complete
+[2026-01-02 08:00:01] 🔍 Starting service health check...
+[2026-01-02 08:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:00:06] 🔍 Starting service health check...
+[2026-01-02 08:00:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:00:06] ✅ currentmesh-client is healthy
+[2026-01-02 08:00:07] ✅ currentmesh-server is healthy
+[2026-01-02 08:00:07] ✅ currentmesh-app is healthy
+[2026-01-02 08:00:08] ✅ currentmesh-admin is healthy
+[2026-01-02 08:00:08] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:00:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:00:09] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:00:09] ✅ currentmesh-server is healthy
+[2026-01-02 08:00:10] ✅ currentmesh-app is healthy
+[2026-01-02 08:00:11] ✅ currentmesh-admin is healthy
+[2026-01-02 08:00:11] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:00:11] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:00:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:00:15] 🏁 Health check complete
+[2026-01-02 08:00:17] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:00:17] 🏁 Health check complete
+[2026-01-02 08:05:01] 🔍 Starting service health check...
+[2026-01-02 08:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:05:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:05:07] ✅ currentmesh-server is healthy
+[2026-01-02 08:05:07] ⚠️  currentmesh-app port 5000 is not listening
+[2026-01-02 08:05:08] ✅ currentmesh-admin is healthy
+[2026-01-02 08:05:08] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-app
+[2026-01-02 08:05:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:05:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:05:15] 🔄 Attempting to recover currentmesh-app...
+[2026-01-02 08:05:21] ✅ currentmesh-app recovered successfully
+[2026-01-02 08:05:21] 🏁 Health check complete
+[2026-01-02 08:10:01] 🔍 Starting service health check...
+[2026-01-02 08:10:03] ✅ currentmesh-client is healthy
+[2026-01-02 08:10:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:10:07] ✅ currentmesh-server is healthy
+[2026-01-02 08:10:08] ✅ currentmesh-app is healthy
+[2026-01-02 08:10:08] ✅ currentmesh-admin is healthy
+[2026-01-02 08:10:08] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:10:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:10:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:10:15] 🏁 Health check complete
+[2026-01-02 08:15:39] 🔍 Starting service health check...
+[2026-01-02 08:19:36] ⚠️  currentmesh-client is not responding on port 5001
+[2026-01-02 08:19:38] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 08:19:39] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 08:19:39] ⚠️  currentmesh-app is not running in PM2
+[2026-01-02 08:19:40] ⚠️  currentmesh-admin is not running in PM2
+[2026-01-02 08:19:41] ⚠️  Found 5 failed service(s): currentmesh-client currentmesh-marketing currentmesh-server currentmesh-app currentmesh-admin
+[2026-01-02 08:19:41] 🔄 Attempting to recover currentmesh-client...
+[2026-01-02 08:19:41] 🔍 Starting service health check...
+[2026-01-02 08:19:42] ⚠️  currentmesh-client is not running in PM2
+[2026-01-02 08:19:42] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 08:19:43] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 08:19:43] ⚠️  currentmesh-app is not running in PM2
+[2026-01-02 08:19:44] ⚠️  currentmesh-admin is not running in PM2
+[2026-01-02 08:19:44] ⚠️  Found 5 failed service(s): currentmesh-client currentmesh-marketing currentmesh-server currentmesh-app currentmesh-admin
+[2026-01-02 08:19:44] 🔄 Attempting to recover currentmesh-client...
+[2026-01-02 08:20:01] 🔍 Starting service health check...
+[2026-01-02 08:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 08:20:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 08:20:02] ✅ currentmesh-server is healthy
+[2026-01-02 08:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 08:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 08:20:03] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:25:01] 🔍 Starting service health check...
+[2026-01-02 08:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:25:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:25:06] ✅ currentmesh-server is healthy
+[2026-01-02 08:25:06] ✅ currentmesh-app is healthy
+[2026-01-02 08:25:07] ✅ currentmesh-admin is healthy
+[2026-01-02 08:25:08] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:25:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:30:01] 🔍 Starting service health check...
+[2026-01-02 08:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:30:04] 🔍 Starting service health check...
+[2026-01-02 08:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 08:30:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:30:06] ✅ currentmesh-server is healthy
+[2026-01-02 08:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 08:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 08:30:06] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:30:07] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:30:08] ✅ currentmesh-server is healthy
+[2026-01-02 08:30:08] ✅ currentmesh-app is healthy
+[2026-01-02 08:30:09] ✅ currentmesh-admin is healthy
+[2026-01-02 08:30:09] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:30:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:30:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:30:14] 🏁 Health check complete
+[2026-01-02 08:30:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:30:15] 🏁 Health check complete
+[2026-01-02 08:35:01] 🔍 Starting service health check...
+[2026-01-02 08:35:03] ✅ currentmesh-client is healthy
+[2026-01-02 08:35:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:35:08] ✅ currentmesh-server is healthy
+[2026-01-02 08:35:10] ✅ currentmesh-app is healthy
+[2026-01-02 08:35:12] ✅ currentmesh-admin is healthy
+[2026-01-02 08:35:12] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:35:12] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:35:20] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:35:20] 🏁 Health check complete
+[2026-01-02 08:40:01] 🔍 Starting service health check...
+[2026-01-02 08:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:40:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:40:07] ✅ currentmesh-server is healthy
+[2026-01-02 08:40:08] ✅ currentmesh-app is healthy
+[2026-01-02 08:40:09] ✅ currentmesh-admin is healthy
+[2026-01-02 08:40:09] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:40:09] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:40:16] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:40:16] 🏁 Health check complete
+[2026-01-02 08:45:01] 🔍 Starting service health check...
+[2026-01-02 08:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:45:05] 🔍 Starting service health check...
+[2026-01-02 08:45:05] ✅ currentmesh-client is healthy
+[2026-01-02 08:45:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:45:06] ✅ currentmesh-server is healthy
+[2026-01-02 08:45:07] ✅ currentmesh-app is healthy
+[2026-01-02 08:45:07] ✅ currentmesh-admin is healthy
+[2026-01-02 08:45:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:45:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:45:09] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:45:09] ✅ currentmesh-server is healthy
+[2026-01-02 08:45:10] ✅ currentmesh-app is healthy
+[2026-01-02 08:45:11] ✅ currentmesh-admin is healthy
+[2026-01-02 08:45:11] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:45:11] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:45:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:45:15] 🏁 Health check complete
+[2026-01-02 08:45:19] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:45:19] 🏁 Health check complete
+[2026-01-02 08:50:01] 🔍 Starting service health check...
+[2026-01-02 08:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 08:50:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:50:06] ✅ currentmesh-server is healthy
+[2026-01-02 08:50:07] ✅ currentmesh-app is healthy
+[2026-01-02 08:50:07] ✅ currentmesh-admin is healthy
+[2026-01-02 08:50:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:50:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:50:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:50:14] 🏁 Health check complete
+[2026-01-02 08:55:01] 🔍 Starting service health check...
+[2026-01-02 08:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 08:55:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 08:55:06] ✅ currentmesh-server is healthy
+[2026-01-02 08:55:06] ✅ currentmesh-app is healthy
+[2026-01-02 08:55:07] ✅ currentmesh-admin is healthy
+[2026-01-02 08:55:07] ⚠️  Found 1 failed service(s): currentmesh-marketing
+[2026-01-02 08:55:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 08:55:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 08:55:13] 🏁 Health check complete
+[2026-01-02 09:00:01] 🔍 Starting service health check...
+[2026-01-02 09:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:00:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:00:08] ✅ currentmesh-server is healthy
+[2026-01-02 09:00:09] 🔍 Starting service health check...
+[2026-01-02 09:00:10] ⚠️  currentmesh-app port 5000 is not listening
+[2026-01-02 09:00:11] ⚠️  currentmesh-admin port 5002 is not listening
+[2026-01-02 09:00:11] ⚠️  Found 3 failed service(s): currentmesh-marketing currentmesh-app currentmesh-admin
+[2026-01-02 09:00:11] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:00:11] ⚠️  currentmesh-client port 5001 is not listening
+[2026-01-02 09:00:12] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:00:13] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:00:14] ⚠️  currentmesh-app port 5000 is not listening
+[2026-01-02 09:00:15] ✅ currentmesh-admin is healthy
+[2026-01-02 09:00:15] ⚠️  Found 4 failed service(s): currentmesh-client currentmesh-marketing currentmesh-server currentmesh-app
+[2026-01-02 09:00:15] 🔄 Attempting to recover currentmesh-client...
+[2026-01-02 09:00:18] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:00:18] 🔄 Attempting to recover currentmesh-app...
+[2026-01-02 09:00:23] ✅ currentmesh-client recovered successfully
+[2026-01-02 09:00:23] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:00:26] ✅ currentmesh-app recovered successfully
+[2026-01-02 09:00:26] 🔄 Attempting to recover currentmesh-admin...
+[2026-01-02 09:00:32] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:00:32] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:00:35] ✅ currentmesh-admin recovered successfully
+[2026-01-02 09:00:35] 🏁 Health check complete
+[2026-01-02 09:00:48] ✅ currentmesh-server recovered successfully
+[2026-01-02 09:00:48] 🔄 Attempting to recover currentmesh-app...
+[2026-01-02 09:00:54] ✅ currentmesh-app recovered successfully
+[2026-01-02 09:00:54] 🏁 Health check complete
+[2026-01-02 09:05:01] 🔍 Starting service health check...
+[2026-01-02 09:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 09:05:04] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:05:05] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:05:06] ✅ currentmesh-app is healthy
+[2026-01-02 09:05:07] ✅ currentmesh-admin is healthy
+[2026-01-02 09:05:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:05:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:05:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:05:14] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:05:30] ✅ currentmesh-server recovered successfully
+[2026-01-02 09:05:30] 🏁 Health check complete
+[2026-01-02 09:10:01] 🔍 Starting service health check...
+[2026-01-02 09:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:10:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:10:06] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:10:06] ✅ currentmesh-app is healthy
+[2026-01-02 09:10:07] ✅ currentmesh-admin is healthy
+[2026-01-02 09:10:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:10:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:10:13] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:10:13] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:10:22] ✅ currentmesh-server recovered successfully
+[2026-01-02 09:10:22] 🏁 Health check complete
+[2026-01-02 09:15:01] 🔍 Starting service health check...
+[2026-01-02 09:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:15:05] ✅ currentmesh-marketing is healthy
+[2026-01-02 09:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:15:06] ✅ currentmesh-app is healthy
+[2026-01-02 09:15:06] ✅ currentmesh-admin is healthy
+[2026-01-02 09:15:06] ⚠️  Found 1 failed service(s): currentmesh-server
+[2026-01-02 09:15:06] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:20:01] 🔍 Starting service health check...
+[2026-01-02 09:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:20:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:20:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:20:07] ⚠️  currentmesh-app port 5000 is not listening
+[2026-01-02 09:20:08] ⚠️  currentmesh-admin port 5002 is not listening
+[2026-01-02 09:20:08] ⚠️  Found 4 failed service(s): currentmesh-marketing currentmesh-server currentmesh-app currentmesh-admin
+[2026-01-02 09:20:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:20:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:20:15] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:25:02] 🔍 Starting service health check...
+[2026-01-02 09:25:03] ✅ currentmesh-client is healthy
+[2026-01-02 09:25:06] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:25:07] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:25:07] ✅ currentmesh-app is healthy
+[2026-01-02 09:25:08] ✅ currentmesh-admin is healthy
+[2026-01-02 09:25:08] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:25:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:25:17] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:25:17] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:30:01] 🔍 Starting service health check...
+[2026-01-02 09:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:30:04] 🔍 Starting service health check...
+[2026-01-02 09:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 09:30:05] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 09:30:07] ✅ currentmesh-admin is healthy
+[2026-01-02 09:30:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:30:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:30:07] ⚠️  currentmesh-marketing is not responding on port 3001
+[2026-01-02 09:30:07] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:30:08] ✅ currentmesh-app is healthy
+[2026-01-02 09:30:08] ✅ currentmesh-admin is healthy
+[2026-01-02 09:30:08] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:30:08] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:30:14] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:30:14] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:30:15] ✅ currentmesh-marketing recovered successfully
+[2026-01-02 09:30:15] 🔄 Attempting to recover currentmesh-server...
+[2026-01-02 09:38:07] 🔍 Starting service health check...
+[2026-01-02 09:39:47] ⚠️  currentmesh-client is not responding on port 5001
+[2026-01-02 09:39:47] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:39:48] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:39:49] ⚠️  currentmesh-app port 5000 is not listening
+[2026-01-02 09:39:49] ⚠️  currentmesh-admin port 5002 is not listening
+[2026-01-02 09:39:49] ⚠️  Found 5 failed service(s): currentmesh-client currentmesh-marketing currentmesh-server currentmesh-app currentmesh-admin
+[2026-01-02 09:39:49] 🔄 Attempting to recover currentmesh-client...
+[2026-01-02 09:39:56] ✅ currentmesh-client recovered successfully
+[2026-01-02 09:39:56] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:40:01] 🔍 Starting service health check...
+[2026-01-02 09:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:40:06] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:40:06] ✅ currentmesh-app is healthy
+[2026-01-02 09:40:06] ✅ currentmesh-admin is healthy
+[2026-01-02 09:40:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:40:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:45:01] 🔍 Starting service health check...
+[2026-01-02 09:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:45:04] 🔍 Starting service health check...
+[2026-01-02 09:45:04] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 09:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 09:45:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 09:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:45:06] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:45:07] ✅ currentmesh-app is healthy
+[2026-01-02 09:45:07] ✅ currentmesh-admin is healthy
+[2026-01-02 09:45:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:45:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:50:01] 🔍 Starting service health check...
+[2026-01-02 09:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 09:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:50:04] ⚠️  currentmesh-server is not responding on port 3000
+[2026-01-02 09:50:04] ✅ currentmesh-app is healthy
+[2026-01-02 09:50:05] ✅ currentmesh-admin is healthy
+[2026-01-02 09:50:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:50:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 09:55:01] 🔍 Starting service health check...
+[2026-01-02 09:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 09:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 09:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 09:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 09:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 09:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 09:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:00:01] 🔍 Starting service health check...
+[2026-01-02 10:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 10:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 10:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:05:01] 🔍 Starting service health check...
+[2026-01-02 10:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 10:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:10:01] 🔍 Starting service health check...
+[2026-01-02 10:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:15:01] 🔍 Starting service health check...
+[2026-01-02 10:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 10:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:15:04] 🔍 Starting service health check...
+[2026-01-02 10:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 10:15:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 10:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 10:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:20:01] 🔍 Starting service health check...
+[2026-01-02 10:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:20:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 10:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:25:01] 🔍 Starting service health check...
+[2026-01-02 10:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 10:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:30:01] 🔍 Starting service health check...
+[2026-01-02 10:30:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:30:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 10:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:30:04] 🔍 Starting service health check...
+[2026-01-02 10:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 10:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 10:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 10:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:35:01] 🔍 Starting service health check...
+[2026-01-02 10:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:40:01] 🔍 Starting service health check...
+[2026-01-02 10:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:45:01] 🔍 Starting service health check...
+[2026-01-02 10:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 10:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 10:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 10:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:45:04] 🔍 Starting service health check...
+[2026-01-02 10:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 10:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 10:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 10:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:50:01] 🔍 Starting service health check...
+[2026-01-02 10:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:50:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 10:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 10:55:01] 🔍 Starting service health check...
+[2026-01-02 10:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 10:55:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 10:55:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 10:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 10:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 10:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 10:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:00:02] 🔍 Starting service health check...
+[2026-01-02 11:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:00:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:00:04] ✅ currentmesh-app is healthy
+[2026-01-02 11:00:04] ✅ currentmesh-admin is healthy
+[2026-01-02 11:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:00:05] 🔍 Starting service health check...
+[2026-01-02 11:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 11:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:00:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:00:06] ✅ currentmesh-app is healthy
+[2026-01-02 11:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 11:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:05:01] 🔍 Starting service health check...
+[2026-01-02 11:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 11:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:10:01] 🔍 Starting service health check...
+[2026-01-02 11:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:10:02] ✅ currentmesh-admin is healthy
+[2026-01-02 11:10:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:10:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:15:01] 🔍 Starting service health check...
+[2026-01-02 11:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 11:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:15:04] 🔍 Starting service health check...
+[2026-01-02 11:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 11:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 11:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 11:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:20:01] 🔍 Starting service health check...
+[2026-01-02 11:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:20:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 11:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:25:01] 🔍 Starting service health check...
+[2026-01-02 11:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 11:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:30:01] 🔍 Starting service health check...
+[2026-01-02 11:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 11:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 11:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:30:04] 🔍 Starting service health check...
+[2026-01-02 11:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 11:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 11:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 11:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:35:01] 🔍 Starting service health check...
+[2026-01-02 11:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 11:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:35:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 11:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:40:02] 🔍 Starting service health check...
+[2026-01-02 11:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:40:03] ✅ currentmesh-app is healthy
+[2026-01-02 11:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 11:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:45:01] 🔍 Starting service health check...
+[2026-01-02 11:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 11:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 11:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:45:04] 🔍 Starting service health check...
+[2026-01-02 11:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 11:45:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 11:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 11:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:50:01] 🔍 Starting service health check...
+[2026-01-02 11:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:50:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 11:50:04] ✅ currentmesh-admin is healthy
+[2026-01-02 11:50:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:50:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 11:55:01] 🔍 Starting service health check...
+[2026-01-02 11:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 11:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 11:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 11:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 11:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 11:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 11:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:00:01] 🔍 Starting service health check...
+[2026-01-02 12:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 12:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 12:00:04] ✅ currentmesh-admin is healthy
+[2026-01-02 12:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:00:04] 🔍 Starting service health check...
+[2026-01-02 12:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 12:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 12:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 12:00:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:05:01] 🔍 Starting service health check...
+[2026-01-02 12:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 12:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:10:01] 🔍 Starting service health check...
+[2026-01-02 12:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:15:01] 🔍 Starting service health check...
+[2026-01-02 12:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:15:04] 🔍 Starting service health check...
+[2026-01-02 12:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 12:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 12:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 12:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:20:02] 🔍 Starting service health check...
+[2026-01-02 12:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 12:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 12:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:25:01] 🔍 Starting service health check...
+[2026-01-02 12:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 12:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:30:01] 🔍 Starting service health check...
+[2026-01-02 12:30:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:30:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 12:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:30:04] 🔍 Starting service health check...
+[2026-01-02 12:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 12:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 12:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 12:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:35:01] 🔍 Starting service health check...
+[2026-01-02 12:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 12:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:40:01] 🔍 Starting service health check...
+[2026-01-02 12:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:40:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:40:02] ✅ currentmesh-admin is healthy
+[2026-01-02 12:40:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:40:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:45:01] 🔍 Starting service health check...
+[2026-01-02 12:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 12:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:45:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:45:03] 🔍 Starting service health check...
+[2026-01-02 12:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 12:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:45:04] ✅ currentmesh-app is healthy
+[2026-01-02 12:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 12:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:50:01] 🔍 Starting service health check...
+[2026-01-02 12:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 12:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 12:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 12:55:01] 🔍 Starting service health check...
+[2026-01-02 12:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 12:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 12:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 12:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 12:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 12:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 12:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:00:01] 🔍 Starting service health check...
+[2026-01-02 13:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 13:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:00:04] 🔍 Starting service health check...
+[2026-01-02 13:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 13:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 13:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 13:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:05:01] 🔍 Starting service health check...
+[2026-01-02 13:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:10:01] 🔍 Starting service health check...
+[2026-01-02 13:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 13:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:15:01] 🔍 Starting service health check...
+[2026-01-02 13:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:15:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 13:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:15:04] 🔍 Starting service health check...
+[2026-01-02 13:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 13:15:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 13:15:06] ✅ currentmesh-admin is healthy
+[2026-01-02 13:15:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:15:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:20:01] 🔍 Starting service health check...
+[2026-01-02 13:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 13:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:25:01] 🔍 Starting service health check...
+[2026-01-02 13:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 13:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 13:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:30:01] 🔍 Starting service health check...
+[2026-01-02 13:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:30:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 13:30:04] ✅ currentmesh-admin is healthy
+[2026-01-02 13:30:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:30:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:30:04] 🔍 Starting service health check...
+[2026-01-02 13:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 13:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 13:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 13:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:35:01] 🔍 Starting service health check...
+[2026-01-02 13:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:40:01] 🔍 Starting service health check...
+[2026-01-02 13:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 13:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:45:01] 🔍 Starting service health check...
+[2026-01-02 13:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 13:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:45:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:45:03] 🔍 Starting service health check...
+[2026-01-02 13:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 13:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 13:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 13:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:50:01] 🔍 Starting service health check...
+[2026-01-02 13:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 13:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 13:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 13:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 13:55:01] 🔍 Starting service health check...
+[2026-01-02 13:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 13:55:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 13:55:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 13:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 13:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 13:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 13:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:00:01] 🔍 Starting service health check...
+[2026-01-02 14:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:00:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 14:00:04] ✅ currentmesh-admin is healthy
+[2026-01-02 14:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:00:05] 🔍 Starting service health check...
+[2026-01-02 14:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 14:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:00:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:00:06] ✅ currentmesh-app is healthy
+[2026-01-02 14:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 14:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:05:01] 🔍 Starting service health check...
+[2026-01-02 14:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:05:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:05:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 14:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:10:01] 🔍 Starting service health check...
+[2026-01-02 14:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 14:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:15:01] 🔍 Starting service health check...
+[2026-01-02 14:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:15:04] 🔍 Starting service health check...
+[2026-01-02 14:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 14:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:15:04] ✅ currentmesh-app is healthy
+[2026-01-02 14:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 14:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:20:01] 🔍 Starting service health check...
+[2026-01-02 14:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 14:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:25:01] 🔍 Starting service health check...
+[2026-01-02 14:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:30:01] 🔍 Starting service health check...
+[2026-01-02 14:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 14:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 14:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:30:04] 🔍 Starting service health check...
+[2026-01-02 14:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 14:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 14:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 14:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:35:01] 🔍 Starting service health check...
+[2026-01-02 14:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 14:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:40:01] 🔍 Starting service health check...
+[2026-01-02 14:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:40:02] ✅ currentmesh-admin is healthy
+[2026-01-02 14:40:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:40:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:45:01] 🔍 Starting service health check...
+[2026-01-02 14:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:45:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:45:03] 🔍 Starting service health check...
+[2026-01-02 14:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 14:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:45:04] ✅ currentmesh-app is healthy
+[2026-01-02 14:45:04] ✅ currentmesh-admin is healthy
+[2026-01-02 14:45:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:45:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:50:01] 🔍 Starting service health check...
+[2026-01-02 14:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 14:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 14:55:01] 🔍 Starting service health check...
+[2026-01-02 14:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 14:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 14:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 14:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 14:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 14:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 14:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:00:01] 🔍 Starting service health check...
+[2026-01-02 15:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 15:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 15:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:00:04] 🔍 Starting service health check...
+[2026-01-02 15:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 15:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 15:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 15:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:05:01] 🔍 Starting service health check...
+[2026-01-02 15:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 15:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:10:01] 🔍 Starting service health check...
+[2026-01-02 15:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:15:01] 🔍 Starting service health check...
+[2026-01-02 15:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:15:04] 🔍 Starting service health check...
+[2026-01-02 15:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 15:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 15:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 15:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:20:01] 🔍 Starting service health check...
+[2026-01-02 15:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 15:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:25:01] 🔍 Starting service health check...
+[2026-01-02 15:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 15:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:30:01] 🔍 Starting service health check...
+[2026-01-02 15:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 15:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 15:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:30:04] 🔍 Starting service health check...
+[2026-01-02 15:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 15:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 15:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 15:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:35:01] 🔍 Starting service health check...
+[2026-01-02 15:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 15:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:40:01] 🔍 Starting service health check...
+[2026-01-02 15:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:40:02] ✅ currentmesh-admin is healthy
+[2026-01-02 15:40:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:40:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:45:01] 🔍 Starting service health check...
+[2026-01-02 15:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 15:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:45:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:45:04] 🔍 Starting service health check...
+[2026-01-02 15:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 15:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 15:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 15:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:50:01] 🔍 Starting service health check...
+[2026-01-02 15:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 15:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 15:55:01] 🔍 Starting service health check...
+[2026-01-02 15:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 15:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 15:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 15:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 15:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 15:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 15:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:00:01] 🔍 Starting service health check...
+[2026-01-02 16:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 16:00:04] ✅ currentmesh-admin is healthy
+[2026-01-02 16:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:00:04] 🔍 Starting service health check...
+[2026-01-02 16:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 16:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:00:06] ✅ currentmesh-app is healthy
+[2026-01-02 16:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 16:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:05:01] 🔍 Starting service health check...
+[2026-01-02 16:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:10:01] 🔍 Starting service health check...
+[2026-01-02 16:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 16:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:15:01] 🔍 Starting service health check...
+[2026-01-02 16:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 16:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:15:04] 🔍 Starting service health check...
+[2026-01-02 16:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 16:15:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 16:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 16:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:20:01] 🔍 Starting service health check...
+[2026-01-02 16:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 16:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:25:01] 🔍 Starting service health check...
+[2026-01-02 16:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 16:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:30:01] 🔍 Starting service health check...
+[2026-01-02 16:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:30:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 16:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:30:04] 🔍 Starting service health check...
+[2026-01-02 16:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 16:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:30:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 16:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 16:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:35:01] 🔍 Starting service health check...
+[2026-01-02 16:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 16:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:40:01] 🔍 Starting service health check...
+[2026-01-02 16:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:45:01] 🔍 Starting service health check...
+[2026-01-02 16:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 16:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 16:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 16:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:45:04] 🔍 Starting service health check...
+[2026-01-02 16:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 16:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 16:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 16:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:50:01] 🔍 Starting service health check...
+[2026-01-02 16:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 16:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 16:55:01] 🔍 Starting service health check...
+[2026-01-02 16:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 16:55:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 16:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 16:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 16:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 16:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 16:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:00:01] 🔍 Starting service health check...
+[2026-01-02 17:00:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 17:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:00:04] 🔍 Starting service health check...
+[2026-01-02 17:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 17:00:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 17:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 17:00:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:05:01] 🔍 Starting service health check...
+[2026-01-02 17:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:05:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:05:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 17:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:10:01] 🔍 Starting service health check...
+[2026-01-02 17:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:10:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:10:02] ✅ currentmesh-admin is healthy
+[2026-01-02 17:10:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:10:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:15:01] 🔍 Starting service health check...
+[2026-01-02 17:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:15:03] 🔍 Starting service health check...
+[2026-01-02 17:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 17:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 17:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 17:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:20:01] 🔍 Starting service health check...
+[2026-01-02 17:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 17:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 17:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:25:01] 🔍 Starting service health check...
+[2026-01-02 17:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:25:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 17:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:30:01] 🔍 Starting service health check...
+[2026-01-02 17:30:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:30:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:30:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:30:04] 🔍 Starting service health check...
+[2026-01-02 17:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 17:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:30:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 17:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 17:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:35:01] 🔍 Starting service health check...
+[2026-01-02 17:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:35:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 17:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:40:02] 🔍 Starting service health check...
+[2026-01-02 17:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 17:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:40:03] ✅ currentmesh-app is healthy
+[2026-01-02 17:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:45:02] 🔍 Starting service health check...
+[2026-01-02 17:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 17:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 17:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:45:04] 🔍 Starting service health check...
+[2026-01-02 17:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 17:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 17:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 17:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:50:01] 🔍 Starting service health check...
+[2026-01-02 17:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 17:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 17:55:01] 🔍 Starting service health check...
+[2026-01-02 17:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 17:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 17:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 17:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 17:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 17:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 17:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:00:01] 🔍 Starting service health check...
+[2026-01-02 18:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 18:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:00:04] 🔍 Starting service health check...
+[2026-01-02 18:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 18:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 18:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 18:00:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:05:01] 🔍 Starting service health check...
+[2026-01-02 18:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 18:05:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 18:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:10:01] 🔍 Starting service health check...
+[2026-01-02 18:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 18:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:15:01] 🔍 Starting service health check...
+[2026-01-02 18:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 18:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:15:03] 🔍 Starting service health check...
+[2026-01-02 18:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 18:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:15:04] ✅ currentmesh-app is healthy
+[2026-01-02 18:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 18:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:20:01] 🔍 Starting service health check...
+[2026-01-02 18:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:25:01] 🔍 Starting service health check...
+[2026-01-02 18:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 18:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:30:01] 🔍 Starting service health check...
+[2026-01-02 18:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 18:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:30:04] 🔍 Starting service health check...
+[2026-01-02 18:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 18:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 18:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 18:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:35:01] 🔍 Starting service health check...
+[2026-01-02 18:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:40:01] 🔍 Starting service health check...
+[2026-01-02 18:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:45:01] 🔍 Starting service health check...
+[2026-01-02 18:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 18:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 18:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 18:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:45:04] 🔍 Starting service health check...
+[2026-01-02 18:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 18:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 18:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 18:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:50:01] 🔍 Starting service health check...
+[2026-01-02 18:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 18:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 18:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 18:55:01] 🔍 Starting service health check...
+[2026-01-02 18:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 18:55:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 18:55:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 18:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 18:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 18:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 18:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:00:01] 🔍 Starting service health check...
+[2026-01-02 19:00:01] ✅ currentmesh-client is healthy
+[2026-01-02 19:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:00:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:00:04] 🔍 Starting service health check...
+[2026-01-02 19:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 19:00:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:00:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:00:04] ✅ currentmesh-app is healthy
+[2026-01-02 19:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 19:00:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:05:01] 🔍 Starting service health check...
+[2026-01-02 19:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:10:01] 🔍 Starting service health check...
+[2026-01-02 19:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 19:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:15:01] 🔍 Starting service health check...
+[2026-01-02 19:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 19:15:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:15:03] 🔍 Starting service health check...
+[2026-01-02 19:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 19:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:15:04] ✅ currentmesh-app is healthy
+[2026-01-02 19:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 19:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:20:01] 🔍 Starting service health check...
+[2026-01-02 19:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 19:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:25:02] 🔍 Starting service health check...
+[2026-01-02 19:25:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:25:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:25:03] ✅ currentmesh-app is healthy
+[2026-01-02 19:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:30:01] 🔍 Starting service health check...
+[2026-01-02 19:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 19:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:30:04] 🔍 Starting service health check...
+[2026-01-02 19:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 19:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 19:30:06] ✅ currentmesh-admin is healthy
+[2026-01-02 19:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:35:01] 🔍 Starting service health check...
+[2026-01-02 19:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:40:01] 🔍 Starting service health check...
+[2026-01-02 19:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:45:01] 🔍 Starting service health check...
+[2026-01-02 19:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 19:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 19:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:45:04] 🔍 Starting service health check...
+[2026-01-02 19:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 19:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 19:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 19:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:50:01] 🔍 Starting service health check...
+[2026-01-02 19:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 19:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 19:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 19:55:01] 🔍 Starting service health check...
+[2026-01-02 19:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 19:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 19:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 19:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 19:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 19:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 19:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:00:01] 🔍 Starting service health check...
+[2026-01-02 20:00:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 20:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:00:04] 🔍 Starting service health check...
+[2026-01-02 20:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 20:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 20:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 20:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:05:01] 🔍 Starting service health check...
+[2026-01-02 20:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 20:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:10:01] 🔍 Starting service health check...
+[2026-01-02 20:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:15:01] 🔍 Starting service health check...
+[2026-01-02 20:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:15:02] ✅ currentmesh-admin is healthy
+[2026-01-02 20:15:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:15:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:15:03] 🔍 Starting service health check...
+[2026-01-02 20:15:03] ✅ currentmesh-client is healthy
+[2026-01-02 20:15:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:15:04] ✅ currentmesh-app is healthy
+[2026-01-02 20:15:04] ✅ currentmesh-admin is healthy
+[2026-01-02 20:15:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:15:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:20:01] 🔍 Starting service health check...
+[2026-01-02 20:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:20:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 20:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:25:01] 🔍 Starting service health check...
+[2026-01-02 20:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:25:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 20:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:30:01] 🔍 Starting service health check...
+[2026-01-02 20:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 20:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 20:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:30:04] 🔍 Starting service health check...
+[2026-01-02 20:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 20:30:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 20:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 20:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:35:01] 🔍 Starting service health check...
+[2026-01-02 20:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 20:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:40:01] 🔍 Starting service health check...
+[2026-01-02 20:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 20:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:45:01] 🔍 Starting service health check...
+[2026-01-02 20:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 20:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 20:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 20:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:45:04] 🔍 Starting service health check...
+[2026-01-02 20:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 20:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 20:45:05] ✅ currentmesh-admin is healthy
+[2026-01-02 20:45:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:45:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:50:01] 🔍 Starting service health check...
+[2026-01-02 20:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 20:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 20:55:01] 🔍 Starting service health check...
+[2026-01-02 20:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 20:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 20:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 20:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 20:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 20:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 20:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:00:01] 🔍 Starting service health check...
+[2026-01-02 21:00:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 21:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 21:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:00:04] 🔍 Starting service health check...
+[2026-01-02 21:00:04] ✅ currentmesh-client is healthy
+[2026-01-02 21:00:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 21:00:05] ✅ currentmesh-admin is healthy
+[2026-01-02 21:00:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:00:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:05:01] 🔍 Starting service health check...
+[2026-01-02 21:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:05:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:05:01] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:10:01] 🔍 Starting service health check...
+[2026-01-02 21:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 21:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 21:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:15:01] 🔍 Starting service health check...
+[2026-01-02 21:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 21:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:15:03] 🔍 Starting service health check...
+[2026-01-02 21:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 21:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:15:04] ✅ currentmesh-app is healthy
+[2026-01-02 21:15:04] ✅ currentmesh-admin is healthy
+[2026-01-02 21:15:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:15:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:20:01] 🔍 Starting service health check...
+[2026-01-02 21:20:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:20:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:20:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:20:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:20:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:25:01] 🔍 Starting service health check...
+[2026-01-02 21:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:30:01] 🔍 Starting service health check...
+[2026-01-02 21:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 21:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 21:30:03] ✅ currentmesh-admin is healthy
+[2026-01-02 21:30:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:30:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:30:04] 🔍 Starting service health check...
+[2026-01-02 21:30:04] ✅ currentmesh-client is healthy
+[2026-01-02 21:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:30:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:30:05] ✅ currentmesh-app is healthy
+[2026-01-02 21:30:05] ✅ currentmesh-admin is healthy
+[2026-01-02 21:30:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:30:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:35:01] 🔍 Starting service health check...
+[2026-01-02 21:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:35:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:40:01] 🔍 Starting service health check...
+[2026-01-02 21:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:40:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:40:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:40:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:40:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:45:01] 🔍 Starting service health check...
+[2026-01-02 21:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:45:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:45:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:45:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:45:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:45:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:45:03] 🔍 Starting service health check...
+[2026-01-02 21:45:03] ✅ currentmesh-client is healthy
+[2026-01-02 21:45:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:45:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:45:04] ✅ currentmesh-app is healthy
+[2026-01-02 21:45:04] ✅ currentmesh-admin is healthy
+[2026-01-02 21:45:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:45:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:50:01] 🔍 Starting service health check...
+[2026-01-02 21:50:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:50:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:50:02] ✅ currentmesh-admin is healthy
+[2026-01-02 21:50:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:50:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 21:55:01] 🔍 Starting service health check...
+[2026-01-02 21:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 21:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 21:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 21:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 21:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 21:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 21:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:00:01] 🔍 Starting service health check...
+[2026-01-02 22:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:00:04] ✅ currentmesh-admin is healthy
+[2026-01-02 22:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:00:05] 🔍 Starting service health check...
+[2026-01-02 22:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 22:00:06] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:00:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:00:06] ✅ currentmesh-app is healthy
+[2026-01-02 22:00:07] ✅ currentmesh-admin is healthy
+[2026-01-02 22:00:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:00:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:05:01] 🔍 Starting service health check...
+[2026-01-02 22:05:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:05:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:05:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:05:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:10:01] 🔍 Starting service health check...
+[2026-01-02 22:10:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:10:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:10:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:10:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:15:01] 🔍 Starting service health check...
+[2026-01-02 22:15:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:15:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:15:04] 🔍 Starting service health check...
+[2026-01-02 22:15:05] ✅ currentmesh-client is healthy
+[2026-01-02 22:15:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:15:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 22:15:06] ✅ currentmesh-admin is healthy
+[2026-01-02 22:15:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:15:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:20:01] 🔍 Starting service health check...
+[2026-01-02 22:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:20:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:25:01] 🔍 Starting service health check...
+[2026-01-02 22:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 22:25:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 22:25:02] ✅ currentmesh-admin is healthy
+[2026-01-02 22:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:30:01] 🔍 Starting service health check...
+[2026-01-02 22:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:30:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:30:04] ✅ currentmesh-admin is healthy
+[2026-01-02 22:30:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:30:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:30:05] 🔍 Starting service health check...
+[2026-01-02 22:30:05] ✅ currentmesh-client is healthy
+[2026-01-02 22:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:30:06] ✅ currentmesh-app is healthy
+[2026-01-02 22:30:07] ✅ currentmesh-admin is healthy
+[2026-01-02 22:30:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:30:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:35:01] 🔍 Starting service health check...
+[2026-01-02 22:35:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:35:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:35:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:40:01] 🔍 Starting service health check...
+[2026-01-02 22:40:01] ✅ currentmesh-client is healthy
+[2026-01-02 22:40:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:40:02] ✅ currentmesh-app is healthy
+[2026-01-02 22:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:45:01] 🔍 Starting service health check...
+[2026-01-02 22:45:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:45:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:45:04] 🔍 Starting service health check...
+[2026-01-02 22:45:05] ✅ currentmesh-client is healthy
+[2026-01-02 22:45:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 22:45:06] ✅ currentmesh-admin is healthy
+[2026-01-02 22:45:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:45:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:50:01] 🔍 Starting service health check...
+[2026-01-02 22:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 22:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 22:55:01] 🔍 Starting service health check...
+[2026-01-02 22:55:02] ✅ currentmesh-client is healthy
+[2026-01-02 22:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 22:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 22:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 22:55:03] ✅ currentmesh-admin is healthy
+[2026-01-02 22:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 22:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:00:01] 🔍 Starting service health check...
+[2026-01-02 23:00:02] ✅ currentmesh-client is healthy
+[2026-01-02 23:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:00:03] ✅ currentmesh-app is healthy
+[2026-01-02 23:00:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:00:04] 🔍 Starting service health check...
+[2026-01-02 23:00:05] ✅ currentmesh-client is healthy
+[2026-01-02 23:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:00:05] ✅ currentmesh-app is healthy
+[2026-01-02 23:00:06] ✅ currentmesh-admin is healthy
+[2026-01-02 23:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:05:01] 🔍 Starting service health check...
+[2026-01-02 23:05:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:05:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:05:02] ✅ currentmesh-admin is healthy
+[2026-01-02 23:05:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:05:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:10:01] 🔍 Starting service health check...
+[2026-01-02 23:10:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:10:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:10:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:10:02] ✅ currentmesh-admin is healthy
+[2026-01-02 23:10:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:10:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:15:01] 🔍 Starting service health check...
+[2026-01-02 23:15:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:15:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:15:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:15:04] 🔍 Starting service health check...
+[2026-01-02 23:15:04] ✅ currentmesh-client is healthy
+[2026-01-02 23:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:15:05] ✅ currentmesh-app is healthy
+[2026-01-02 23:15:05] ✅ currentmesh-admin is healthy
+[2026-01-02 23:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:20:01] 🔍 Starting service health check...
+[2026-01-02 23:20:02] ✅ currentmesh-client is healthy
+[2026-01-02 23:20:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:20:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:20:03] ✅ currentmesh-app is healthy
+[2026-01-02 23:20:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:25:01] 🔍 Starting service health check...
+[2026-01-02 23:25:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:25:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:25:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:25:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:25:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:30:01] 🔍 Starting service health check...
+[2026-01-02 23:30:02] ✅ currentmesh-client is healthy
+[2026-01-02 23:30:03] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:30:04] ✅ currentmesh-app is healthy
+[2026-01-02 23:30:04] ✅ currentmesh-admin is healthy
+[2026-01-02 23:30:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:30:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:30:05] 🔍 Starting service health check...
+[2026-01-02 23:30:06] ✅ currentmesh-client is healthy
+[2026-01-02 23:30:06] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:30:07] ✅ currentmesh-app is healthy
+[2026-01-02 23:30:07] ✅ currentmesh-admin is healthy
+[2026-01-02 23:30:07] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:30:07] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:35:01] 🔍 Starting service health check...
+[2026-01-02 23:35:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:35:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:35:02] ✅ currentmesh-admin is healthy
+[2026-01-02 23:35:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:35:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:40:01] 🔍 Starting service health check...
+[2026-01-02 23:40:02] ✅ currentmesh-client is healthy
+[2026-01-02 23:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:40:03] ✅ currentmesh-app is healthy
+[2026-01-02 23:40:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:45:01] 🔍 Starting service health check...
+[2026-01-02 23:45:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:45:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:45:03] ✅ currentmesh-app is healthy
+[2026-01-02 23:45:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:45:04] 🔍 Starting service health check...
+[2026-01-02 23:45:04] ✅ currentmesh-client is healthy
+[2026-01-02 23:45:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:45:05] ✅ currentmesh-app is healthy
+[2026-01-02 23:45:06] ✅ currentmesh-admin is healthy
+[2026-01-02 23:45:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:45:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:50:01] 🔍 Starting service health check...
+[2026-01-02 23:50:02] ✅ currentmesh-client is healthy
+[2026-01-02 23:50:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:50:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:50:03] ✅ currentmesh-app is healthy
+[2026-01-02 23:50:03] ✅ currentmesh-admin is healthy
+[2026-01-02 23:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-02 23:55:01] 🔍 Starting service health check...
+[2026-01-02 23:55:01] ✅ currentmesh-client is healthy
+[2026-01-02 23:55:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-02 23:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-02 23:55:02] ✅ currentmesh-app is healthy
+[2026-01-02 23:55:02] ✅ currentmesh-admin is healthy
+[2026-01-02 23:55:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-02 23:55:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:00:01] 🔍 Starting service health check...
+[2026-01-03 00:00:01] ✅ currentmesh-client is healthy
+[2026-01-03 00:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:00:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:00:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:00:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:00:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:00:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:00:04] 🔍 Starting service health check...
+[2026-01-03 00:00:04] ✅ currentmesh-client is healthy
+[2026-01-03 00:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:00:05] ✅ currentmesh-app is healthy
+[2026-01-03 00:00:06] ✅ currentmesh-admin is healthy
+[2026-01-03 00:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:05:01] 🔍 Starting service health check...
+[2026-01-03 00:05:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:05:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:05:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:05:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:10:01] 🔍 Starting service health check...
+[2026-01-03 00:10:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:10:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:10:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:10:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:10:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:10:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:10:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:15:01] 🔍 Starting service health check...
+[2026-01-03 00:15:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:15:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:15:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:15:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:15:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:15:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:15:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:15:04] 🔍 Starting service health check...
+[2026-01-03 00:15:04] ✅ currentmesh-client is healthy
+[2026-01-03 00:15:04] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:15:04] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:15:05] ✅ currentmesh-app is healthy
+[2026-01-03 00:15:05] ✅ currentmesh-admin is healthy
+[2026-01-03 00:15:05] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:15:05] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:20:01] 🔍 Starting service health check...
+[2026-01-03 00:20:01] ✅ currentmesh-client is healthy
+[2026-01-03 00:20:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:20:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:20:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:20:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:20:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:20:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:25:01] 🔍 Starting service health check...
+[2026-01-03 00:25:01] ✅ currentmesh-client is healthy
+[2026-01-03 00:25:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:25:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:25:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:25:02] ✅ currentmesh-admin is healthy
+[2026-01-03 00:25:02] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:25:02] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:30:01] 🔍 Starting service health check...
+[2026-01-03 00:30:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:30:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:30:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:30:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:30:04] ✅ currentmesh-admin is healthy
+[2026-01-03 00:30:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:30:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:30:05] 🔍 Starting service health check...
+[2026-01-03 00:30:05] ✅ currentmesh-client is healthy
+[2026-01-03 00:30:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:30:06] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:30:06] ✅ currentmesh-app is healthy
+[2026-01-03 00:30:06] ✅ currentmesh-admin is healthy
+[2026-01-03 00:30:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:30:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:35:01] 🔍 Starting service health check...
+[2026-01-03 00:35:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:35:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:35:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:35:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:35:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:35:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:35:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:40:01] 🔍 Starting service health check...
+[2026-01-03 00:40:01] ✅ currentmesh-client is healthy
+[2026-01-03 00:40:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:40:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:40:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:40:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:40:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:40:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:45:01] 🔍 Starting service health check...
+[2026-01-03 00:45:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:45:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:45:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:45:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:45:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:45:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:45:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:45:04] 🔍 Starting service health check...
+[2026-01-03 00:45:05] ✅ currentmesh-client is healthy
+[2026-01-03 00:45:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:45:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:45:06] ✅ currentmesh-app is healthy
+[2026-01-03 00:45:06] ✅ currentmesh-admin is healthy
+[2026-01-03 00:45:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:45:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:50:01] 🔍 Starting service health check...
+[2026-01-03 00:50:01] ✅ currentmesh-client is healthy
+[2026-01-03 00:50:01] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:50:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:50:02] ✅ currentmesh-app is healthy
+[2026-01-03 00:50:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:50:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:50:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 00:55:02] 🔍 Starting service health check...
+[2026-01-03 00:55:02] ✅ currentmesh-client is healthy
+[2026-01-03 00:55:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 00:55:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 00:55:03] ✅ currentmesh-app is healthy
+[2026-01-03 00:55:03] ✅ currentmesh-admin is healthy
+[2026-01-03 00:55:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 00:55:03] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 01:00:01] 🔍 Starting service health check...
+[2026-01-03 01:00:01] ✅ currentmesh-client is healthy
+[2026-01-03 01:00:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 01:00:03] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 01:00:03] ✅ currentmesh-app is healthy
+[2026-01-03 01:00:04] ✅ currentmesh-admin is healthy
+[2026-01-03 01:00:04] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 01:00:04] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 01:00:04] 🔍 Starting service health check...
+[2026-01-03 01:00:05] ✅ currentmesh-client is healthy
+[2026-01-03 01:00:05] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 01:00:05] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 01:00:06] ✅ currentmesh-app is healthy
+[2026-01-03 01:00:06] ✅ currentmesh-admin is healthy
+[2026-01-03 01:00:06] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 01:00:06] 🔄 Attempting to recover currentmesh-marketing...
+[2026-01-03 01:05:01] 🔍 Starting service health check...
+[2026-01-03 01:05:01] ✅ currentmesh-client is healthy
+[2026-01-03 01:05:02] ⚠️  currentmesh-marketing is not running in PM2
+[2026-01-03 01:05:02] ⚠️  currentmesh-server is not running in PM2
+[2026-01-03 01:05:03] ✅ currentmesh-app is healthy
+[2026-01-03 01:05:03] ✅ currentmesh-admin is healthy
+[2026-01-03 01:05:03] ⚠️  Found 2 failed service(s): currentmesh-marketing currentmesh-server
+[2026-01-03 01:05:03] 🔄 Attempting to recover currentmesh-marketing...

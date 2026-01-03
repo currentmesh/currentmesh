@@ -1,0 +1,4 @@
+{
+  "summary": "Added root route (/) to API server to handle requests to base URL. Route returns API information including version, status, and available endpoints. Fixed 'Route GET / not found' error.",
+  "current_status": "API root route is working. Server responds with API information at both / and /api endpoints. All endpoints accessible and documented."
+}

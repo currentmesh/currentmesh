@@ -1,0 +1,4 @@
+{
+  "summary": "Added Sentry tags to all projects (marketing, admin, backend) for better error filtering and created error reporting workflow documentation. Tags include app, site, platform, and runtime identifiers. Created guides for error reporting workflow, Sentry alerts setup, and quick reference documentation.",
+  "current_status": "Sentry is fully configured with tags for all projects. Error reporting workflow established: user monitors Sentry dashboards (or sets up alerts) and reports errors, then assistant fixes them. Documentation created for error reporting process and optional alert setup."
+}

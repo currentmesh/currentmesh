@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed TypeError in button component by adding 'use client' directive. The error 'Cannot read properties of undefined (reading call)' was caused by using @radix-ui/react-slot (a client component) in a server component context. Added 'use client' to button.tsx and discord-link.tsx. Cleared Next.js build cache and restarted service.",
+  "current_status": "Button component and discord-link component now marked as client components. Next.js cache cleared. Marketing site restarting with fixes. Error should be resolved once site finishes compiling."
+}

@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed sign-in route errors on admin and client sites by adding missing HTTPS server blocks. Both sites now properly serve frontend applications via HTTPS with client-side routing working correctly.",
+  "current_status": "All sites operational with HTTPS. Admin and client sites now serving /sign-in and other routes correctly. All frontend applications accessible via HTTPS with proper SSL certificates."
+}
