@@ -1,0 +1,189 @@
+2026-01-03T02:02:26: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:02:27: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:02:29: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:02:32: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:06:42: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:06:42: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:06:44: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:06:48: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:10:09: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-03T02:10:09: Please ensure each Route has a unique full path.
+2026-01-03T02:10:09: Conflicting files: 
+2026-01-03T02:10:09:  /var/www/currentmesh/admin/src/routes/index.tsx
+2026-01-03T02:10:09:  /var/www/currentmesh/admin/src/routes/_authenticated/index.tsx
+2026-01-03T02:10:09: 
+2026-01-03T02:10:09:     at file:///var/www/currentmesh/admin/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-03T02:10:09:     at async generate (file:///var/www/currentmesh/admin/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-03T02:10:09:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/admin/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-03T02:10:09:     at async Promise.all (index 0)
+2026-01-03T02:10:09:     at async resolveConfig (file:///var/www/currentmesh/admin/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-03T02:10:09:     at async _createServer (file:///var/www/currentmesh/admin/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-03T02:10:09:     at async CAC.<anonymous> (file:///var/www/currentmesh/admin/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-03T02:10:57: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:10:57: 
+2026-01-03T02:10:57: - /var/www/currentmesh/admin
+2026-01-03T02:10:57: 
+2026-01-03T02:10:57: Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+2026-01-03T02:10:57: 
+2026-01-03T02:10:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:11:00: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:11:03: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:15:13: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:15:13: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:15:15: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:15:19: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:19:32: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:19:32: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:19:35: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:23:49: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:23:49: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:23:51: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:23:55: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:28:06: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:28:06: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:28:09: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:28:12: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:32:26: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:32:26: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:32:29: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:32:32: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:36:47: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:36:47: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:36:50: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:36:53: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:41:07: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:41:08: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:41:10: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:41:13: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:45:07: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:45:07: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:45:09: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:45:13: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:49:24: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:49:25: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:49:27: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:49:30: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:53:39: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:53:39: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:53:41: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:53:45: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:57:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:57:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T02:58:01: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T02:58:04: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:02:16: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:02:17: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:02:19: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:02:22: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:06:36: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:06:37: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:06:39: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:06:42: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:10:45: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:10:46: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:10:47: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:10:51: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:15:21: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:15:21: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:15:23: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:15:27: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:19:18: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:19:19: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:19:21: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:19:24: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:23:40: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:23:41: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:23:43: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:23:46: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:27:59: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:27:59: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:28:01: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:28:05: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:32:09: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:32:10: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:32:11: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:32:15: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:36:14: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:36:15: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:36:17: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:36:20: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:40:59: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:40:59: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:41:02: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:41:05: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:45:26: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:45:26: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:45:29: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:45:32: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:49:08: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:49:08: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:49:10: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:49:13: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:53:20: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:53:20: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:53:22: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:53:26: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:57:51: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:57:51: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T03:57:53: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T03:57:57: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:02:16: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:02:16: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:02:18: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:02:22: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:07:11: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:07:12: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:07:14: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:07:17: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:11:06: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:11:06: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:11:08: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:11:12: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:15:17: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:15:17: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:15:19: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:15:23: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:19:43: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:19:44: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:19:46: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:19:49: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:24:38: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:24:39: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:24:40: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:24:44: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:32:21: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:32:21: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:32:23: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:32:27: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:36:18: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:36:19: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:36:21: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:36:24: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:40:44: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:40:45: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:40:47: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:40:50: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:44:54: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:44:54: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:44:56: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:44:59: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:48:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:48:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:49:00: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:49:03: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:53:45: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:53:46: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:53:47: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:53:51: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:57:27: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:57:27: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T04:57:30: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T04:57:33: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T05:01:55: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T05:01:55: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T05:01:57: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T05:02:01: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T05:06:57: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T05:06:58: The request id "/var/www/currentmesh/admin/.env.local" is outside of Vite serving allow list.
+2026-01-03T05:07:00: The request id "/etc/passwd" is outside of Vite serving allow list.
+2026-01-03T05:07:03: The request id "/etc/passwd" is outside of Vite serving allow list.

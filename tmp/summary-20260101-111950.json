@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed route redirects in /app and /admin to use correct path /sign-in instead of route ID /(auth)/sign-in. Updated index.tsx and _authenticated/route.tsx in both apps. All redirects now use the actual URL path which works correctly in browser.",
+  "current_status": "All three subdomains have correct route paths: /app uses /sign-in, /admin uses /sign-in, /client uses /sign-in. Authentication guards active on all protected routes. Users redirected to correct sign-in URLs."
+}

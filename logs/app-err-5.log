@@ -1,0 +1,120 @@
+2026-01-02T08:36:30: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T08:36:30: Please ensure each Route has a unique full path.
+2026-01-02T08:36:30: Conflicting files: 
+2026-01-02T08:36:30:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T08:36:30:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T08:36:30: 
+2026-01-02T08:36:30:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T08:36:30:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T08:36:30:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T08:36:30:     at async Promise.all (index 0)
+2026-01-02T08:36:30:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T08:36:30:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T08:36:30:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T08:36:50: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T08:36:50: Please ensure each Route has a unique full path.
+2026-01-02T08:36:50: Conflicting files: 
+2026-01-02T08:36:50:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T08:36:50:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T08:36:50: 
+2026-01-02T08:36:50:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T08:36:50:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T08:36:50:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T08:36:50:     at async Promise.all (index 0)
+2026-01-02T08:36:50:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T08:36:50:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T08:36:50:     at async restartServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25766:16)
+2026-01-02T08:37:09: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T08:37:09: Please ensure each Route has a unique full path.
+2026-01-02T08:37:09: Conflicting files: 
+2026-01-02T08:37:09:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T08:37:09:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T08:37:09: 
+2026-01-02T08:37:09:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T08:37:09:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T08:37:09:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T08:37:09:     at async Promise.all (index 0)
+2026-01-02T08:37:09:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T08:37:09:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T08:37:09:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T08:39:15: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T08:39:15: Please ensure each Route has a unique full path.
+2026-01-02T08:39:15: Conflicting files: 
+2026-01-02T08:39:15:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T08:39:15:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T08:39:15: 
+2026-01-02T08:39:15:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T08:39:15:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T08:39:15:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T08:39:15:     at async Promise.all (index 0)
+2026-01-02T08:39:15:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T08:39:15:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T08:39:15:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T08:43:18: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T08:43:18: Please ensure each Route has a unique full path.
+2026-01-02T08:43:18: Conflicting files: 
+2026-01-02T08:43:18:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T08:43:18:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T08:43:18: 
+2026-01-02T08:43:18:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T08:43:18:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T08:43:18:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T08:43:18:     at async Promise.all (index 0)
+2026-01-02T08:43:18:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T08:43:18:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T08:43:18:     at async restartServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25766:16)
+2026-01-02T08:43:18:     at async restartServerWithUrls (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25802:2)
+2026-01-02T08:43:18:     at async handleHMRUpdate (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25962:4)
+2026-01-02T08:43:18:     at async onHMRUpdate (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25555:35)
+2026-01-02T09:00:14: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T09:00:14: Please ensure each Route has a unique full path.
+2026-01-02T09:00:14: Conflicting files: 
+2026-01-02T09:00:14:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T09:00:14:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T09:00:14: 
+2026-01-02T09:00:14:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T09:00:14:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T09:00:14:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T09:00:14:     at async Promise.all (index 0)
+2026-01-02T09:00:14:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T09:00:14:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T09:00:14:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T09:00:28: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T09:00:28: Please ensure each Route has a unique full path.
+2026-01-02T09:00:28: Conflicting files: 
+2026-01-02T09:00:28:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T09:00:28:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T09:00:28: 
+2026-01-02T09:00:28:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T09:00:28:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T09:00:28:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T09:00:28:     at async Promise.all (index 0)
+2026-01-02T09:00:28:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T09:00:28:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T09:00:28:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T09:00:50: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T09:00:50: Please ensure each Route has a unique full path.
+2026-01-02T09:00:50: Conflicting files: 
+2026-01-02T09:00:50:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T09:00:50:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T09:00:50: 
+2026-01-02T09:00:50:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T09:00:50:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T09:00:50:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T09:00:50:     at async Promise.all (index 0)
+2026-01-02T09:00:50:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T09:00:50:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T09:00:50:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)
+2026-01-02T09:20:11: Error: Conflicting configuration paths were found for the following routes: "/", "/".
+2026-01-02T09:20:11: Please ensure each Route has a unique full path.
+2026-01-02T09:20:11: Conflicting files: 
+2026-01-02T09:20:11:  /var/www/currentmesh/app/src/routes/index.tsx
+2026-01-02T09:20:11:  /var/www/currentmesh/app/src/routes/_authenticated/index.tsx
+2026-01-02T09:20:11: 
+2026-01-02T09:20:11:     at file:///var/www/currentmesh/app/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:19
+2026-01-02T09:20:11:     at async generate (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:41:7)
+2026-01-02T09:20:11:     at async BasicMinimalPluginContext.configResolved (file:///var/www/currentmesh/app/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:59:9)
+2026-01-02T09:20:11:     at async Promise.all (index 0)
+2026-01-02T09:20:11:     at async resolveConfig (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:35673:2)
+2026-01-02T09:20:11:     at async _createServer (file:///var/www/currentmesh/app/node_modules/vite/dist/node/chunks/config.js:25361:67)
+2026-01-02T09:20:11:     at async CAC.<anonymous> (file:///var/www/currentmesh/app/node_modules/vite/dist/node/cli.js:572:18)

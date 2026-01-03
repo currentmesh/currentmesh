@@ -1,0 +1,212 @@
+2026-01-01T18:26:53: 
+2026-01-01T18:26:53: > www@0.1.1 dev
+2026-01-01T18:26:53: > next dev
+2026-01-01T18:26:53: 
+2026-01-01T18:26:55: [MDX] updated map file in 40.54865900000004ms
+2026-01-01T18:26:55: [MDX] started dev server
+2026-01-01T18:26:56:    ▲ Next.js 15.5.9
+2026-01-01T18:26:56:    - Local:        http://localhost:3001
+2026-01-01T18:26:56:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:26:56:    - Environments: .env.local
+2026-01-01T18:26:56:    - Experiments (use with caution):
+2026-01-01T18:26:56:      ✓ inlineCss
+2026-01-01T18:26:56:      · clientTraceMetadata
+2026-01-01T18:26:56: 
+2026-01-01T18:26:56:  ✓ Starting...
+2026-01-01T18:26:57:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T18:26:59: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T18:26:59: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T18:26:59: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:26:59: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T18:26:59: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T18:27:00:  ✓ Ready in 6s
+2026-01-01T18:27:01:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T18:27:01: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T18:27:43:  ○ Compiling / ...
+2026-01-01T18:28:16:  ✓ Compiled / in 33.5s (3822 modules)
+2026-01-01T18:28:23:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:28:23:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:28:23:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:28:23:   33 |                 className={cn(
+2026-01-01T18:28:23: > 34 |                   buttonVariants({
+2026-01-01T18:28:23:      |                                 ^
+2026-01-01T18:28:23:   35 |                     variant: "outline",
+2026-01-01T18:28:23:   36 |                     size: "sm",
+2026-01-01T18:28:23:   37 |                   }), {
+2026-01-01T18:28:23:   digest: '637023308'
+2026-01-01T18:28:23: }
+2026-01-01T18:28:53:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:28:53:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:28:53:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:28:53:   33 |                 className={cn(
+2026-01-01T18:28:53: > 34 |                   buttonVariants({
+2026-01-01T18:28:53:      |                                 ^
+2026-01-01T18:28:53:   35 |                     variant: "outline",
+2026-01-01T18:28:53:   36 |                     size: "sm",
+2026-01-01T18:28:53:   37 |                   }), {
+2026-01-01T18:28:53:   digest: '637023308'
+2026-01-01T18:28:53: }
+2026-01-01T18:28:55:  GET / 500 in 3097ms
+2026-01-01T18:28:56:  ○ Compiling /favicon.ico ...
+2026-01-01T18:29:03:  ⚠ Cross origin request detected from currentmesh.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+2026-01-01T18:29:03: Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+2026-01-01T18:29:07:  ✓ Compiled /_not-found in 12s (2248 modules)
+2026-01-01T18:29:13:  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+2026-01-01T18:29:14:  ✓ Compiled in 5.6s (3623 modules)
+2026-01-01T18:29:24:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:29:24:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:29:24:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:29:24:   33 |                 className={cn(
+2026-01-01T18:29:24: > 34 |                   buttonVariants({
+2026-01-01T18:29:24:      |                                 ^
+2026-01-01T18:29:24:   35 |                     variant: "outline",
+2026-01-01T18:29:24:   36 |                     size: "sm",
+2026-01-01T18:29:24:   37 |                   }), {
+2026-01-01T18:29:24:   digest: '637023308'
+2026-01-01T18:29:24: }
+2026-01-01T18:29:26:  GET /favicon.ico 200 in 30480ms
+2026-01-01T18:29:27:  GET /sw.js 404 in 29797ms
+2026-01-01T18:29:27:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:29:27:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:29:27:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:29:27:   33 |                 className={cn(
+2026-01-01T18:29:27: > 34 |                   buttonVariants({
+2026-01-01T18:29:27:      |                                 ^
+2026-01-01T18:29:27:   35 |                     variant: "outline",
+2026-01-01T18:29:27:   36 |                     size: "sm",
+2026-01-01T18:29:27:   37 |                   }), {
+2026-01-01T18:29:27:   digest: '637023308'
+2026-01-01T18:29:27: }
+2026-01-01T18:29:28:  GET / 500 in 21212ms
+2026-01-01T18:29:30:  GET / 500 in 4022ms
+2026-01-01T18:29:31:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:29:31:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:29:31:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:29:31:   33 |                 className={cn(
+2026-01-01T18:29:31: > 34 |                   buttonVariants({
+2026-01-01T18:29:31:      |                                 ^
+2026-01-01T18:29:31:   35 |                     variant: "outline",
+2026-01-01T18:29:31:   36 |                     size: "sm",
+2026-01-01T18:29:31:   37 |                   }), {
+2026-01-01T18:29:31:   digest: '637023308'
+2026-01-01T18:29:31: }
+2026-01-01T18:29:36:  GET /sw.js 404 in 255ms
+2026-01-01T18:29:36:  GET / 500 in 5188ms
+2026-01-01T18:29:36:  GET /favicon.ico 200 in 18ms
+2026-01-01T18:29:37:  GET /favicon.png 404 in 138ms
+2026-01-01T18:29:42:  ✓ Compiled in 5.2s (3623 modules)
+2026-01-01T18:29:55: [?25h
+2026-01-01T18:29:55: [MDX] closing dev server
+2026-01-01T18:29:56: 
+2026-01-01T18:29:56: > www@0.1.1 dev
+2026-01-01T18:29:56: > next dev
+2026-01-01T18:29:56: 
+2026-01-01T18:29:59: [MDX] updated map file in 32.435361000000285ms
+2026-01-01T18:29:59: [MDX] started dev server
+2026-01-01T18:30:00:    ▲ Next.js 15.5.9
+2026-01-01T18:30:00:    - Local:        http://localhost:3001
+2026-01-01T18:30:00:    - Network:      http://134.209.57.20:3001
+2026-01-01T18:30:00:    - Environments: .env.local
+2026-01-01T18:30:00:    - Experiments (use with caution):
+2026-01-01T18:30:00:      ✓ inlineCss
+2026-01-01T18:30:00:      · clientTraceMetadata
+2026-01-01T18:30:00: 
+2026-01-01T18:30:00:  ✓ Starting...
+2026-01-01T18:30:01:  ⚠ Found lockfile missing swc dependencies, patching...
+2026-01-01T18:30:03: [@sentry/nextjs] It appears you've configured a `sentry.server.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.server.config.ts` file afterward.
+2026-01-01T18:30:03: [@sentry/nextjs] Could not find a Next.js instrumentation file. This indicates an incomplete configuration of the Sentry SDK. An instrumentation file is required for the Sentry SDK to be initialized on the server: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#create-initialization-config-files (you can suppress this warning by setting SENTRY_SUPPRESS_INSTRUMENTATION_FILE_WARNING=1 as environment variable)
+2026-01-01T18:30:03: [@sentry/nextjs] It seems like you don't have a global error handler set up. It is recommended that you add a 'global-error.js' file with Sentry instrumentation so that React rendering errors are reported to Sentry. Read more: https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#react-render-errors-in-app-router (you can suppress this warning by setting SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 as environment variable)
+2026-01-01T18:30:03: [@sentry/nextjs] It appears you've configured a `sentry.edge.config.ts` file. Please ensure to put this file's content into the `register()` function of a Next.js instrumentation file instead. To ensure correct functionality of the SDK, `Sentry.init` must be called inside of an instrumentation file. Learn more about setting up an instrumentation file in Next.js: https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation. You can safely delete the `sentry.edge.config.ts` file afterward.
+2026-01-01T18:30:03: [@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+2026-01-01T18:30:03:  ✓ Ready in 4.6s
+2026-01-01T18:30:03:  ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+2026-01-01T18:30:03: [TypeError: Cannot read properties of undefined (reading 'os')]
+2026-01-01T18:34:44:  ○ Compiling / ...
+2026-01-01T18:36:06:  ✓ Compiled / in 82s (3822 modules)
+2026-01-01T18:36:15:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:36:15:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:36:15:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:36:15:   33 |                 className={cn(
+2026-01-01T18:36:15: > 34 |                   buttonVariants({
+2026-01-01T18:36:15:      |                                 ^
+2026-01-01T18:36:15:   35 |                     variant: "outline",
+2026-01-01T18:36:15:   36 |                     size: "sm",
+2026-01-01T18:36:15:   37 |                   }), {
+2026-01-01T18:36:15:   digest: '637023308'
+2026-01-01T18:36:15: }
+2026-01-01T18:54:15:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T18:54:15:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T18:54:15:   32 |                 href={page?.url ?? ""}
+2026-01-01T18:54:15:   33 |                 className={cn(
+2026-01-01T18:54:15: > 34 |                   buttonVariants({
+2026-01-01T18:54:15:      |                                 ^
+2026-01-01T18:54:15:   35 |                     variant: "outline",
+2026-01-01T18:54:15:   36 |                     size: "sm",
+2026-01-01T18:54:15:   37 |                   }), {
+2026-01-01T18:54:15:   digest: '637023308'
+2026-01-01T18:54:15: }
+2026-01-01T18:54:17:  GET / 500 in 2825ms
+2026-01-01T19:02:46:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T19:02:46:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T19:02:46:   32 |                 href={page?.url ?? ""}
+2026-01-01T19:02:46:   33 |                 className={cn(
+2026-01-01T19:02:46: > 34 |                   buttonVariants({
+2026-01-01T19:02:46:      |                                 ^
+2026-01-01T19:02:46:   35 |                     variant: "outline",
+2026-01-01T19:02:46:   36 |                     size: "sm",
+2026-01-01T19:02:46:   37 |                   }), {
+2026-01-01T19:02:46:   digest: '637023308'
+2026-01-01T19:02:46: }
+2026-01-01T19:02:47:  HEAD / 500 in 967ms
+2026-01-01T19:05:48:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T19:05:48:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T19:05:48:   32 |                 href={page?.url ?? ""}
+2026-01-01T19:05:48:   33 |                 className={cn(
+2026-01-01T19:05:48: > 34 |                   buttonVariants({
+2026-01-01T19:05:48:      |                                 ^
+2026-01-01T19:05:48:   35 |                     variant: "outline",
+2026-01-01T19:05:48:   36 |                     size: "sm",
+2026-01-01T19:05:48:   37 |                   }), {
+2026-01-01T19:05:48:   digest: '637023308'
+2026-01-01T19:05:48: }
+2026-01-01T19:05:51:  GET / 500 in 3442ms
+2026-01-01T19:05:54:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T19:05:54:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T19:05:54:   32 |                 href={page?.url ?? ""}
+2026-01-01T19:05:54:   33 |                 className={cn(
+2026-01-01T19:05:54: > 34 |                   buttonVariants({
+2026-01-01T19:05:54:      |                                 ^
+2026-01-01T19:05:54:   35 |                     variant: "outline",
+2026-01-01T19:05:54:   36 |                     size: "sm",
+2026-01-01T19:05:54:   37 |                   }), {
+2026-01-01T19:05:54:   digest: '637023308'
+2026-01-01T19:05:54: }
+2026-01-01T19:05:56:  GET / 500 in 2428ms
+2026-01-01T19:06:03:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T19:06:03:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T19:06:03:   32 |                 href={page?.url ?? ""}
+2026-01-01T19:06:03:   33 |                 className={cn(
+2026-01-01T19:06:03: > 34 |                   buttonVariants({
+2026-01-01T19:06:03:      |                                 ^
+2026-01-01T19:06:03:   35 |                     variant: "outline",
+2026-01-01T19:06:03:   36 |                     size: "sm",
+2026-01-01T19:06:03:   37 |                   }), {
+2026-01-01T19:06:03:   digest: '637023308'
+2026-01-01T19:06:03: }
+2026-01-01T19:06:05:  GET / 500 in 2277ms
+2026-01-01T19:06:15:  ⨯ Error: Attempted to call buttonVariants() from the server but buttonVariants is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+2026-01-01T19:06:15:     at Hero (components/sections/hero.tsx:34:33)
+2026-01-01T19:06:15:   32 |                 href={page?.url ?? ""}
+2026-01-01T19:06:15:   33 |                 className={cn(
+2026-01-01T19:06:15: > 34 |                   buttonVariants({
+2026-01-01T19:06:15:      |                                 ^
+2026-01-01T19:06:15:   35 |                     variant: "outline",
+2026-01-01T19:06:15:   36 |                     size: "sm",
+2026-01-01T19:06:15:   37 |                   }), {
+2026-01-01T19:06:15:   digest: '637023308'
+2026-01-01T19:06:15: }
+2026-01-01T19:06:17:  GET / 500 in 2330ms
+2026-01-01T19:17:56:  ○ Compiling /_not-found ...
+2026-01-01T19:18:00:  ✓ Compiled /_not-found in 5.7s (2561 modules)
+2026-01-01T19:19:41: [?25h
+2026-01-01T19:19:41: [MDX] closing dev server

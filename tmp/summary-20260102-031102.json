@@ -1,0 +1,4 @@
+{
+  "summary": "Investigated 521 error. Server is running and responding locally. SSL mode is 'full', DNS is correct, Nginx is configured. Purged Cloudflare cache. Server has high restart count (994) which may indicate instability. All services appear healthy locally but Cloudflare still cannot connect.",
+  "current_status": "Server running locally on port 3000. Nginx proxying correctly. Cloudflare SSL set to 'full'. DNS records correct. Cache purged. 521 error persists - may need time for DNS/SSL propagation or server stability issue causing connection refusals."
+}

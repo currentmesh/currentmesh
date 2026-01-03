@@ -1,0 +1,4 @@
+{
+  "summary": "Added authentication guards to /app and /admin subdomains. Updated _authenticated route in both apps to check for authentication before allowing access. Unauthenticated users are now redirected to sign-in page. Both apps now require login to access protected routes.",
+  "current_status": "All three subdomains now have authentication protection: /app requires login, /admin requires login, /client requires login. Unauthenticated users are redirected to sign-in pages. Protected routes are properly guarded."
+}

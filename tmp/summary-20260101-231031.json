@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed PostHog initialization error and ActiveMembersCount async client component error. PostHog now only initializes if API key exists. Separated ActiveMembersCount into a separate server component file since async functions can only be Server Components. Updated discord-link.tsx to import the server component. Cleared Next.js cache and restarted service.",
+  "current_status": "PostHog error fixed - only initializes with valid API key. ActiveMembersCount moved to separate server component file. DiscordLink remains a client component but uses the server component via Suspense. Marketing site restarting with fixes."
+}

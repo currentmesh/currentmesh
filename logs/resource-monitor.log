@@ -1,0 +1,2170 @@
+[2026-01-02 08:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 08:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 08:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 08:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 08:50:01] ⚠️  WARNING: Memory usage at 93%
+[2026-01-02 08:50:01] ⚠️  WARNING: Memory usage at 93%
+[2026-01-02 09:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:00:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-02 09:00:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-02 09:00:02] 🔄 Restarting high-memory service: id
+[2026-01-02 09:00:02] 🔄 Restarting high-memory service: id
+Use --update-env to update environment variables
+[PM2][ERROR] Process or Namespace id not found
+[2026-01-02 09:00:03] 🔄 Restarting high-memory service: 2
+[2026-01-02 09:00:03] 🔄 Restarting high-memory service: 2
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [2](ids: [ '2' ])
+[PM2] [currentmesh-admin](2) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 518714   │ 0s     │ 1    │ online    │ 0%       │ 26.1mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 509583   │ 20m    │ 2    │ online    │ 0%       │ 22.6mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 500868   │ 40m    │ 0    │ online    │ 0%       │ 17.9mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 517096   │ 4m     │ 10   │ online    │ 0%       │ 43.3mb   │ root     │ disabled │
+│ 3  │ currentmesh-server       │ default     │ N/A     │ fork    │ 500886   │ 40m    │ 0    │ online    │ 0%       │ 18.5mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:00:05] 🔄 Restarting high-memory service: 5
+[2026-01-02 09:00:05] 🔄 Restarting high-memory service: 5
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [5](ids: [ '5' ])
+[PM2] [currentmesh-app](5) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 518714   │ 1s     │ 1    │ online    │ 5%       │ 58.8mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 518770   │ 0s     │ 3    │ online    │ 0%       │ 18.6mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 500868   │ 40m    │ 0    │ online    │ 0%       │ 18.3mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 517096   │ 4m     │ 10   │ online    │ 0%       │ 43.5mb   │ root     │ disabled │
+│ 3  │ currentmesh-server       │ default     │ N/A     │ fork    │ 500886   │ 40m    │ 0    │ online    │ 0%       │ 18.4mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:00:06] 🔄 Restarting high-memory service: 1
+[2026-01-02 09:00:06] 🔄 Restarting high-memory service: 1
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [1](ids: [ '1' ])
+[PM2] [currentmesh-client](1) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 518714   │ 2s     │ 1    │ online    │ 0%       │ 58.8mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 518770   │ 1s     │ 3    │ online    │ 18.8%    │ 56.5mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 518820   │ 0s     │ 1    │ online    │ 0%       │ 25.9mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 517096   │ 4m     │ 10   │ online    │ 0%       │ 43.6mb   │ root     │ disabled │
+│ 3  │ currentmesh-server       │ default     │ N/A     │ fork    │ 500886   │ 40m    │ 0    │ online    │ 0%       │ 18.7mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:00:07] 🔄 Restarting high-memory service: 4
+[2026-01-02 09:00:07] 🔄 Restarting high-memory service: 4
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [4](ids: [ '4' ])
+[PM2] [currentmesh-marketing](4) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 518714   │ 6s     │ 1    │ online    │ 0%       │ 58.9mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 518770   │ 4s     │ 3    │ online    │ 0%       │ 59.7mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 518820   │ 3s     │ 1    │ online    │ 0%       │ 59.5mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 518992   │ 0s     │ 11   │ online    │ 0%       │ 19.0mb   │ root     │ disabled │
+│ 3  │ currentmesh-server       │ default     │ N/A     │ fork    │ 500886   │ 40m    │ 0    │ online    │ 0%       │ 19.0mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:00:11] 🔄 Restarting high-memory service: 3
+[2026-01-02 09:00:11] 🔄 Restarting high-memory service: 3
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [3](ids: [ '3' ])
+[PM2] [currentmesh-server](3) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 518714   │ 17s    │ 1    │ online    │ 0%       │ 54.0mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 519216   │ 2s     │ 4    │ online    │ 0%       │ 58.7mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 519145   │ 6s     │ 2    │ online    │ 0%       │ 59.3mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 519021   │ 10s    │ 12   │ online    │ 0%       │ 60.3mb   │ root     │ disabled │
+│ 3  │ currentmesh-server       │ default     │ N/A     │ fork    │ 519274   │ 0s     │ 1    │ online    │ 0%       │ 19.0mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:10:01] ✅ Memory usage: 82% (OK)
+[2026-01-02 09:10:01] ✅ Memory usage: 82% (OK)
+[2026-01-02 09:10:02] ✅ All services healthy
+[2026-01-02 09:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 09:10:02] ✅ All resources healthy
+[2026-01-02 09:10:02] ✅ All resources healthy
+[2026-01-02 09:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:20:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-02 09:20:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-02 09:20:01] 🔄 Restarting high-memory service: id
+[2026-01-02 09:20:01] 🔄 Restarting high-memory service: id
+Use --update-env to update environment variables
+[PM2][ERROR] Process or Namespace id not found
+[2026-01-02 09:20:02] 🔄 Restarting high-memory service: 2
+[2026-01-02 09:20:02] 🔄 Restarting high-memory service: 2
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [2](ids: [ '2' ])
+[PM2] [currentmesh-admin](2) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 521844   │ 0s     │ 3    │ online    │ 0%       │ 24.6mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 519619   │ 19m    │ 5    │ online    │ 0%       │ 24.3mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 519145   │ 19m    │ 2    │ online    │ 0%       │ 24.4mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 520863   │ 9m     │ 15   │ online    │ 0%       │ 25.4mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:20:02] 🔄 Restarting high-memory service: 5
+[2026-01-02 09:20:02] 🔄 Restarting high-memory service: 5
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [5](ids: [ '5' ])
+[PM2] [currentmesh-app](5) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 521844   │ 0s     │ 3    │ online    │ 56%      │ 58.1mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 521875   │ 0s     │ 6    │ online    │ 0%       │ 24.1mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 519145   │ 19m    │ 2    │ online    │ 0%       │ 24.8mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 520863   │ 9m     │ 15   │ online    │ 0%       │ 24.7mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:20:03] 🔄 Restarting high-memory service: 1
+[2026-01-02 09:20:03] 🔄 Restarting high-memory service: 1
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [1](ids: [ '1' ])
+[PM2] [currentmesh-client](1) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 521844   │ 1s     │ 3    │ online    │ 0%       │ 58.2mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 521875   │ 1s     │ 6    │ online    │ 32%      │ 57.7mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 521918   │ 0s     │ 3    │ online    │ 0%       │ 25.1mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 520863   │ 9m     │ 15   │ online    │ 0%       │ 24.8mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:20:04] 🔄 Restarting high-memory service: 4
+[2026-01-02 09:20:04] 🔄 Restarting high-memory service: 4
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [4](ids: [ '4' ])
+[PM2] [currentmesh-marketing](4) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 521844   │ 5s     │ 3    │ online    │ 0%       │ 58.2mb   │ root     │ disabled │
+│ 5  │ currentmesh-app          │ default     │ N/A     │ fork    │ 521875   │ 4s     │ 6    │ online    │ 0%       │ 57.9mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 521918   │ 3s     │ 3    │ online    │ 0%       │ 58.6mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 522014   │ 0s     │ 16   │ online    │ 0%       │ 18.9mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-02 09:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:30:01] ✅ Memory usage: 78% (OK)
+[2026-01-02 09:30:01] ✅ Memory usage: 78% (OK)
+[2026-01-02 09:30:02] ✅ All services healthy
+[2026-01-02 09:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 09:30:02] ✅ All resources healthy
+[2026-01-02 09:30:02] ✅ All resources healthy
+[2026-01-02 09:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:40:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 09:40:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 09:40:01] ✅ All services healthy
+[2026-01-02 09:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 09:40:02] ✅ All resources healthy
+[2026-01-02 09:40:02] ✅ All resources healthy
+[2026-01-02 09:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 09:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 09:50:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 09:50:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 09:50:01] ✅ All services healthy
+[2026-01-02 09:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 09:50:01] ✅ All resources healthy
+[2026-01-02 09:50:01] ✅ All resources healthy
+[2026-01-02 10:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:00:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 10:00:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 10:00:02] ✅ All services healthy
+[2026-01-02 10:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:00:02] ✅ All resources healthy
+[2026-01-02 10:00:02] ✅ All resources healthy
+[2026-01-02 10:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:10:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 10:10:01] ✅ Memory usage: 45% (OK)
+[2026-01-02 10:10:01] ✅ All services healthy
+[2026-01-02 10:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:10:02] ✅ All resources healthy
+[2026-01-02 10:10:02] ✅ All resources healthy
+[2026-01-02 10:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:20:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:20:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:20:01] ✅ All services healthy
+[2026-01-02 10:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:20:02] ✅ All resources healthy
+[2026-01-02 10:20:02] ✅ All resources healthy
+[2026-01-02 10:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:30:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:30:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:30:01] ✅ All services healthy
+[2026-01-02 10:30:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:30:02] ✅ All resources healthy
+[2026-01-02 10:30:02] ✅ All resources healthy
+[2026-01-02 10:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:40:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:40:01] ✅ Memory usage: 46% (OK)
+[2026-01-02 10:40:01] ✅ All services healthy
+[2026-01-02 10:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:40:02] ✅ All resources healthy
+[2026-01-02 10:40:02] ✅ All resources healthy
+[2026-01-02 10:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 10:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 10:50:01] ✅ Memory usage: 50% (OK)
+[2026-01-02 10:50:01] ✅ Memory usage: 50% (OK)
+[2026-01-02 10:50:01] ✅ All services healthy
+[2026-01-02 10:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 10:50:01] ✅ All resources healthy
+[2026-01-02 10:50:01] ✅ All resources healthy
+[2026-01-02 11:00:02] 🔍 Starting resource monitoring...
+[2026-01-02 11:00:02] 🔍 Starting resource monitoring...
+[2026-01-02 11:00:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:00:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:00:02] ✅ Memory usage: 51% (OK)
+[2026-01-02 11:00:02] ✅ Memory usage: 51% (OK)
+[2026-01-02 11:00:02] ✅ All services healthy
+[2026-01-02 11:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:00:03] ✅ All resources healthy
+[2026-01-02 11:00:03] ✅ All resources healthy
+[2026-01-02 11:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:10:01] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:10:01] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:10:01] ✅ All services healthy
+[2026-01-02 11:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:10:02] ✅ All resources healthy
+[2026-01-02 11:10:02] ✅ All resources healthy
+[2026-01-02 11:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:20:01] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:20:01] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:20:01] ✅ All services healthy
+[2026-01-02 11:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:20:01] ✅ All resources healthy
+[2026-01-02 11:20:01] ✅ All resources healthy
+[2026-01-02 11:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:30:01] ✅ Memory usage: 47% (OK)
+[2026-01-02 11:30:01] ✅ Memory usage: 47% (OK)
+[2026-01-02 11:30:01] ✅ All services healthy
+[2026-01-02 11:30:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:30:02] ✅ All resources healthy
+[2026-01-02 11:30:02] ✅ All resources healthy
+[2026-01-02 11:40:02] 🔍 Starting resource monitoring...
+[2026-01-02 11:40:02] 🔍 Starting resource monitoring...
+[2026-01-02 11:40:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:40:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:40:02] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:40:02] ✅ Memory usage: 48% (OK)
+[2026-01-02 11:40:02] ✅ All services healthy
+[2026-01-02 11:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:40:02] ✅ All resources healthy
+[2026-01-02 11:40:02] ✅ All resources healthy
+[2026-01-02 11:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 11:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 11:50:01] ✅ Memory usage: 35% (OK)
+[2026-01-02 11:50:01] ✅ Memory usage: 35% (OK)
+[2026-01-02 11:50:01] ✅ All services healthy
+[2026-01-02 11:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 11:50:02] ✅ All resources healthy
+[2026-01-02 11:50:02] ✅ All resources healthy
+[2026-01-02 12:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:00:01] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:00:01] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:00:02] ✅ All services healthy
+[2026-01-02 12:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:00:02] ✅ All resources healthy
+[2026-01-02 12:00:02] ✅ All resources healthy
+[2026-01-02 12:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:10:01] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:10:01] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:10:01] ✅ All services healthy
+[2026-01-02 12:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:10:02] ✅ All resources healthy
+[2026-01-02 12:10:02] ✅ All resources healthy
+[2026-01-02 12:20:02] 🔍 Starting resource monitoring...
+[2026-01-02 12:20:02] 🔍 Starting resource monitoring...
+[2026-01-02 12:20:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:20:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:20:02] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:20:02] ✅ Memory usage: 25% (OK)
+[2026-01-02 12:20:02] ✅ All services healthy
+[2026-01-02 12:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:20:02] ✅ All resources healthy
+[2026-01-02 12:20:02] ✅ All resources healthy
+[2026-01-02 12:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:30:01] ✅ All services healthy
+[2026-01-02 12:30:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:30:02] ✅ All resources healthy
+[2026-01-02 12:30:02] ✅ All resources healthy
+[2026-01-02 12:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:40:01] ✅ All services healthy
+[2026-01-02 12:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:40:02] ✅ All resources healthy
+[2026-01-02 12:40:02] ✅ All resources healthy
+[2026-01-02 12:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 12:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 12:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 12:50:02] ✅ All services healthy
+[2026-01-02 12:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 12:50:02] ✅ All resources healthy
+[2026-01-02 12:50:02] ✅ All resources healthy
+[2026-01-02 13:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:00:02] ✅ All services healthy
+[2026-01-02 13:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:00:02] ✅ All resources healthy
+[2026-01-02 13:00:02] ✅ All resources healthy
+[2026-01-02 13:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:10:02] ✅ All services healthy
+[2026-01-02 13:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:10:02] ✅ All resources healthy
+[2026-01-02 13:10:02] ✅ All resources healthy
+[2026-01-02 13:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:20:01] ✅ Memory usage: 26% (OK)
+[2026-01-02 13:20:01] ✅ Memory usage: 26% (OK)
+[2026-01-02 13:20:01] ✅ All services healthy
+[2026-01-02 13:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:20:02] ✅ All resources healthy
+[2026-01-02 13:20:02] ✅ All resources healthy
+[2026-01-02 13:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:30:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:30:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:30:02] ✅ Memory usage: 26% (OK)
+[2026-01-02 13:30:02] ✅ Memory usage: 26% (OK)
+[2026-01-02 13:30:02] ✅ All services healthy
+[2026-01-02 13:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:30:02] ✅ All resources healthy
+[2026-01-02 13:30:02] ✅ All resources healthy
+[2026-01-02 13:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:40:01] ✅ All services healthy
+[2026-01-02 13:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:40:02] ✅ All resources healthy
+[2026-01-02 13:40:02] ✅ All resources healthy
+[2026-01-02 13:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 13:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 13:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 13:50:02] ✅ All services healthy
+[2026-01-02 13:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 13:50:02] ✅ All resources healthy
+[2026-01-02 13:50:02] ✅ All resources healthy
+[2026-01-02 14:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:00:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:00:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:00:02] ✅ Memory usage: 39% (OK)
+[2026-01-02 14:00:02] ✅ Memory usage: 39% (OK)
+[2026-01-02 14:00:02] ✅ All services healthy
+[2026-01-02 14:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:00:03] ✅ All resources healthy
+[2026-01-02 14:00:03] ✅ All resources healthy
+[2026-01-02 14:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:10:01] ✅ Memory usage: 39% (OK)
+[2026-01-02 14:10:01] ✅ Memory usage: 39% (OK)
+[2026-01-02 14:10:02] ✅ All services healthy
+[2026-01-02 14:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:10:02] ✅ All resources healthy
+[2026-01-02 14:10:02] ✅ All resources healthy
+[2026-01-02 14:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:20:02] ✅ All services healthy
+[2026-01-02 14:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:20:02] ✅ All resources healthy
+[2026-01-02 14:20:02] ✅ All resources healthy
+[2026-01-02 14:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:30:02] ✅ All services healthy
+[2026-01-02 14:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:30:02] ✅ All resources healthy
+[2026-01-02 14:30:02] ✅ All resources healthy
+[2026-01-02 14:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:40:01] ✅ All services healthy
+[2026-01-02 14:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:40:02] ✅ All resources healthy
+[2026-01-02 14:40:02] ✅ All resources healthy
+[2026-01-02 14:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 14:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 14:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 14:50:01] ✅ All services healthy
+[2026-01-02 14:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 14:50:02] ✅ All resources healthy
+[2026-01-02 14:50:02] ✅ All resources healthy
+[2026-01-02 15:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:00:02] ✅ All services healthy
+[2026-01-02 15:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:00:02] ✅ All resources healthy
+[2026-01-02 15:00:02] ✅ All resources healthy
+[2026-01-02 15:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:10:01] ✅ All services healthy
+[2026-01-02 15:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:10:02] ✅ All resources healthy
+[2026-01-02 15:10:02] ✅ All resources healthy
+[2026-01-02 15:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:20:01] ✅ All services healthy
+[2026-01-02 15:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:20:02] ✅ All resources healthy
+[2026-01-02 15:20:02] ✅ All resources healthy
+[2026-01-02 15:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:30:02] ✅ All services healthy
+[2026-01-02 15:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:30:02] ✅ All resources healthy
+[2026-01-02 15:30:02] ✅ All resources healthy
+[2026-01-02 15:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:40:01] ✅ All services healthy
+[2026-01-02 15:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:40:01] ✅ All resources healthy
+[2026-01-02 15:40:01] ✅ All resources healthy
+[2026-01-02 15:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 15:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 15:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 15:50:02] ✅ All services healthy
+[2026-01-02 15:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 15:50:02] ✅ All resources healthy
+[2026-01-02 15:50:02] ✅ All resources healthy
+[2026-01-02 16:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:00:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:00:02] ✅ All services healthy
+[2026-01-02 16:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:00:02] ✅ All resources healthy
+[2026-01-02 16:00:02] ✅ All resources healthy
+[2026-01-02 16:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:10:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:10:02] ✅ All services healthy
+[2026-01-02 16:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:10:02] ✅ All resources healthy
+[2026-01-02 16:10:02] ✅ All resources healthy
+[2026-01-02 16:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:20:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:20:01] ✅ All services healthy
+[2026-01-02 16:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:20:01] ✅ All resources healthy
+[2026-01-02 16:20:01] ✅ All resources healthy
+[2026-01-02 16:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:30:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:30:02] ✅ All services healthy
+[2026-01-02 16:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:30:02] ✅ All resources healthy
+[2026-01-02 16:30:02] ✅ All resources healthy
+[2026-01-02 16:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:40:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:40:01] ✅ All services healthy
+[2026-01-02 16:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:40:02] ✅ All resources healthy
+[2026-01-02 16:40:02] ✅ All resources healthy
+[2026-01-02 16:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 16:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 16:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:50:01] ✅ Memory usage: 27% (OK)
+[2026-01-02 16:50:01] ✅ All services healthy
+[2026-01-02 16:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 16:50:02] ✅ All resources healthy
+[2026-01-02 16:50:02] ✅ All resources healthy
+[2026-01-02 17:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 17:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 17:00:01] ✅ All services healthy
+[2026-01-02 17:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:00:02] ✅ All resources healthy
+[2026-01-02 17:00:02] ✅ All resources healthy
+[2026-01-02 17:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:10:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 17:10:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 17:10:01] ✅ All services healthy
+[2026-01-02 17:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:10:01] ✅ All resources healthy
+[2026-01-02 17:10:01] ✅ All resources healthy
+[2026-01-02 17:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:20:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 17:20:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 17:20:02] ✅ All services healthy
+[2026-01-02 17:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:20:02] ✅ All resources healthy
+[2026-01-02 17:20:02] ✅ All resources healthy
+[2026-01-02 17:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:30:01] ✅ All services healthy
+[2026-01-02 17:30:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:30:02] ✅ All resources healthy
+[2026-01-02 17:30:02] ✅ All resources healthy
+[2026-01-02 17:40:02] 🔍 Starting resource monitoring...
+[2026-01-02 17:40:02] 🔍 Starting resource monitoring...
+[2026-01-02 17:40:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:40:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:40:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:40:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:40:02] ✅ All services healthy
+[2026-01-02 17:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:40:02] ✅ All resources healthy
+[2026-01-02 17:40:02] ✅ All resources healthy
+[2026-01-02 17:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 17:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 17:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 17:50:01] ✅ All services healthy
+[2026-01-02 17:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 17:50:02] ✅ All resources healthy
+[2026-01-02 17:50:02] ✅ All resources healthy
+[2026-01-02 18:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 18:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 18:00:02] ✅ All services healthy
+[2026-01-02 18:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:00:02] ✅ All resources healthy
+[2026-01-02 18:00:02] ✅ All resources healthy
+[2026-01-02 18:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:10:01] ✅ Memory usage: 79% (OK)
+[2026-01-02 18:10:01] ✅ Memory usage: 79% (OK)
+[2026-01-02 18:10:01] ✅ All services healthy
+[2026-01-02 18:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:10:02] ✅ All resources healthy
+[2026-01-02 18:10:02] ✅ All resources healthy
+[2026-01-02 18:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:20:01] ✅ Memory usage: 28% (OK)
+[2026-01-02 18:20:01] ✅ Memory usage: 28% (OK)
+[2026-01-02 18:20:01] ✅ All services healthy
+[2026-01-02 18:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:20:02] ✅ All resources healthy
+[2026-01-02 18:20:02] ✅ All resources healthy
+[2026-01-02 18:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:30:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:30:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:30:02] ✅ All services healthy
+[2026-01-02 18:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:30:02] ✅ All resources healthy
+[2026-01-02 18:30:02] ✅ All resources healthy
+[2026-01-02 18:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:40:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:40:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:40:02] ✅ All services healthy
+[2026-01-02 18:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:40:02] ✅ All resources healthy
+[2026-01-02 18:40:02] ✅ All resources healthy
+[2026-01-02 18:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 18:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 18:50:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:50:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 18:50:01] ✅ All services healthy
+[2026-01-02 18:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 18:50:01] ✅ All resources healthy
+[2026-01-02 18:50:01] ✅ All resources healthy
+[2026-01-02 19:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:00:01] ✅ All services healthy
+[2026-01-02 19:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:00:02] ✅ All resources healthy
+[2026-01-02 19:00:02] ✅ All resources healthy
+[2026-01-02 19:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:10:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:10:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:10:02] ✅ All services healthy
+[2026-01-02 19:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:10:02] ✅ All resources healthy
+[2026-01-02 19:10:02] ✅ All resources healthy
+[2026-01-02 19:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:20:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 19:20:01] ✅ Memory usage: 30% (OK)
+[2026-01-02 19:20:02] ✅ All services healthy
+[2026-01-02 19:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:20:02] ✅ All resources healthy
+[2026-01-02 19:20:02] ✅ All resources healthy
+[2026-01-02 19:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:30:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:30:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:30:02] ✅ All services healthy
+[2026-01-02 19:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:30:02] ✅ All resources healthy
+[2026-01-02 19:30:02] ✅ All resources healthy
+[2026-01-02 19:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:40:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:40:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:40:02] ✅ All services healthy
+[2026-01-02 19:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:40:02] ✅ All resources healthy
+[2026-01-02 19:40:02] ✅ All resources healthy
+[2026-01-02 19:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 19:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 19:50:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:50:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 19:50:01] ✅ All services healthy
+[2026-01-02 19:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 19:50:02] ✅ All resources healthy
+[2026-01-02 19:50:02] ✅ All resources healthy
+[2026-01-02 20:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:00:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:00:01] ✅ All services healthy
+[2026-01-02 20:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:00:02] ✅ All resources healthy
+[2026-01-02 20:00:02] ✅ All resources healthy
+[2026-01-02 20:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:10:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:10:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:10:02] ✅ All services healthy
+[2026-01-02 20:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:10:02] ✅ All resources healthy
+[2026-01-02 20:10:02] ✅ All resources healthy
+[2026-01-02 20:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:20:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:20:01] ✅ Memory usage: 29% (OK)
+[2026-01-02 20:20:01] ✅ All services healthy
+[2026-01-02 20:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:20:01] ✅ All resources healthy
+[2026-01-02 20:20:01] ✅ All resources healthy
+[2026-01-02 20:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:30:02] ✅ All services healthy
+[2026-01-02 20:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:30:02] ✅ All resources healthy
+[2026-01-02 20:30:02] ✅ All resources healthy
+[2026-01-02 20:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:40:02] ✅ All services healthy
+[2026-01-02 20:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:40:02] ✅ All resources healthy
+[2026-01-02 20:40:02] ✅ All resources healthy
+[2026-01-02 20:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 20:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 20:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 20:50:01] ✅ All services healthy
+[2026-01-02 20:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 20:50:01] ✅ All resources healthy
+[2026-01-02 20:50:01] ✅ All resources healthy
+[2026-01-02 21:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:00:01] ✅ Memory usage: 38% (OK)
+[2026-01-02 21:00:01] ✅ Memory usage: 38% (OK)
+[2026-01-02 21:00:01] ✅ All services healthy
+[2026-01-02 21:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:00:02] ✅ All resources healthy
+[2026-01-02 21:00:02] ✅ All resources healthy
+[2026-01-02 21:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:10:02] ✅ All services healthy
+[2026-01-02 21:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:10:02] ✅ All resources healthy
+[2026-01-02 21:10:02] ✅ All resources healthy
+[2026-01-02 21:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:20:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:20:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:20:01] ✅ All services healthy
+[2026-01-02 21:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:20:02] ✅ All resources healthy
+[2026-01-02 21:20:02] ✅ All resources healthy
+[2026-01-02 21:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:30:02] ✅ All services healthy
+[2026-01-02 21:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:30:02] ✅ All resources healthy
+[2026-01-02 21:30:02] ✅ All resources healthy
+[2026-01-02 21:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:40:01] ✅ All services healthy
+[2026-01-02 21:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:40:01] ✅ All resources healthy
+[2026-01-02 21:40:01] ✅ All resources healthy
+[2026-01-02 21:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 21:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 21:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 21:50:01] ✅ All services healthy
+[2026-01-02 21:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 21:50:01] ✅ All resources healthy
+[2026-01-02 21:50:01] ✅ All resources healthy
+[2026-01-02 22:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:00:02] ✅ All services healthy
+[2026-01-02 22:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:00:02] ✅ All resources healthy
+[2026-01-02 22:00:02] ✅ All resources healthy
+[2026-01-02 22:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:10:02] ✅ All services healthy
+[2026-01-02 22:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:10:02] ✅ All resources healthy
+[2026-01-02 22:10:02] ✅ All resources healthy
+[2026-01-02 22:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:20:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:20:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:20:02] ✅ All services healthy
+[2026-01-02 22:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:20:02] ✅ All resources healthy
+[2026-01-02 22:20:02] ✅ All resources healthy
+[2026-01-02 22:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:30:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:30:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:30:02] ✅ All services healthy
+[2026-01-02 22:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:30:02] ✅ All resources healthy
+[2026-01-02 22:30:02] ✅ All resources healthy
+[2026-01-02 22:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:40:01] ✅ All services healthy
+[2026-01-02 22:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:40:01] ✅ All resources healthy
+[2026-01-02 22:40:01] ✅ All resources healthy
+[2026-01-02 22:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 22:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 22:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:50:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 22:50:02] ✅ All services healthy
+[2026-01-02 22:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 22:50:02] ✅ All resources healthy
+[2026-01-02 22:50:02] ✅ All resources healthy
+[2026-01-02 23:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:00:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:00:02] ✅ All services healthy
+[2026-01-02 23:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:00:02] ✅ All resources healthy
+[2026-01-02 23:00:02] ✅ All resources healthy
+[2026-01-02 23:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:10:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:10:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:10:01] ✅ All services healthy
+[2026-01-02 23:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:10:01] ✅ All resources healthy
+[2026-01-02 23:10:01] ✅ All resources healthy
+[2026-01-02 23:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:20:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:20:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:20:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:20:02] ✅ All services healthy
+[2026-01-02 23:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:20:02] ✅ All resources healthy
+[2026-01-02 23:20:02] ✅ All resources healthy
+[2026-01-02 23:30:02] 🔍 Starting resource monitoring...
+[2026-01-02 23:30:02] 🔍 Starting resource monitoring...
+[2026-01-02 23:30:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:30:02] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:30:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:30:02] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:30:02] ✅ All services healthy
+[2026-01-02 23:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:30:03] ✅ All resources healthy
+[2026-01-02 23:30:03] ✅ All resources healthy
+[2026-01-02 23:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:40:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:40:01] ✅ Memory usage: 37% (OK)
+[2026-01-02 23:40:02] ✅ All services healthy
+[2026-01-02 23:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:40:02] ✅ All resources healthy
+[2026-01-02 23:40:02] ✅ All resources healthy
+[2026-01-02 23:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:50:01] 🔍 Starting resource monitoring...
+[2026-01-02 23:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-02 23:50:01] ✅ Memory usage: 38% (OK)
+[2026-01-02 23:50:01] ✅ Memory usage: 38% (OK)
+[2026-01-02 23:50:02] ✅ All services healthy
+[2026-01-02 23:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-02 23:50:02] ✅ All resources healthy
+[2026-01-02 23:50:02] ✅ All resources healthy
+[2026-01-03 00:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-03 00:00:01] ✅ Memory usage: 37% (OK)
+[2026-01-03 00:00:01] ✅ All services healthy
+[2026-01-03 00:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:00:02] ✅ All resources healthy
+[2026-01-03 00:00:02] ✅ All resources healthy
+[2026-01-03 00:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:10:01] ✅ Memory usage: 38% (OK)
+[2026-01-03 00:10:01] ✅ Memory usage: 38% (OK)
+[2026-01-03 00:10:02] ✅ All services healthy
+[2026-01-03 00:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:10:02] ✅ All resources healthy
+[2026-01-03 00:10:02] ✅ All resources healthy
+[2026-01-03 00:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:20:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:20:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:20:01] ✅ All services healthy
+[2026-01-03 00:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:20:01] ✅ All resources healthy
+[2026-01-03 00:20:01] ✅ All resources healthy
+[2026-01-03 00:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:30:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:30:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:30:02] ✅ All services healthy
+[2026-01-03 00:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:30:03] ✅ All resources healthy
+[2026-01-03 00:30:03] ✅ All resources healthy
+[2026-01-03 00:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:40:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:40:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:40:01] ✅ All services healthy
+[2026-01-03 00:40:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:40:02] ✅ All resources healthy
+[2026-01-03 00:40:02] ✅ All resources healthy
+[2026-01-03 00:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 00:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 00:50:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:50:01] ✅ Memory usage: 30% (OK)
+[2026-01-03 00:50:01] ✅ All services healthy
+[2026-01-03 00:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 00:50:02] ✅ All resources healthy
+[2026-01-03 00:50:02] ✅ All resources healthy
+[2026-01-03 01:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:00:01] ✅ Memory usage: 32% (OK)
+[2026-01-03 01:00:01] ✅ Memory usage: 32% (OK)
+[2026-01-03 01:00:01] ✅ All services healthy
+[2026-01-03 01:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 01:00:02] ✅ All resources healthy
+[2026-01-03 01:00:02] ✅ All resources healthy
+[2026-01-03 01:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:10:01] ✅ Memory usage: 73% (OK)
+[2026-01-03 01:10:01] ✅ Memory usage: 73% (OK)
+[2026-01-03 01:10:01] ✅ All services healthy
+[2026-01-03 01:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 01:10:02] ✅ All resources healthy
+[2026-01-03 01:10:02] ✅ All resources healthy
+[2026-01-03 01:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:20:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:20:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 01:20:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 01:20:01] ✅ All services healthy
+[2026-01-03 01:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 01:20:01] ✅ All resources healthy
+[2026-01-03 01:20:01] ✅ All resources healthy
+[2026-01-03 01:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:30:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:30:01] 🚨 CRITICAL: Memory usage at 96%
+[2026-01-03 01:30:01] 🚨 CRITICAL: Memory usage at 96%
+[2026-01-03 01:30:04] 🔄 Restarting high-memory service: id
+[2026-01-03 01:30:04] 🔄 Restarting high-memory service: id
+Use --update-env to update environment variables
+[PM2][ERROR] Process or Namespace id not found
+[2026-01-03 01:30:06] 🔄 Restarting high-memory service: 2
+[2026-01-03 01:30:06] 🔄 Restarting high-memory service: 2
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [2](ids: [ '2' ])
+[PM2] [currentmesh-admin](2) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 582460   │ 0s     │ 2    │ online    │ 0%       │ 25.8mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 579051   │ 19m    │ 1    │ online    │ 3.2%     │ 18.3mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 579126   │ 19m    │ 2    │ online    │ 0%       │ 12.2mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 580786   │ 13m    │ 3    │ online    │ 0%       │ 13.7mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 582203   │ 50s    │ 2    │ online    │ 0%       │ 17.7mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 01:30:08] 🔄 Restarting high-memory service: 0
+[2026-01-03 01:30:08] 🔄 Restarting high-memory service: 0
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [0](ids: [ '0' ])
+[PM2] [currentmesh-app](0) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 582460   │ 2s     │ 2    │ online    │ 25.9%    │ 55.4mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 582529   │ 0s     │ 2    │ online    │ 0%       │ 19.0mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 579126   │ 19m    │ 2    │ online    │ 0%       │ 12.5mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 580786   │ 13m    │ 3    │ online    │ 0%       │ 14.3mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 582203   │ 0      │ 2    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 01:30:10] 🔄 Restarting high-memory service: 1
+[2026-01-03 01:30:10] 🔄 Restarting high-memory service: 1
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [1](ids: [ '1' ])
+[PM2] [currentmesh-client](1) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 582460   │ 4s     │ 2    │ online    │ 0%       │ 58.6mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 582529   │ 2s     │ 2    │ online    │ 0%       │ 58.8mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 582611   │ 0s     │ 3    │ online    │ 0%       │ 12.4mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 580786   │ 13m    │ 3    │ online    │ 0%       │ 13.6mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 582203   │ 0      │ 2    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 01:30:12] 🔄 Restarting high-memory service: 4
+[2026-01-03 01:30:12] 🔄 Restarting high-memory service: 4
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [4](ids: [ '4' ])
+[PM2] [currentmesh-marketing](4) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 582460   │ 43s    │ 2    │ online    │ 0%       │ 51.9mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 582871   │ 20s    │ 3    │ online    │ 0%       │ 60.4mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 582611   │ 38s    │ 3    │ online    │ 0%       │ 52.7mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 582889   │ 20s    │ 4    │ online    │ 0%       │ 60.9mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 582757   │ 32s    │ 3    │ online    │ 1.4%     │ 75.9mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 01:30:51] 🔄 Restarting high-memory service: 5
+[2026-01-03 01:30:51] 🔄 Restarting high-memory service: 5
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [5](ids: [ '5' ])
+[PM2] [currentmesh-server](5) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 582460   │ 54s    │ 2    │ online    │ 0.1%     │ 51.2mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 582871   │ 32s    │ 3    │ online    │ 0.7%     │ 53.2mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 582611   │ 50s    │ 3    │ online    │ 0.1%     │ 51.4mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 582889   │ 31s    │ 4    │ online    │ 0.6%     │ 56.0mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 583198   │ 0s     │ 4    │ online    │ 0%       │ 19.1mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 01:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:40:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:40:01] ✅ Memory usage: 50% (OK)
+[2026-01-03 01:40:01] ✅ Memory usage: 50% (OK)
+[2026-01-03 01:40:02] ✅ All services healthy
+[2026-01-03 01:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 01:40:02] ✅ All resources healthy
+[2026-01-03 01:40:02] ✅ All resources healthy
+[2026-01-03 01:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 01:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:50:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 01:50:02] ✅ Memory usage: 61% (OK)
+[2026-01-03 01:50:02] ✅ Memory usage: 61% (OK)
+[2026-01-03 01:50:02] ✅ All services healthy
+[2026-01-03 01:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 01:50:03] ✅ All resources healthy
+[2026-01-03 01:50:03] ✅ All resources healthy
+[2026-01-03 02:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 02:00:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 02:00:01] ✅ Memory usage: 50% (OK)
+[2026-01-03 02:00:01] ✅ Memory usage: 50% (OK)
+[2026-01-03 02:00:02] ✅ All services healthy
+[2026-01-03 02:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 02:00:02] ✅ All resources healthy
+[2026-01-03 02:00:02] ✅ All resources healthy
+[2026-01-03 02:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 02:10:01] ✅ Disk usage: 31% (OK)
+[2026-01-03 02:10:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-03 02:10:01] 🚨 CRITICAL: Memory usage at 95%
+[2026-01-03 02:10:02] 🔄 Restarting high-memory service: id
+[2026-01-03 02:10:02] 🔄 Restarting high-memory service: id
+Use --update-env to update environment variables
+[PM2][ERROR] Process or Namespace id not found
+[2026-01-03 02:10:02] 🔄 Restarting high-memory service: 2
+[2026-01-03 02:10:02] 🔄 Restarting high-memory service: 2
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [2](ids: [ '2' ])
+[PM2] [currentmesh-admin](2) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 598672   │ 0s     │ 3    │ online    │ 0%       │ 38.0mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 582871   │ 39m    │ 3    │ online    │ 0%       │ 13.2mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 582611   │ 39m    │ 3    │ online    │ 0%       │ 12.5mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 597636   │ 2m     │ 10   │ online    │ 0%       │ 19.5mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 583198   │ 39m    │ 4    │ online    │ 0%       │ 13.1mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 02:10:03] 🔄 Restarting high-memory service: 0
+[2026-01-03 02:10:03] 🔄 Restarting high-memory service: 0
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [0](ids: [ '0' ])
+[PM2] [currentmesh-app](0) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 598672   │ 1s     │ 3    │ online    │ 27.5%    │ 58.5mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 598723   │ 0s     │ 4    │ online    │ 0%       │ 19.6mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 582611   │ 39m    │ 3    │ online    │ 0%       │ 12.9mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 597636   │ 2m     │ 10   │ online    │ 0%       │ 19.5mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 583198   │ 39m    │ 4    │ online    │ 0%       │ 13.5mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 02:10:04] 🔄 Restarting high-memory service: 1
+[2026-01-03 02:10:04] 🔄 Restarting high-memory service: 1
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [1](ids: [ '1' ])
+[PM2] [currentmesh-client](1) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 598672   │ 2s     │ 3    │ online    │ 0%       │ 58.6mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 598723   │ 1s     │ 4    │ online    │ 3.2%     │ 57.8mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 598769   │ 0s     │ 4    │ online    │ 0%       │ 19.0mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 597636   │ 2m     │ 10   │ online    │ 0%       │ 19.7mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 583198   │ 39m    │ 4    │ online    │ 0%       │ 12.8mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 02:10:06] 🔄 Restarting high-memory service: 4
+[2026-01-03 02:10:06] 🔄 Restarting high-memory service: 4
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [4](ids: [ '4' ])
+[PM2] [currentmesh-marketing](4) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 598672   │ 39s    │ 3    │ online    │ 0.1%     │ 27.4mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 598871   │ 31s    │ 5    │ online    │ 0.3%     │ 24.6mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 598769   │ 36s    │ 4    │ online    │ 0.1%     │ 27.0mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 599105   │ 20s    │ 11   │ online    │ 0%       │ 31.0mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 583198   │ 39m    │ 4    │ online    │ 0.1%     │ 12.9mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 02:10:42] 🔄 Restarting high-memory service: 5
+[2026-01-03 02:10:42] 🔄 Restarting high-memory service: 5
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [5](ids: [ '5' ])
+[PM2] [currentmesh-server](5) ✓
+┌────┬──────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ currentmesh-admin        │ default     │ N/A     │ fork    │ 598672   │ 49s    │ 3    │ online    │ 0.4%     │ 27.6mb   │ root     │ disabled │
+│ 0  │ currentmesh-app          │ default     │ N/A     │ fork    │ 598871   │ 42s    │ 5    │ online    │ 0%       │ 21.3mb   │ root     │ disabled │
+│ 1  │ currentmesh-client       │ default     │ N/A     │ fork    │ 598769   │ 47s    │ 4    │ online    │ 0%       │ 23.1mb   │ root     │ disabled │
+│ 4  │ currentmesh-marketing    │ default     │ N/A     │ fork    │ 599105   │ 30s    │ 11   │ online    │ 0.4%     │ 28.3mb   │ root     │ disabled │
+│ 5  │ currentmesh-server       │ default     │ N/A     │ fork    │ 599409   │ 0s     │ 5    │ online    │ 0%       │ 23.5mb   │ root     │ disabled │
+└────┴──────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[2026-01-03 02:20:14] 🔍 Starting resource monitoring...
+[2026-01-03 02:20:14] 🔍 Starting resource monitoring...
+[2026-01-03 02:20:14] ✅ Disk usage: 32% (OK)
+[2026-01-03 02:20:14] ✅ Disk usage: 32% (OK)
+[2026-01-03 02:20:14] ✅ Memory usage: 62% (OK)
+[2026-01-03 02:20:14] ✅ Memory usage: 62% (OK)
+[2026-01-03 02:20:18] ✅ All services healthy
+[2026-01-03 02:20:18] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 02:20:20] ✅ All resources healthy
+[2026-01-03 02:20:20] ✅ All resources healthy
+[2026-01-03 02:30:02] 🔍 Starting resource monitoring...
+[2026-01-03 02:30:02] 🔍 Starting resource monitoring...
+[2026-01-03 02:30:02] ✅ Disk usage: 39% (OK)
+[2026-01-03 02:30:02] ✅ Disk usage: 39% (OK)
+[2026-01-03 02:30:02] ⚠️  WARNING: Memory usage at 94%
+[2026-01-03 02:30:02] ⚠️  WARNING: Memory usage at 94%
+[2026-01-03 02:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 02:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 02:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 02:40:01] ✅ Memory usage: 49% (OK)
+[2026-01-03 02:40:01] ✅ Memory usage: 49% (OK)
+[2026-01-03 02:40:02] ✅ All services healthy
+[2026-01-03 02:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 02:40:02] ✅ All resources healthy
+[2026-01-03 02:40:02] ✅ All resources healthy
+[2026-01-03 02:50:02] 🔍 Starting resource monitoring...
+[2026-01-03 02:50:02] 🔍 Starting resource monitoring...
+[2026-01-03 02:50:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 02:50:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 02:50:02] ✅ Memory usage: 61% (OK)
+[2026-01-03 02:50:02] ✅ Memory usage: 61% (OK)
+[2026-01-03 02:50:02] ✅ All services healthy
+[2026-01-03 02:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 02:50:03] ✅ All resources healthy
+[2026-01-03 02:50:03] ✅ All resources healthy
+[2026-01-03 03:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:00:02] ✅ Memory usage: 45% (OK)
+[2026-01-03 03:00:02] ✅ Memory usage: 45% (OK)
+[2026-01-03 03:00:02] ✅ All services healthy
+[2026-01-03 03:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 03:00:03] ✅ All resources healthy
+[2026-01-03 03:00:03] ✅ All resources healthy
+[2026-01-03 03:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:10:01] ✅ Memory usage: 52% (OK)
+[2026-01-03 03:10:01] ✅ Memory usage: 52% (OK)
+[2026-01-03 03:10:02] ✅ All services healthy
+[2026-01-03 03:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 03:10:03] ✅ All resources healthy
+[2026-01-03 03:10:03] ✅ All resources healthy
+[2026-01-03 03:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:20:01] ✅ Memory usage: 77% (OK)
+[2026-01-03 03:20:01] ✅ Memory usage: 77% (OK)
+[2026-01-03 03:20:01] ✅ All services healthy
+[2026-01-03 03:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 03:20:02] ✅ All resources healthy
+[2026-01-03 03:20:02] ✅ All resources healthy
+[2026-01-03 03:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:30:01] ✅ Memory usage: 82% (OK)
+[2026-01-03 03:30:01] ✅ Memory usage: 82% (OK)
+[2026-01-03 03:30:02] ✅ All services healthy
+[2026-01-03 03:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 03:30:02] ✅ All resources healthy
+[2026-01-03 03:30:02] ✅ All resources healthy
+[2026-01-03 03:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:40:01] ⚠️  WARNING: Memory usage at 94%
+[2026-01-03 03:40:01] ⚠️  WARNING: Memory usage at 94%
+[2026-01-03 03:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 03:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 03:50:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 03:50:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 03:50:01] ✅ All services healthy
+[2026-01-03 03:50:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 03:50:02] ✅ All resources healthy
+[2026-01-03 03:50:02] ✅ All resources healthy
+[2026-01-03 04:00:02] 🔍 Starting resource monitoring...
+[2026-01-03 04:00:02] 🔍 Starting resource monitoring...
+[2026-01-03 04:00:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:00:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:00:02] ✅ Memory usage: 77% (OK)
+[2026-01-03 04:00:02] ✅ Memory usage: 77% (OK)
+[2026-01-03 04:00:02] ✅ All services healthy
+[2026-01-03 04:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 04:00:03] ✅ All resources healthy
+[2026-01-03 04:00:03] ✅ All resources healthy
+[2026-01-03 04:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:10:01] ✅ Memory usage: 80% (OK)
+[2026-01-03 04:10:01] ✅ Memory usage: 80% (OK)
+[2026-01-03 04:10:02] ✅ All services healthy
+[2026-01-03 04:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 04:10:02] ✅ All resources healthy
+[2026-01-03 04:10:02] ✅ All resources healthy
+[2026-01-03 04:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:20:01] ✅ Memory usage: 84% (OK)
+[2026-01-03 04:20:01] ✅ Memory usage: 84% (OK)
+[2026-01-03 04:20:02] ✅ All services healthy
+[2026-01-03 04:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 04:20:03] ✅ All resources healthy
+[2026-01-03 04:20:03] ✅ All resources healthy
+[2026-01-03 04:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:30:01] ✅ Memory usage: 84% (OK)
+[2026-01-03 04:30:01] ✅ Memory usage: 84% (OK)
+[2026-01-03 04:30:02] ✅ All services healthy
+[2026-01-03 04:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 04:30:03] ✅ All resources healthy
+[2026-01-03 04:30:03] ✅ All resources healthy
+[2026-01-03 04:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:40:01] ⚠️  WARNING: Memory usage at 85%
+[2026-01-03 04:40:01] ⚠️  WARNING: Memory usage at 85%
+[2026-01-03 04:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 04:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 04:50:01] ⚠️  WARNING: Memory usage at 86%
+[2026-01-03 04:50:01] ⚠️  WARNING: Memory usage at 86%
+[2026-01-03 05:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:00:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 05:00:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 05:00:02] ✅ All services healthy
+[2026-01-03 05:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:00:03] ✅ All resources healthy
+[2026-01-03 05:00:03] ✅ All resources healthy
+[2026-01-03 05:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:10:01] ✅ Memory usage: 52% (OK)
+[2026-01-03 05:10:01] ✅ Memory usage: 52% (OK)
+[2026-01-03 05:10:02] ✅ All services healthy
+[2026-01-03 05:10:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:10:02] ✅ All resources healthy
+[2026-01-03 05:10:02] ✅ All resources healthy
+[2026-01-03 05:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:20:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 05:20:01] ✅ Memory usage: 54% (OK)
+[2026-01-03 05:20:02] ✅ All services healthy
+[2026-01-03 05:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:20:02] ✅ All resources healthy
+[2026-01-03 05:20:02] ✅ All resources healthy
+[2026-01-03 05:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:30:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:30:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:30:02] ✅ Memory usage: 56% (OK)
+[2026-01-03 05:30:02] ✅ Memory usage: 56% (OK)
+[2026-01-03 05:30:03] ✅ All services healthy
+[2026-01-03 05:30:03] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:30:03] ✅ All resources healthy
+[2026-01-03 05:30:03] ✅ All resources healthy
+[2026-01-03 05:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:40:01] ✅ Memory usage: 53% (OK)
+[2026-01-03 05:40:01] ✅ Memory usage: 53% (OK)
+[2026-01-03 05:40:02] ✅ All services healthy
+[2026-01-03 05:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:40:02] ✅ All resources healthy
+[2026-01-03 05:40:02] ✅ All resources healthy
+[2026-01-03 05:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 05:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 05:50:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 05:50:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 05:50:02] ✅ All services healthy
+[2026-01-03 05:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 05:50:02] ✅ All resources healthy
+[2026-01-03 05:50:02] ✅ All resources healthy
+[2026-01-03 06:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:00:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:00:02] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:00:02] ✅ Memory usage: 56% (OK)
+[2026-01-03 06:00:02] ✅ Memory usage: 56% (OK)
+[2026-01-03 06:00:02] ✅ All services healthy
+[2026-01-03 06:00:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:00:03] ✅ All resources healthy
+[2026-01-03 06:00:03] ✅ All resources healthy
+[2026-01-03 06:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:10:01] ✅ Memory usage: 57% (OK)
+[2026-01-03 06:10:01] ✅ Memory usage: 57% (OK)
+[2026-01-03 06:10:01] ✅ All services healthy
+[2026-01-03 06:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:10:02] ✅ All resources healthy
+[2026-01-03 06:10:02] ✅ All resources healthy
+[2026-01-03 06:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:20:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 06:20:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 06:20:01] ✅ All services healthy
+[2026-01-03 06:20:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:20:02] ✅ All resources healthy
+[2026-01-03 06:20:02] ✅ All resources healthy
+[2026-01-03 06:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:30:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:30:01] ✅ Memory usage: 55% (OK)
+[2026-01-03 06:30:01] ✅ Memory usage: 55% (OK)
+[2026-01-03 06:30:02] ✅ All services healthy
+[2026-01-03 06:30:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:30:02] ✅ All resources healthy
+[2026-01-03 06:30:02] ✅ All resources healthy
+[2026-01-03 06:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:40:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:40:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:40:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 06:40:01] ✅ Memory usage: 56% (OK)
+[2026-01-03 06:40:02] ✅ All services healthy
+[2026-01-03 06:40:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:40:02] ✅ All resources healthy
+[2026-01-03 06:40:02] ✅ All resources healthy
+[2026-01-03 06:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:50:01] 🔍 Starting resource monitoring...
+[2026-01-03 06:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:50:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 06:50:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 06:50:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 06:50:02] ✅ All services healthy
+[2026-01-03 06:50:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 06:50:02] ✅ All resources healthy
+[2026-01-03 06:50:02] ✅ All resources healthy
+[2026-01-03 07:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:00:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:00:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:00:01] ✅ Memory usage: 55% (OK)
+[2026-01-03 07:00:01] ✅ Memory usage: 55% (OK)
+[2026-01-03 07:00:01] ✅ All services healthy
+[2026-01-03 07:00:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 07:00:02] ✅ All resources healthy
+[2026-01-03 07:00:02] ✅ All resources healthy
+[2026-01-03 07:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:10:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:10:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:10:01] ✅ Memory usage: 60% (OK)
+[2026-01-03 07:10:01] ✅ Memory usage: 60% (OK)
+[2026-01-03 07:10:01] ✅ All services healthy
+[2026-01-03 07:10:01] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 07:10:02] ✅ All resources healthy
+[2026-01-03 07:10:02] ✅ All resources healthy
+[2026-01-03 07:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:20:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:20:01] ✅ Disk usage: 40% (OK)
+[2026-01-03 07:20:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 07:20:01] ✅ Memory usage: 58% (OK)
+[2026-01-03 07:20:02] ✅ All services healthy
+[2026-01-03 07:20:02] ✅ All services healthy
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: fork: integer expression expected
+/var/www/currentmesh/scripts/monitor-resources.sh: line 92: [: : integer expression expected
+[2026-01-03 07:20:02] ✅ All resources healthy
+[2026-01-03 07:20:02] ✅ All resources healthy
+[2026-01-03 07:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:30:01] 🔍 Starting resource monitoring...
+[2026-01-03 07:30:02] ✅ Disk usage: 38% (OK)
+[2026-01-03 07:30:02] ✅ Disk usage: 38% (OK)
+[2026-01-03 07:30:02] ⚠️  WARNING: Memory usage at 86%
+[2026-01-03 07:30:02] ⚠️  WARNING: Memory usage at 86%

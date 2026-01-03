@@ -1,0 +1,24 @@
+[2026-01-03 02:00:01] 🧹 Starting log cleanup...
+[PM2] Flushing /root/.pm2/pm2.log
+[PM2] Flushing:
+[PM2] /var/www/currentmesh/logs/app-out-2.log
+[PM2] /var/www/currentmesh/logs/app-err-2.log
+[PM2] /var/www/currentmesh/logs/app-combined-2.log
+[PM2] Flushing:
+[PM2] /var/www/currentmesh/logs/client-out-3.log
+[PM2] /var/www/currentmesh/logs/client-err-3.log
+[PM2] /var/www/currentmesh/logs/client-combined-3.log
+[PM2] Flushing:
+[PM2] /var/www/currentmesh/logs/admin-out-4.log
+[PM2] /var/www/currentmesh/logs/admin-err-4.log
+[PM2] /var/www/currentmesh/logs/admin-combined-4.log
+[PM2] Flushing:
+[PM2] /var/www/currentmesh/logs/marketing-out-4.log
+[PM2] /var/www/currentmesh/logs/marketing-err-4.log
+[PM2] /var/www/currentmesh/logs/marketing-combined-4.log
+[PM2] Flushing:
+[PM2] /var/www/currentmesh/logs/server-out-5.log
+[PM2] /var/www/currentmesh/logs/server-err-5.log
+[PM2] /var/www/currentmesh/logs/server-combined-5.log
+[PM2] Logs flushed
+[2026-01-03 02:00:02] ✅ Log cleanup complete

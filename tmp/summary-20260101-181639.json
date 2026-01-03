@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed recurring 502 Bad Gateway error. Marketing site was crashing due to memory limits. Increased Node.js heap size from 1400MB to 2048MB, increased PM2 max_memory_restart from 800M to 1500M, and increased Nginx proxy timeouts from 120s to 300s to handle Next.js compilation delays. Restarted marketing service with new settings.",
+  "current_status": "Marketing site restarted with increased memory limits. Service is ready and listening on port 3001. Nginx timeouts increased to handle Next.js compilation. Site should be accessible but first page load may take time while Next.js compiles."
+}
